@@ -1,0 +1,5 @@
+customtkinter>=5.2.0
+matplotlib>=3.7.0
+networkx>=3.0
+pyttsx3>=2.90
+reportlab>=3.6.0

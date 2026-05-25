@@ -1,0 +1,3228 @@
+{
+  "locations": [
+    {
+      "id": "delhi",
+      "name": "Delhi (National Capital)",
+      "description": "Historical monuments, Red Fort, Qutub Minar, and street food.",
+      "rating": 4.5,
+      "crowd_level": 0.85,
+      "is_open": true,
+      "x": 77.209,
+      "y": 28.6139,
+      "hotels": [
+        {
+          "name": "Delhi Royal Mansion Hotel",
+          "price": 5500,
+          "rating": 4.3
+        },
+        {
+          "name": "Delhi Heritage Haveli Suites",
+          "price": 4200,
+          "rating": 4.1
+        }
+      ],
+      "connections": [
+        {
+          "to": "gurugram",
+          "distance": 32,
+          "cost": 280,
+          "base_time": 45,
+          "toll": 80,
+          "fuel_cost": 200,
+          "traffic_delay": 20,
+          "weather_impact": 1.3,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "mathura",
+          "distance": 145,
+          "cost": 1140,
+          "base_time": 160,
+          "toll": 240,
+          "fuel_cost": 900,
+          "traffic_delay": 30,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "alwar",
+          "distance": 165,
+          "cost": 1170,
+          "base_time": 210,
+          "toll": 120,
+          "fuel_cost": 1050,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jhunjhunu",
+          "distance": 180,
+          "cost": 1300,
+          "base_time": 240,
+          "toll": 150,
+          "fuel_cost": 1150,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "gurugram",
+      "name": "Gurugram (Cyber City)",
+      "description": "Modern corporate hub with high-end shopping and dining like CyberHub.",
+      "rating": 4.1,
+      "crowd_level": 0.75,
+      "is_open": true,
+      "x": 77.0266,
+      "y": 28.4595,
+      "hotels": [
+        {
+          "name": "Gurugram Tourist Inn Guest House",
+          "price": 1800,
+          "rating": 3.9
+        },
+        {
+          "name": "Gurugram Backpackers Paradise Hostel",
+          "price": 950,
+          "rating": 4.0
+        }
+      ],
+      "connections": [
+        {
+          "to": "delhi",
+          "distance": 32,
+          "cost": 280,
+          "base_time": 45,
+          "toll": 80,
+          "fuel_cost": 200,
+          "traffic_delay": 20,
+          "weather_impact": 1.3,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "alwar",
+          "distance": 135,
+          "cost": 970,
+          "base_time": 180,
+          "toll": 120,
+          "fuel_cost": 850,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jaipur",
+          "distance": 238,
+          "cost": 1860,
+          "base_time": 270,
+          "toll": 360,
+          "fuel_cost": 1500,
+          "traffic_delay": 45,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jhunjhunu",
+          "distance": 155,
+          "cost": 1100,
+          "base_time": 210,
+          "toll": 150,
+          "fuel_cost": 950,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "alwar",
+      "name": "Alwar (Sariska & Forts)",
+      "description": "Ancient city featuring Sariska Tiger Reserve and Bhangarh ruins.",
+      "rating": 4.2,
+      "crowd_level": 0.4,
+      "is_open": true,
+      "x": 76.6346,
+      "y": 27.553,
+      "hotels": [
+        {
+          "name": "Alwar Tourist Inn Guest House",
+          "price": 1800,
+          "rating": 3.9
+        },
+        {
+          "name": "Alwar Backpackers Paradise Hostel",
+          "price": 950,
+          "rating": 4.0
+        }
+      ],
+      "connections": [
+        {
+          "to": "delhi",
+          "distance": 165,
+          "cost": 1170,
+          "base_time": 210,
+          "toll": 120,
+          "fuel_cost": 1050,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "gurugram",
+          "distance": 135,
+          "cost": 970,
+          "base_time": 180,
+          "toll": 120,
+          "fuel_cost": 850,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "mathura",
+          "distance": 110,
+          "cost": 780,
+          "base_time": 150,
+          "toll": 80,
+          "fuel_cost": 700,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "bharatpur",
+          "distance": 115,
+          "cost": 840,
+          "base_time": 150,
+          "toll": 90,
+          "fuel_cost": 750,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jaipur",
+          "distance": 150,
+          "cost": 1130,
+          "base_time": 190,
+          "toll": 180,
+          "fuel_cost": 950,
+          "traffic_delay": 20,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jhunjhunu",
+          "distance": 140,
+          "cost": 1000,
+          "base_time": 180,
+          "toll": 100,
+          "fuel_cost": 900,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "bharatpur",
+      "name": "Bharatpur (Bird Park)",
+      "description": "UNESCO World Heritage Keoladeo National Park, hosting rare birds.",
+      "rating": 4.3,
+      "crowd_level": 0.35,
+      "is_open": true,
+      "x": 77.503,
+      "y": 27.2152,
+      "hotels": [
+        {
+          "name": "Bharatpur Royal Mansion Hotel",
+          "price": 5500,
+          "rating": 4.3
+        },
+        {
+          "name": "Bharatpur Heritage Haveli Suites",
+          "price": 4200,
+          "rating": 4.1
+        }
+      ],
+      "connections": [
+        {
+          "to": "alwar",
+          "distance": 115,
+          "cost": 840,
+          "base_time": 150,
+          "toll": 90,
+          "fuel_cost": 750,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "mathura",
+          "distance": 40,
+          "cost": 290,
+          "base_time": 50,
+          "toll": 40,
+          "fuel_cost": 250,
+          "traffic_delay": 10,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "agra",
+          "distance": 58,
+          "cost": 440,
+          "base_time": 75,
+          "toll": 80,
+          "fuel_cost": 360,
+          "traffic_delay": 20,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "abhaneri",
+          "distance": 95,
+          "cost": 690,
+          "base_time": 120,
+          "toll": 90,
+          "fuel_cost": 600,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "fatehpur_sikri",
+          "distance": 25,
+          "cost": 210,
+          "base_time": 35,
+          "toll": 30,
+          "fuel_cost": 180,
+          "traffic_delay": 5,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jaipur",
+          "distance": 185,
+          "cost": 1390,
+          "base_time": 220,
+          "toll": 240,
+          "fuel_cost": 1150,
+          "traffic_delay": 25,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "agra",
+      "name": "Agra (Taj Mahal City)",
+      "description": "Home of the iconic Taj Mahal, Agra Fort, and exquisite Mughlai crafts.",
+      "rating": 4.9,
+      "crowd_level": 0.95,
+      "is_open": true,
+      "x": 78.0081,
+      "y": 27.1767,
+      "hotels": [
+        {
+          "name": "Agra The Oberoi Grand Palace",
+          "price": 24000,
+          "rating": 4.9
+        },
+        {
+          "name": "Agra Taj Heritage Resort",
+          "price": 18000,
+          "rating": 4.8
+        }
+      ],
+      "connections": [
+        {
+          "to": "mathura",
+          "distance": 56,
+          "cost": 440,
+          "base_time": 70,
+          "toll": 90,
+          "fuel_cost": 350,
+          "traffic_delay": 20,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "bharatpur",
+          "distance": 58,
+          "cost": 440,
+          "base_time": 75,
+          "toll": 80,
+          "fuel_cost": 360,
+          "traffic_delay": 20,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "fatehpur_sikri",
+          "distance": 36,
+          "cost": 290,
+          "base_time": 45,
+          "toll": 50,
+          "fuel_cost": 240,
+          "traffic_delay": 15,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "ranthambore",
+          "distance": 290,
+          "cost": 2170,
+          "base_time": 360,
+          "toll": 320,
+          "fuel_cost": 1850,
+          "traffic_delay": 20,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "mathura",
+      "name": "Mathura (Sacred Heritage)",
+      "description": "The divine birthplace of Lord Krishna on the Yamuna river ghats.",
+      "rating": 4.6,
+      "crowd_level": 0.88,
+      "is_open": true,
+      "x": 77.6737,
+      "y": 27.4924,
+      "hotels": [
+        {
+          "name": "Mathura Royal Mansion Hotel",
+          "price": 5500,
+          "rating": 4.3
+        },
+        {
+          "name": "Mathura Heritage Haveli Suites",
+          "price": 4200,
+          "rating": 4.1
+        }
+      ],
+      "connections": [
+        {
+          "to": "delhi",
+          "distance": 145,
+          "cost": 1140,
+          "base_time": 160,
+          "toll": 240,
+          "fuel_cost": 900,
+          "traffic_delay": 30,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "alwar",
+          "distance": 110,
+          "cost": 780,
+          "base_time": 150,
+          "toll": 80,
+          "fuel_cost": 700,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "bharatpur",
+          "distance": 40,
+          "cost": 290,
+          "base_time": 50,
+          "toll": 40,
+          "fuel_cost": 250,
+          "traffic_delay": 10,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "agra",
+          "distance": 56,
+          "cost": 440,
+          "base_time": 70,
+          "toll": 90,
+          "fuel_cost": 350,
+          "traffic_delay": 20,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "fatehpur_sikri",
+          "distance": 45,
+          "cost": 360,
+          "base_time": 60,
+          "toll": 60,
+          "fuel_cost": 300,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "jaipur",
+      "name": "Jaipur (The Pink City)",
+      "description": "Capital of Rajasthan, famous for Hawa Mahal, Amer Fort, and markets.",
+      "rating": 4.8,
+      "crowd_level": 0.82,
+      "is_open": true,
+      "x": 75.7873,
+      "y": 26.9124,
+      "hotels": [
+        {
+          "name": "Jaipur The Oberoi Grand Palace",
+          "price": 24000,
+          "rating": 4.9
+        },
+        {
+          "name": "Jaipur Taj Heritage Resort",
+          "price": 18000,
+          "rating": 4.8
+        }
+      ],
+      "connections": [
+        {
+          "to": "gurugram",
+          "distance": 238,
+          "cost": 1860,
+          "base_time": 270,
+          "toll": 360,
+          "fuel_cost": 1500,
+          "traffic_delay": 45,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "alwar",
+          "distance": 150,
+          "cost": 1130,
+          "base_time": 190,
+          "toll": 180,
+          "fuel_cost": 950,
+          "traffic_delay": 20,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "bharatpur",
+          "distance": 185,
+          "cost": 1390,
+          "base_time": 220,
+          "toll": 240,
+          "fuel_cost": 1150,
+          "traffic_delay": 25,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "abhaneri",
+          "distance": 95,
+          "cost": 720,
+          "base_time": 110,
+          "toll": 120,
+          "fuel_cost": 600,
+          "traffic_delay": 25,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "mandawa",
+          "distance": 168,
+          "cost": 1200,
+          "base_time": 210,
+          "toll": 150,
+          "fuel_cost": 1050,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jhunjhunu",
+          "distance": 175,
+          "cost": 1250,
+          "base_time": 220,
+          "toll": 150,
+          "fuel_cost": 1100,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "ajmer",
+          "distance": 135,
+          "cost": 1030,
+          "base_time": 140,
+          "toll": 180,
+          "fuel_cost": 850,
+          "traffic_delay": 25,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "pushkar",
+          "distance": 142,
+          "cost": 1080,
+          "base_time": 150,
+          "toll": 180,
+          "fuel_cost": 900,
+          "traffic_delay": 20,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "ranthambore",
+          "distance": 160,
+          "cost": 1150,
+          "base_time": 180,
+          "toll": 150,
+          "fuel_cost": 1000,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "bundi",
+          "distance": 205,
+          "cost": 1520,
+          "base_time": 260,
+          "toll": 220,
+          "fuel_cost": 1300,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "pushkar",
+      "name": "Pushkar (Holy Town)",
+      "description": "Serene holy lake, rare Lord Brahma Temple, and camel desert fairs.",
+      "rating": 4.4,
+      "crowd_level": 0.55,
+      "is_open": true,
+      "x": 74.5511,
+      "y": 26.4897,
+      "hotels": [
+        {
+          "name": "Pushkar Royal Mansion Hotel",
+          "price": 5500,
+          "rating": 4.3
+        },
+        {
+          "name": "Pushkar Heritage Haveli Suites",
+          "price": 4200,
+          "rating": 4.1
+        }
+      ],
+      "connections": [
+        {
+          "to": "jaipur",
+          "distance": 142,
+          "cost": 1080,
+          "base_time": 150,
+          "toll": 180,
+          "fuel_cost": 900,
+          "traffic_delay": 20,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "ajmer",
+          "distance": 15,
+          "cost": 100,
+          "base_time": 30,
+          "toll": 0,
+          "fuel_cost": 100,
+          "traffic_delay": 15,
+          "weather_impact": 1.3,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jodhpur",
+          "distance": 185,
+          "cost": 1310,
+          "base_time": 220,
+          "toll": 160,
+          "fuel_cost": 1150,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "ajmer",
+      "name": "Ajmer (Sufi Shrine)",
+      "description": "Home to the revered Khwaja Garib Nawaz Dargah and Ana Sagar Lake.",
+      "rating": 4.3,
+      "crowd_level": 0.78,
+      "is_open": true,
+      "x": 74.6399,
+      "y": 26.4498,
+      "hotels": [
+        {
+          "name": "Ajmer Royal Mansion Hotel",
+          "price": 5500,
+          "rating": 4.3
+        },
+        {
+          "name": "Ajmer Heritage Haveli Suites",
+          "price": 4200,
+          "rating": 4.1
+        }
+      ],
+      "connections": [
+        {
+          "to": "jaipur",
+          "distance": 135,
+          "cost": 1030,
+          "base_time": 140,
+          "toll": 180,
+          "fuel_cost": 850,
+          "traffic_delay": 25,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "pushkar",
+          "distance": 15,
+          "cost": 100,
+          "base_time": 30,
+          "toll": 0,
+          "fuel_cost": 100,
+          "traffic_delay": 15,
+          "weather_impact": 1.3,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jodhpur",
+          "distance": 200,
+          "cost": 1450,
+          "base_time": 240,
+          "toll": 200,
+          "fuel_cost": 1250,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "udaipur",
+          "distance": 265,
+          "cost": 1930,
+          "base_time": 300,
+          "toll": 280,
+          "fuel_cost": 1650,
+          "traffic_delay": 20,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "bundi",
+          "distance": 165,
+          "cost": 1200,
+          "base_time": 210,
+          "toll": 150,
+          "fuel_cost": 1050,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "ranthambore",
+          "distance": 215,
+          "cost": 1530,
+          "base_time": 270,
+          "toll": 180,
+          "fuel_cost": 1350,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "ranthambore",
+      "name": "Ranthambore (Tigers)",
+      "description": "Tiger Reserve offering majestic wildlife safaris and ancient fort.",
+      "rating": 4.7,
+      "crowd_level": 0.48,
+      "is_open": true,
+      "x": 76.3865,
+      "y": 25.9928,
+      "hotels": [
+        {
+          "name": "Ranthambore The Oberoi Grand Palace",
+          "price": 24000,
+          "rating": 4.9
+        },
+        {
+          "name": "Ranthambore Taj Heritage Resort",
+          "price": 18000,
+          "rating": 4.8
+        }
+      ],
+      "connections": [
+        {
+          "to": "agra",
+          "distance": 290,
+          "cost": 2170,
+          "base_time": 360,
+          "toll": 320,
+          "fuel_cost": 1850,
+          "traffic_delay": 20,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jaipur",
+          "distance": 160,
+          "cost": 1150,
+          "base_time": 180,
+          "toll": 150,
+          "fuel_cost": 1000,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "ajmer",
+          "distance": 215,
+          "cost": 1530,
+          "base_time": 270,
+          "toll": 180,
+          "fuel_cost": 1350,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "bundi",
+          "distance": 145,
+          "cost": 1010,
+          "base_time": 190,
+          "toll": 110,
+          "fuel_cost": 900,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "chittorgarh",
+          "distance": 240,
+          "cost": 1720,
+          "base_time": 300,
+          "toll": 220,
+          "fuel_cost": 1500,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "kota",
+          "distance": 130,
+          "cost": 920,
+          "base_time": 170,
+          "toll": 120,
+          "fuel_cost": 800,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "bikaner",
+      "name": "Bikaner (Desert Oasis)",
+      "description": "Junagarh Fort, Karni Mata (Rat) temple, and spicy Bikaneri bhujia.",
+      "rating": 4.3,
+      "crowd_level": 0.38,
+      "is_open": true,
+      "x": 73.3119,
+      "y": 28.0166,
+      "hotels": [
+        {
+          "name": "Bikaner Royal Mansion Hotel",
+          "price": 5500,
+          "rating": 4.3
+        },
+        {
+          "name": "Bikaner Heritage Haveli Suites",
+          "price": 4200,
+          "rating": 4.1
+        }
+      ],
+      "connections": [
+        {
+          "to": "mandawa",
+          "distance": 190,
+          "cost": 1340,
+          "base_time": 240,
+          "toll": 140,
+          "fuel_cost": 1200,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jhunjhunu",
+          "distance": 230,
+          "cost": 1630,
+          "base_time": 280,
+          "toll": 180,
+          "fuel_cost": 1450,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jodhpur",
+          "distance": 250,
+          "cost": 1770,
+          "base_time": 270,
+          "toll": 220,
+          "fuel_cost": 1550,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jaisalmer",
+          "distance": 330,
+          "cost": 2290,
+          "base_time": 340,
+          "toll": 240,
+          "fuel_cost": 2050,
+          "traffic_delay": 5,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "osian",
+          "distance": 210,
+          "cost": 1450,
+          "base_time": 230,
+          "toll": 150,
+          "fuel_cost": 1300,
+          "traffic_delay": 5,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "jodhpur",
+      "name": "Jodhpur (The Blue City)",
+      "description": "Mehrangarh Fort overlooking blue houses, delicious traditional sweets.",
+      "rating": 4.7,
+      "crowd_level": 0.72,
+      "is_open": true,
+      "x": 73.0243,
+      "y": 26.2389,
+      "hotels": [
+        {
+          "name": "Jodhpur The Oberoi Grand Palace",
+          "price": 24000,
+          "rating": 4.9
+        },
+        {
+          "name": "Jodhpur Taj Heritage Resort",
+          "price": 18000,
+          "rating": 4.8
+        }
+      ],
+      "connections": [
+        {
+          "to": "pushkar",
+          "distance": 185,
+          "cost": 1310,
+          "base_time": 220,
+          "toll": 160,
+          "fuel_cost": 1150,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "ajmer",
+          "distance": 200,
+          "cost": 1450,
+          "base_time": 240,
+          "toll": 200,
+          "fuel_cost": 1250,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "bikaner",
+          "distance": 250,
+          "cost": 1770,
+          "base_time": 270,
+          "toll": 220,
+          "fuel_cost": 1550,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jaisalmer",
+          "distance": 285,
+          "cost": 1970,
+          "base_time": 300,
+          "toll": 220,
+          "fuel_cost": 1750,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "osian",
+          "distance": 65,
+          "cost": 440,
+          "base_time": 75,
+          "toll": 40,
+          "fuel_cost": 400,
+          "traffic_delay": 5,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "ranakpur",
+          "distance": 160,
+          "cost": 1120,
+          "base_time": 200,
+          "toll": 120,
+          "fuel_cost": 1000,
+          "traffic_delay": 10,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "mount_abu",
+          "distance": 260,
+          "cost": 1840,
+          "base_time": 310,
+          "toll": 240,
+          "fuel_cost": 1600,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "kumbhalgarh",
+          "distance": 180,
+          "cost": 1250,
+          "base_time": 240,
+          "toll": 150,
+          "fuel_cost": 1100,
+          "traffic_delay": 10,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "jaisalmer",
+      "name": "Jaisalmer (Golden City)",
+      "description": "Sandstone fort rising from Thar Desert, camel safaris, and sand dunes.",
+      "rating": 4.8,
+      "crowd_level": 0.62,
+      "is_open": true,
+      "x": 70.9083,
+      "y": 26.9157,
+      "hotels": [
+        {
+          "name": "Jaisalmer The Oberoi Grand Palace",
+          "price": 24000,
+          "rating": 4.9
+        },
+        {
+          "name": "Jaisalmer Taj Heritage Resort",
+          "price": 18000,
+          "rating": 4.8
+        }
+      ],
+      "connections": [
+        {
+          "to": "bikaner",
+          "distance": 330,
+          "cost": 2290,
+          "base_time": 340,
+          "toll": 240,
+          "fuel_cost": 2050,
+          "traffic_delay": 5,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jodhpur",
+          "distance": 285,
+          "cost": 1970,
+          "base_time": 300,
+          "toll": 220,
+          "fuel_cost": 1750,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "osian",
+          "distance": 240,
+          "cost": 1660,
+          "base_time": 260,
+          "toll": 160,
+          "fuel_cost": 1500,
+          "traffic_delay": 5,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "udaipur",
+      "name": "Udaipur (City of Lakes)",
+      "description": "Romantic destination with grand Lake Palace floating on Lake Pichola.",
+      "rating": 4.9,
+      "crowd_level": 0.8,
+      "is_open": true,
+      "x": 73.7125,
+      "y": 24.5854,
+      "hotels": [
+        {
+          "name": "Udaipur The Oberoi Grand Palace",
+          "price": 24000,
+          "rating": 4.9
+        },
+        {
+          "name": "Udaipur Taj Heritage Resort",
+          "price": 18000,
+          "rating": 4.8
+        }
+      ],
+      "connections": [
+        {
+          "to": "ajmer",
+          "distance": 265,
+          "cost": 1930,
+          "base_time": 300,
+          "toll": 280,
+          "fuel_cost": 1650,
+          "traffic_delay": 20,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "mount_abu",
+          "distance": 165,
+          "cost": 1230,
+          "base_time": 190,
+          "toll": 180,
+          "fuel_cost": 1050,
+          "traffic_delay": 15,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "kumbhalgarh",
+          "distance": 85,
+          "cost": 560,
+          "base_time": 120,
+          "toll": 60,
+          "fuel_cost": 500,
+          "traffic_delay": 10,
+          "weather_impact": 1.3,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "ranakpur",
+          "distance": 95,
+          "cost": 680,
+          "base_time": 130,
+          "toll": 80,
+          "fuel_cost": 600,
+          "traffic_delay": 10,
+          "weather_impact": 1.3,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "chittorgarh",
+          "distance": 115,
+          "cost": 820,
+          "base_time": 130,
+          "toll": 120,
+          "fuel_cost": 700,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jhalawar",
+          "distance": 290,
+          "cost": 2060,
+          "base_time": 360,
+          "toll": 260,
+          "fuel_cost": 1800,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "kota",
+          "distance": 270,
+          "cost": 1890,
+          "base_time": 340,
+          "toll": 240,
+          "fuel_cost": 1650,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chittorgarh",
+      "name": "Chittorgarh (Fort of Valor)",
+      "description": "Massive hilltop fort, Vijay Stambha, and legends of Rajput bravery.",
+      "rating": 4.4,
+      "crowd_level": 0.3,
+      "is_open": true,
+      "x": 74.6269,
+      "y": 24.8887,
+      "hotels": [
+        {
+          "name": "Chittorgarh Royal Mansion Hotel",
+          "price": 5500,
+          "rating": 4.3
+        },
+        {
+          "name": "Chittorgarh Heritage Haveli Suites",
+          "price": 4200,
+          "rating": 4.1
+        }
+      ],
+      "connections": [
+        {
+          "to": "ranthambore",
+          "distance": 240,
+          "cost": 1720,
+          "base_time": 300,
+          "toll": 220,
+          "fuel_cost": 1500,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "udaipur",
+          "distance": 115,
+          "cost": 820,
+          "base_time": 130,
+          "toll": 120,
+          "fuel_cost": 700,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "kumbhalgarh",
+          "distance": 165,
+          "cost": 1190,
+          "base_time": 220,
+          "toll": 140,
+          "fuel_cost": 1050,
+          "traffic_delay": 10,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "ranakpur",
+          "distance": 180,
+          "cost": 1250,
+          "base_time": 230,
+          "toll": 150,
+          "fuel_cost": 1100,
+          "traffic_delay": 10,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "bundi",
+          "distance": 140,
+          "cost": 960,
+          "base_time": 180,
+          "toll": 110,
+          "fuel_cost": 850,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "kota",
+          "distance": 110,
+          "cost": 780,
+          "base_time": 140,
+          "toll": 100,
+          "fuel_cost": 680,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jhalawar",
+          "distance": 190,
+          "cost": 1360,
+          "base_time": 240,
+          "toll": 160,
+          "fuel_cost": 1200,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "mandawa",
+      "name": "Mandawa (Haveli Museum)",
+      "description": "Open-air art gallery famous for beautifully painted heritage Havelis.",
+      "rating": 4.2,
+      "crowd_level": 0.25,
+      "is_open": true,
+      "x": 75.1415,
+      "y": 28.0553,
+      "hotels": [
+        {
+          "name": "Mandawa Tourist Inn Guest House",
+          "price": 1800,
+          "rating": 3.9
+        },
+        {
+          "name": "Mandawa Backpackers Paradise Hostel",
+          "price": 950,
+          "rating": 4.0
+        }
+      ],
+      "connections": [
+        {
+          "to": "jaipur",
+          "distance": 168,
+          "cost": 1200,
+          "base_time": 210,
+          "toll": 150,
+          "fuel_cost": 1050,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jhunjhunu",
+          "distance": 28,
+          "cost": 210,
+          "base_time": 40,
+          "toll": 30,
+          "fuel_cost": 180,
+          "traffic_delay": 5,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "bikaner",
+          "distance": 190,
+          "cost": 1340,
+          "base_time": 240,
+          "toll": 140,
+          "fuel_cost": 1200,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "mount_abu",
+      "name": "Mount Abu (Hill Station)",
+      "description": "Lush oasis in the Aravalli range, Nakki Lake, and Dilwara Temples.",
+      "rating": 4.5,
+      "crowd_level": 0.68,
+      "is_open": true,
+      "x": 72.7156,
+      "y": 24.5925,
+      "hotels": [
+        {
+          "name": "Mount Abu Royal Mansion Hotel",
+          "price": 5500,
+          "rating": 4.3
+        },
+        {
+          "name": "Mount Abu Heritage Haveli Suites",
+          "price": 4200,
+          "rating": 4.1
+        }
+      ],
+      "connections": [
+        {
+          "to": "jodhpur",
+          "distance": 260,
+          "cost": 1840,
+          "base_time": 310,
+          "toll": 240,
+          "fuel_cost": 1600,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "udaipur",
+          "distance": 165,
+          "cost": 1230,
+          "base_time": 190,
+          "toll": 180,
+          "fuel_cost": 1050,
+          "traffic_delay": 15,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "ranakpur",
+          "distance": 155,
+          "cost": 1070,
+          "base_time": 210,
+          "toll": 120,
+          "fuel_cost": 950,
+          "traffic_delay": 10,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "kumbhalgarh",
+      "name": "Kumbhalgarh (Great Wall)",
+      "description": "Massive fort featuring the second longest continuous wall in the world.",
+      "rating": 4.6,
+      "crowd_level": 0.35,
+      "is_open": true,
+      "x": 73.5874,
+      "y": 25.1487,
+      "hotels": [
+        {
+          "name": "Kumbhalgarh Royal Mansion Hotel",
+          "price": 5500,
+          "rating": 4.3
+        },
+        {
+          "name": "Kumbhalgarh Heritage Haveli Suites",
+          "price": 4200,
+          "rating": 4.1
+        }
+      ],
+      "connections": [
+        {
+          "to": "jodhpur",
+          "distance": 180,
+          "cost": 1250,
+          "base_time": 240,
+          "toll": 150,
+          "fuel_cost": 1100,
+          "traffic_delay": 10,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "udaipur",
+          "distance": 85,
+          "cost": 560,
+          "base_time": 120,
+          "toll": 60,
+          "fuel_cost": 500,
+          "traffic_delay": 10,
+          "weather_impact": 1.3,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "ranakpur",
+          "distance": 50,
+          "cost": 340,
+          "base_time": 75,
+          "toll": 40,
+          "fuel_cost": 300,
+          "traffic_delay": 5,
+          "weather_impact": 1.3,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "chittorgarh",
+          "distance": 165,
+          "cost": 1190,
+          "base_time": 220,
+          "toll": 140,
+          "fuel_cost": 1050,
+          "traffic_delay": 10,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "ranakpur",
+      "name": "Ranakpur (Jain Temples)",
+      "description": "Intricately carved 1444 marble pillars Jain Temple in Aravalli valleys.",
+      "rating": 4.5,
+      "crowd_level": 0.28,
+      "is_open": true,
+      "x": 73.4735,
+      "y": 25.117,
+      "hotels": [
+        {
+          "name": "Ranakpur Royal Mansion Hotel",
+          "price": 5500,
+          "rating": 4.3
+        },
+        {
+          "name": "Ranakpur Heritage Haveli Suites",
+          "price": 4200,
+          "rating": 4.1
+        }
+      ],
+      "connections": [
+        {
+          "to": "jodhpur",
+          "distance": 160,
+          "cost": 1120,
+          "base_time": 200,
+          "toll": 120,
+          "fuel_cost": 1000,
+          "traffic_delay": 10,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "udaipur",
+          "distance": 95,
+          "cost": 680,
+          "base_time": 130,
+          "toll": 80,
+          "fuel_cost": 600,
+          "traffic_delay": 10,
+          "weather_impact": 1.3,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "mount_abu",
+          "distance": 155,
+          "cost": 1070,
+          "base_time": 210,
+          "toll": 120,
+          "fuel_cost": 950,
+          "traffic_delay": 10,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "kumbhalgarh",
+          "distance": 50,
+          "cost": 340,
+          "base_time": 75,
+          "toll": 40,
+          "fuel_cost": 300,
+          "traffic_delay": 5,
+          "weather_impact": 1.3,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "chittorgarh",
+          "distance": 180,
+          "cost": 1250,
+          "base_time": 230,
+          "toll": 150,
+          "fuel_cost": 1100,
+          "traffic_delay": 10,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "kota",
+      "name": "Kota (River Palaces)",
+      "description": "Lies on Chambal River banks, popular for palaces, gardens, and stone.",
+      "rating": 4.0,
+      "crowd_level": 0.5,
+      "is_open": true,
+      "x": 75.8304,
+      "y": 25.1768,
+      "hotels": [
+        {
+          "name": "Kota Tourist Inn Guest House",
+          "price": 1800,
+          "rating": 3.9
+        },
+        {
+          "name": "Kota Backpackers Paradise Hostel",
+          "price": 950,
+          "rating": 4.0
+        }
+      ],
+      "connections": [
+        {
+          "to": "ranthambore",
+          "distance": 130,
+          "cost": 920,
+          "base_time": 170,
+          "toll": 120,
+          "fuel_cost": 800,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "udaipur",
+          "distance": 270,
+          "cost": 1890,
+          "base_time": 340,
+          "toll": 240,
+          "fuel_cost": 1650,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "chittorgarh",
+          "distance": 110,
+          "cost": 780,
+          "base_time": 140,
+          "toll": 100,
+          "fuel_cost": 680,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "bundi",
+          "distance": 38,
+          "cost": 280,
+          "base_time": 45,
+          "toll": 40,
+          "fuel_cost": 240,
+          "traffic_delay": 15,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jhalawar",
+          "distance": 85,
+          "cost": 630,
+          "base_time": 110,
+          "toll": 80,
+          "fuel_cost": 550,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "bundi",
+      "name": "Bundi (Stepwells City)",
+      "description": "Charming town with ornate stepwells, Taragarh Fort, and miniature art.",
+      "rating": 4.3,
+      "crowd_level": 0.22,
+      "is_open": true,
+      "x": 75.6429,
+      "y": 25.4417,
+      "hotels": [
+        {
+          "name": "Bundi Royal Mansion Hotel",
+          "price": 5500,
+          "rating": 4.3
+        },
+        {
+          "name": "Bundi Heritage Haveli Suites",
+          "price": 4200,
+          "rating": 4.1
+        }
+      ],
+      "connections": [
+        {
+          "to": "jaipur",
+          "distance": 205,
+          "cost": 1520,
+          "base_time": 260,
+          "toll": 220,
+          "fuel_cost": 1300,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "ajmer",
+          "distance": 165,
+          "cost": 1200,
+          "base_time": 210,
+          "toll": 150,
+          "fuel_cost": 1050,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "ranthambore",
+          "distance": 145,
+          "cost": 1010,
+          "base_time": 190,
+          "toll": 110,
+          "fuel_cost": 900,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "chittorgarh",
+          "distance": 140,
+          "cost": 960,
+          "base_time": 180,
+          "toll": 110,
+          "fuel_cost": 850,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "kota",
+          "distance": 38,
+          "cost": 280,
+          "base_time": 45,
+          "toll": 40,
+          "fuel_cost": 240,
+          "traffic_delay": 15,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jhalawar",
+          "distance": 120,
+          "cost": 850,
+          "base_time": 160,
+          "toll": 100,
+          "fuel_cost": 750,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "jhunjhunu",
+      "name": "Jhunjhunu (Shekhawati Capital)",
+      "description": "Grand Havelis, Rani Sati Temple, and rich brass arts.",
+      "rating": 4.1,
+      "crowd_level": 0.24,
+      "is_open": true,
+      "x": 75.3995,
+      "y": 28.1299,
+      "hotels": [
+        {
+          "name": "Jhunjhunu Tourist Inn Guest House",
+          "price": 1800,
+          "rating": 3.9
+        },
+        {
+          "name": "Jhunjhunu Backpackers Paradise Hostel",
+          "price": 950,
+          "rating": 4.0
+        }
+      ],
+      "connections": [
+        {
+          "to": "delhi",
+          "distance": 180,
+          "cost": 1300,
+          "base_time": 240,
+          "toll": 150,
+          "fuel_cost": 1150,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "gurugram",
+          "distance": 155,
+          "cost": 1100,
+          "base_time": 210,
+          "toll": 150,
+          "fuel_cost": 950,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "alwar",
+          "distance": 140,
+          "cost": 1000,
+          "base_time": 180,
+          "toll": 100,
+          "fuel_cost": 900,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jaipur",
+          "distance": 175,
+          "cost": 1250,
+          "base_time": 220,
+          "toll": 150,
+          "fuel_cost": 1100,
+          "traffic_delay": 15,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "mandawa",
+          "distance": 28,
+          "cost": 210,
+          "base_time": 40,
+          "toll": 30,
+          "fuel_cost": 180,
+          "traffic_delay": 5,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "bikaner",
+          "distance": 230,
+          "cost": 1630,
+          "base_time": 280,
+          "toll": 180,
+          "fuel_cost": 1450,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "jhalawar",
+      "name": "Jhalawar (Fort of Orchards)",
+      "description": "Unique fort, ancient sun temple, and orange orchards.",
+      "rating": 4.0,
+      "crowd_level": 0.15,
+      "is_open": true,
+      "x": 76.161,
+      "y": 24.5973,
+      "hotels": [
+        {
+          "name": "Jhalawar Tourist Inn Guest House",
+          "price": 1800,
+          "rating": 3.9
+        },
+        {
+          "name": "Jhalawar Backpackers Paradise Hostel",
+          "price": 950,
+          "rating": 4.0
+        }
+      ],
+      "connections": [
+        {
+          "to": "udaipur",
+          "distance": 290,
+          "cost": 2060,
+          "base_time": 360,
+          "toll": 260,
+          "fuel_cost": 1800,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "chittorgarh",
+          "distance": 190,
+          "cost": 1360,
+          "base_time": 240,
+          "toll": 160,
+          "fuel_cost": 1200,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "bundi",
+          "distance": 120,
+          "cost": 850,
+          "base_time": 160,
+          "toll": 100,
+          "fuel_cost": 750,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "kota",
+          "distance": 85,
+          "cost": 630,
+          "base_time": 110,
+          "toll": 80,
+          "fuel_cost": 550,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "osian",
+      "name": "Osian (Ancient Temples)",
+      "description": "Brahmanical and Jain temples dating from 8th to 12th centuries.",
+      "rating": 4.2,
+      "crowd_level": 0.2,
+      "is_open": true,
+      "x": 73.0076,
+      "y": 26.7244,
+      "hotels": [
+        {
+          "name": "Osian Tourist Inn Guest House",
+          "price": 1800,
+          "rating": 3.9
+        },
+        {
+          "name": "Osian Backpackers Paradise Hostel",
+          "price": 950,
+          "rating": 4.0
+        }
+      ],
+      "connections": [
+        {
+          "to": "bikaner",
+          "distance": 210,
+          "cost": 1450,
+          "base_time": 230,
+          "toll": 150,
+          "fuel_cost": 1300,
+          "traffic_delay": 5,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jodhpur",
+          "distance": 65,
+          "cost": 440,
+          "base_time": 75,
+          "toll": 40,
+          "fuel_cost": 400,
+          "traffic_delay": 5,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jaisalmer",
+          "distance": 240,
+          "cost": 1660,
+          "base_time": 260,
+          "toll": 160,
+          "fuel_cost": 1500,
+          "traffic_delay": 5,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "abhaneri",
+      "name": "Abhaneri (Stepwell Wonder)",
+      "description": "Famous Chand Baori stepwell, one of the deepest and largest in India.",
+      "rating": 4.4,
+      "crowd_level": 0.32,
+      "is_open": true,
+      "x": 76.6033,
+      "y": 27.0073,
+      "hotels": [
+        {
+          "name": "Abhaneri Royal Mansion Hotel",
+          "price": 5500,
+          "rating": 4.3
+        },
+        {
+          "name": "Abhaneri Heritage Haveli Suites",
+          "price": 4200,
+          "rating": 4.1
+        }
+      ],
+      "connections": [
+        {
+          "to": "bharatpur",
+          "distance": 95,
+          "cost": 690,
+          "base_time": 120,
+          "toll": 90,
+          "fuel_cost": 600,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "fatehpur_sikri",
+          "distance": 75,
+          "cost": 520,
+          "base_time": 90,
+          "toll": 70,
+          "fuel_cost": 450,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "jaipur",
+          "distance": 95,
+          "cost": 720,
+          "base_time": 110,
+          "toll": 120,
+          "fuel_cost": 600,
+          "traffic_delay": 25,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "fatehpur_sikri",
+      "name": "Fatehpur Sikri (Mughal Glory)",
+      "description": "Emperor Akbar's sandstone palace complex and towering Buland Darwaza.",
+      "rating": 4.5,
+      "crowd_level": 0.58,
+      "is_open": true,
+      "x": 77.6679,
+      "y": 27.0945,
+      "hotels": [
+        {
+          "name": "Fatehpur Sikri Royal Mansion Hotel",
+          "price": 5500,
+          "rating": 4.3
+        },
+        {
+          "name": "Fatehpur Sikri Heritage Haveli Suites",
+          "price": 4200,
+          "rating": 4.1
+        }
+      ],
+      "connections": [
+        {
+          "to": "mathura",
+          "distance": 45,
+          "cost": 360,
+          "base_time": 60,
+          "toll": 60,
+          "fuel_cost": 300,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "bharatpur",
+          "distance": 25,
+          "cost": 210,
+          "base_time": 35,
+          "toll": 30,
+          "fuel_cost": 180,
+          "traffic_delay": 5,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "agra",
+          "distance": 36,
+          "cost": 290,
+          "base_time": 45,
+          "toll": 50,
+          "fuel_cost": 240,
+          "traffic_delay": 15,
+          "weather_impact": 1.2,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        },
+        {
+          "to": "abhaneri",
+          "distance": 75,
+          "cost": 520,
+          "base_time": 90,
+          "toll": 70,
+          "fuel_cost": 450,
+          "traffic_delay": 10,
+          "weather_impact": 1.1,
+          "traffic_prob": {
+            "low": 0.5,
+            "medium": 0.3,
+            "high": 0.2
+          },
+          "weather_prob": {
+            "clear": 0.8,
+            "rain": 0.1,
+            "fog": 0.1
+          }
+        }
+      ]
+    }
+  ]
+}
