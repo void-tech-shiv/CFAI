@@ -42,7 +42,7 @@ const HeroSection = ({ onStart }) => {
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.8 }}
-        className="flex gap-4 flex-wrap justify-center items-center"
+        className="flex gap-4 flex-wrap justify-center"
       >
         <button 
           onClick={onStart}
@@ -52,29 +52,6 @@ const HeroSection = ({ onStart }) => {
           <ChevronRight className="w-5 h-5 relative z-10 group-hover:translate-x-1 transition-transform" />
           <div className="absolute inset-0 bg-gradient-to-r from-blue-200 to-purple-200 opacity-0 group-hover:opacity-100 transition-opacity"></div>
         </button>
-
-        <a 
-          href="https://www.linkedin.com/in/shivanshu-satyajeet-a52013229/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="p-4 bg-white/5 border border-white/10 rounded-full hover:bg-white/10 text-gray-400 hover:text-white transition-all hover:scale-110 active:scale-95 flex items-center justify-center cursor-pointer shadow-lg shadow-black/30 hover:border-blue-500/50 hover:shadow-blue-500/10"
-          title="Developer's LinkedIn Profile"
-        >
-          <svg 
-            xmlns="http://www.w3.org/2000/svg" 
-            viewBox="0 0 24 24" 
-            fill="none" 
-            stroke="currentColor" 
-            strokeWidth="2" 
-            strokeLinecap="round" 
-            strokeLinejoin="round" 
-            className="w-5 h-5"
-          >
-            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-            <rect x="2" y="9" width="4" height="12"></rect>
-            <circle cx="4" cy="4" r="2"></circle>
-          </svg>
-        </a>
       </motion.div>
 
       {/* Feature Badges */}
@@ -82,7 +59,7 @@ const HeroSection = ({ onStart }) => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2, duration: 1 }}
-        className="absolute bottom-12 flex gap-8 text-sm text-gray-500 font-medium"
+        className="absolute bottom-12 flex gap-8 flex-wrap justify-center items-center text-sm text-gray-500 font-medium"
       >
         <div className="flex items-center gap-2">
           <Zap className="w-4 h-4 text-yellow-500" /> Real-time A* Search
@@ -90,6 +67,31 @@ const HeroSection = ({ onStart }) => {
         <div className="flex items-center gap-2">
           <Compass className="w-4 h-4 text-blue-500" /> Constraint Satisfaction
         </div>
+        
+        {/* Sleek inline LinkedIn dev profile link */}
+        <a 
+          href="https://www.linkedin.com/in/shivanshu-satyajeet-a52013229/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 text-gray-500 hover:text-blue-400 transition-colors cursor-pointer"
+          title="Developer's LinkedIn Profile"
+        >
+          <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            viewBox="0 0 24 24" 
+            fill="none" 
+            stroke="currentColor" 
+            strokeWidth="2.5" 
+            strokeLinecap="round" 
+            strokeLinejoin="round" 
+            className="w-4 h-4"
+          >
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+          Developer Profile
+        </a>
       </motion.div>
     </motion.div>
   );
