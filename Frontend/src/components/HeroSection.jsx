@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Map, Zap, Compass, ChevronRight } from 'lucide-react';
+import { Map, Zap, Compass, ChevronRight, Linkedin } from 'lucide-react';
 
 const HeroSection = ({ onStart }) => {
   return (
@@ -42,16 +42,26 @@ const HeroSection = ({ onStart }) => {
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.8 }}
-        className="flex gap-4 flex-wrap justify-center"
+        className="flex gap-4 flex-wrap justify-center items-center"
       >
         <button 
           onClick={onStart}
-          className="group relative px-8 py-4 bg-white text-black font-semibold rounded-full overflow-hidden transition-transform hover:scale-105 active:scale-95 flex items-center gap-2"
+          className="group relative px-8 py-4 bg-white text-black font-semibold rounded-full overflow-hidden transition-transform hover:scale-105 active:scale-95 flex items-center gap-2 cursor-pointer"
         >
           <span className="relative z-10">Launch Dashboard</span>
           <ChevronRight className="w-5 h-5 relative z-10 group-hover:translate-x-1 transition-transform" />
           <div className="absolute inset-0 bg-gradient-to-r from-blue-200 to-purple-200 opacity-0 group-hover:opacity-100 transition-opacity"></div>
         </button>
+
+        <a 
+          href="https://www.linkedin.com/in/shivanshu-satyajeet-a52013229/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="p-4 bg-white/5 border border-white/10 rounded-full hover:bg-white/10 text-gray-400 hover:text-white transition-all hover:scale-110 active:scale-95 flex items-center justify-center cursor-pointer shadow-lg shadow-black/30 hover:border-blue-500/50 hover:shadow-blue-500/10"
+          title="Developer's LinkedIn Profile"
+        >
+          <Linkedin className="w-5 h-5" />
+        </a>
       </motion.div>
 
       {/* Feature Badges */}
