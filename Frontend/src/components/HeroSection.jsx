@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Map, Zap, Compass, ChevronRight, Linkedin } from 'lucide-react';
+import { Map, Zap, Compass, ChevronRight } from 'lucide-react';
 
 const HeroSection = ({ onStart }) => {
   return (
@@ -60,7 +60,20 @@ const HeroSection = ({ onStart }) => {
           className="p-4 bg-white/5 border border-white/10 rounded-full hover:bg-white/10 text-gray-400 hover:text-white transition-all hover:scale-110 active:scale-95 flex items-center justify-center cursor-pointer shadow-lg shadow-black/30 hover:border-blue-500/50 hover:shadow-blue-500/10"
           title="Developer's LinkedIn Profile"
         >
-          <Linkedin className="w-5 h-5" />
+          <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            viewBox="0 0 24 24" 
+            fill="none" 
+            stroke="currentColor" 
+            strokeWidth="2" 
+            strokeLinecap="round" 
+            strokeLinejoin="round" 
+            className="w-5 h-5"
+          >
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
         </a>
       </motion.div>
 
