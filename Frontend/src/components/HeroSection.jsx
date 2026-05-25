@@ -93,13 +93,13 @@ const HeroSection = ({ onStart }) => {
           Developer Profile
         </a>
 
-        {/* Sleek inline GitHub repo link */}
+        {/* Sleek inline GitHub profile link */}
         <a 
-          href="https://github.com/void-tech-shiv/CFAI"
+          href="https://github.com/void-tech-shiv"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-gray-500 hover:text-purple-400 transition-colors cursor-pointer"
-          title="Project Source Code on GitHub"
+          title="Developer's GitHub Profile"
         >
           <svg 
             xmlns="http://www.w3.org/2000/svg" 
