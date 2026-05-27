@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { Settings, Play, SlidersHorizontal, CloudRain, Car, Cpu, Target } from 'lucide-react';
 
 const SidebarControls = ({ locations, onPlanRoute, isLoading }) => {
   const [params, setParams] = useState({
-    start_id: "loc_01",
-    goal_id: "loc_10",
+    start_id: "delhi_delhi",
+    goal_id: "bengaluru_karnataka",
     algorithm: "astar",
     metric: "distance",
     max_budget: "",
@@ -13,6 +13,32 @@ const SidebarControls = ({ locations, onPlanRoute, isLoading }) => {
     traffic: "low",
     compare_algorithms: true
   });
+
+  const [startState, setStartState] = useState("");
+  const [goalState, setGoalState] = useState("");
+
+  const states = useMemo(() => {
+    return [...new Set((locations || []).map(loc => loc.state))].sort();
+  }, [locations]);
+
+  useEffect(() => {
+    if (locations && locations.length > 0) {
+      if (!startState) {
+        const startLoc = locations.find(l => l.id === params.start_id) || locations[0];
+        setStartState(startLoc.state);
+        if (!locations.find(l => l.id === params.start_id)) {
+          setParams(prev => ({ ...prev, start_id: startLoc.id }));
+        }
+      }
+      if (!goalState) {
+        const goalLoc = locations.find(l => l.id === params.goal_id) || locations[locations.length - 1];
+        setGoalState(goalLoc.state);
+        if (!locations.find(l => l.id === params.goal_id)) {
+          setParams(prev => ({ ...prev, goal_id: goalLoc.id }));
+        }
+      }
+    }
+  }, [locations, params.start_id, params.goal_id, startState, goalState]);
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -43,29 +69,63 @@ const SidebarControls = ({ locations, onPlanRoute, isLoading }) => {
 
       {/* Waypoints */}
       <div className="space-y-4">
-        <div>
+        <div className="space-y-2">
           <label className="block text-gray-400 mb-1.5 uppercase text-xs tracking-wider font-semibold">Origin</label>
+          <select 
+            value={startState}
+            onChange={(e) => {
+              const newState = e.target.value;
+              setStartState(newState);
+              const firstInState = locations.find(l => l.state === newState);
+              if (firstInState) {
+                setParams(prev => ({ ...prev, start_id: firstInState.id }));
+              }
+            }}
+            className="w-full bg-black/40 border border-white/10 rounded-lg p-2.5 text-white focus:ring-2 focus:ring-blue-500 outline-none transition"
+          >
+            <option value="" disabled>Select State</option>
+            {states.map(state => (
+              <option key={state} value={state}>{state}</option>
+            ))}
+          </select>
           <select 
             name="start_id" 
             value={params.start_id} 
             onChange={handleChange}
             className="w-full bg-black/40 border border-white/10 rounded-lg p-2.5 text-white focus:ring-2 focus:ring-blue-500 outline-none transition"
           >
-            {locations.map(loc => (
+            {(locations || []).filter(loc => loc.state === startState).map(loc => (
               <option key={loc.id} value={loc.id}>{loc.name}</option>
             ))}
           </select>
         </div>
         
-        <div>
+        <div className="space-y-2">
           <label className="block text-gray-400 mb-1.5 uppercase text-xs tracking-wider font-semibold">Destination</label>
+          <select 
+            value={goalState}
+            onChange={(e) => {
+              const newState = e.target.value;
+              setGoalState(newState);
+              const firstInState = locations.find(l => l.state === newState);
+              if (firstInState) {
+                setParams(prev => ({ ...prev, goal_id: firstInState.id }));
+              }
+            }}
+            className="w-full bg-black/40 border border-white/10 rounded-lg p-2.5 text-white focus:ring-2 focus:ring-purple-500 outline-none transition"
+          >
+            <option value="" disabled>Select State</option>
+            {states.map(state => (
+              <option key={state} value={state}>{state}</option>
+            ))}
+          </select>
           <select 
             name="goal_id" 
             value={params.goal_id} 
             onChange={handleChange}
             className="w-full bg-black/40 border border-white/10 rounded-lg p-2.5 text-white focus:ring-2 focus:ring-purple-500 outline-none transition"
           >
-            {locations.map(loc => (
+            {(locations || []).filter(loc => loc.state === goalState).map(loc => (
               <option key={loc.id} value={loc.id}>{loc.name}</option>
             ))}
           </select>

@@ -27,9 +27,10 @@ class Location:
     OOP class representing a node (tourist place) in the state-space graph.
     Contains rating, coordinates, crowd indices, operational status, and hotels.
     """
-    def __init__(self, id_str, name, description, rating, crowd_level, is_open, x, y, hotels, connections_data):
+    def __init__(self, id_str, name, state, description, rating, crowd_level, is_open, x, y, hotels, connections_data):
         self.id = id_str
         self.name = name
+        self.state = state
         self.description = description
         self.rating = rating
         self.crowd_level = crowd_level
@@ -82,6 +83,7 @@ class TouristGraph:
                     loc_obj = Location(
                         id_str=loc_data["id"],
                         name=loc_data["name"],
+                        state=loc_data.get("state", "Unknown"),
                         description=loc_data["description"],
                         rating=loc_data["rating"],
                         crowd_level=loc_data["crowd_level"],

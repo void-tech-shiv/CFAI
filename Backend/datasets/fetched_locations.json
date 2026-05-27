@@ -1,0 +1,4712 @@
+[
+  {
+    "id": "thang_ladakh",
+    "name": "Thang",
+    "state": "Ladakh",
+    "rating": 4.0,
+    "crowd": 0.78,
+    "x": 76.79336,
+    "y": 34.9274,
+    "desc": "Major district in Ladakh. Administrative and cultural center."
+  },
+  {
+    "id": "kargil_ladakh",
+    "name": "Kargil",
+    "state": "Ladakh",
+    "rating": 4.5,
+    "crowd": 0.88,
+    "x": 76.12622,
+    "y": 34.55765,
+    "desc": "Major district in Ladakh. Administrative and cultural center."
+  },
+  {
+    "id": "padam_ladakh",
+    "name": "Padam",
+    "state": "Ladakh",
+    "rating": 3.9,
+    "crowd": 0.57,
+    "x": 76.88488,
+    "y": 33.46659,
+    "desc": "Major district in Ladakh. Administrative and cultural center."
+  },
+  {
+    "id": "leh_ladakh",
+    "name": "Leh",
+    "state": "Ladakh",
+    "rating": 3.8,
+    "crowd": 0.44,
+    "x": 77.58402,
+    "y": 34.16504,
+    "desc": "Major district in Ladakh. Administrative and cultural center."
+  },
+  {
+    "id": "bandipura_jammuandkashmir",
+    "name": "Bandipura",
+    "state": "Jammu and Kashmir",
+    "rating": 4.0,
+    "crowd": 0.63,
+    "x": 74.64308,
+    "y": 34.41728,
+    "desc": "Major district in Jammu and Kashmir. Administrative and cultural center."
+  },
+  {
+    "id": "srinagar_jammuandkashmir",
+    "name": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "rating": 3.8,
+    "crowd": 0.43,
+    "x": 74.80555,
+    "y": 34.08565,
+    "desc": "Major district in Jammu and Kashmir. Administrative and cultural center."
+  },
+  {
+    "id": "uri_jammuandkashmir",
+    "name": "Uri",
+    "state": "Jammu and Kashmir",
+    "rating": 4.5,
+    "crowd": 0.65,
+    "x": 74.032,
+    "y": 34.086,
+    "desc": "Major district in Jammu and Kashmir. Administrative and cultural center."
+  },
+  {
+    "id": "pulwama_jammuandkashmir",
+    "name": "Pulwama",
+    "state": "Jammu and Kashmir",
+    "rating": 4.0,
+    "crowd": 0.68,
+    "x": 74.89955,
+    "y": 33.87405,
+    "desc": "Major district in Jammu and Kashmir. Administrative and cultural center."
+  },
+  {
+    "id": "rajaori_jammuandkashmir",
+    "name": "Rajaori",
+    "state": "Jammu and Kashmir",
+    "rating": 4.7,
+    "crowd": 0.3,
+    "x": 74.3092,
+    "y": 33.37526,
+    "desc": "Major district in Jammu and Kashmir. Administrative and cultural center."
+  },
+  {
+    "id": "rāmban_jammuandkashmir",
+    "name": "Rāmban",
+    "state": "Jammu and Kashmir",
+    "rating": 4.7,
+    "crowd": 0.75,
+    "x": 75.23513,
+    "y": 33.24278,
+    "desc": "Major district in Jammu and Kashmir. Administrative and cultural center."
+  },
+  {
+    "id": "sopur_jammuandkashmir",
+    "name": "Sopur",
+    "state": "Jammu and Kashmir",
+    "rating": 4.2,
+    "crowd": 0.4,
+    "x": 74.47228,
+    "y": 34.28671,
+    "desc": "Major district in Jammu and Kashmir. Administrative and cultural center."
+  },
+  {
+    "id": "sumbal_jammuandkashmir",
+    "name": "Sumbal",
+    "state": "Jammu and Kashmir",
+    "rating": 4.9,
+    "crowd": 0.52,
+    "x": 74.6472,
+    "y": 34.23072,
+    "desc": "Major district in Jammu and Kashmir. Administrative and cultural center."
+  },
+  {
+    "id": "bishnāh_jammuandkashmir",
+    "name": "Bishnāh",
+    "state": "Jammu and Kashmir",
+    "rating": 3.9,
+    "crowd": 0.36,
+    "x": 74.85557,
+    "y": 32.6106,
+    "desc": "Major district in Jammu and Kashmir. Administrative and cultural center."
+  },
+  {
+    "id": "thannamandi_jammuandkashmir",
+    "name": "Thanna Mandi",
+    "state": "Jammu and Kashmir",
+    "rating": 4.7,
+    "crowd": 0.69,
+    "x": 74.381,
+    "y": 33.54204,
+    "desc": "Major district in Jammu and Kashmir. Administrative and cultural center."
+  },
+  {
+    "id": "batoti_jammuandkashmir",
+    "name": "Batoti",
+    "state": "Jammu and Kashmir",
+    "rating": 4.7,
+    "crowd": 0.77,
+    "x": 75.30889,
+    "y": 33.11826,
+    "desc": "Major district in Jammu and Kashmir. Administrative and cultural center."
+  },
+  {
+    "id": "katra_jammuandkashmir",
+    "name": "Katra",
+    "state": "Jammu and Kashmir",
+    "rating": 4.4,
+    "crowd": 0.93,
+    "x": 74.93195,
+    "y": 32.99167,
+    "desc": "Major district in Jammu and Kashmir. Administrative and cultural center."
+  },
+  {
+    "id": "udhampur_jammuandkashmir",
+    "name": "Udhampur",
+    "state": "Jammu and Kashmir",
+    "rating": 4.2,
+    "crowd": 0.66,
+    "x": 75.13573,
+    "y": 32.92431,
+    "desc": "Major district in Jammu and Kashmir. Administrative and cultural center."
+  },
+  {
+    "id": "jauriān_jammuandkashmir",
+    "name": "Jauriān",
+    "state": "Jammu and Kashmir",
+    "rating": 4.7,
+    "crowd": 0.7,
+    "x": 74.57612,
+    "y": 32.83255,
+    "desc": "Major district in Jammu and Kashmir. Administrative and cultural center."
+  },
+  {
+    "id": "banihāl_jammuandkashmir",
+    "name": "Banihāl",
+    "state": "Jammu and Kashmir",
+    "rating": 4.7,
+    "crowd": 0.68,
+    "x": 75.19684,
+    "y": 33.43647,
+    "desc": "Major district in Jammu and Kashmir. Administrative and cultural center."
+  },
+  {
+    "id": "ālappākkam_tamilnadu",
+    "name": "Ālappākkam",
+    "state": "Tamil Nadu",
+    "rating": 3.9,
+    "crowd": 0.45,
+    "x": 79.71893,
+    "y": 11.59895,
+    "desc": "Major district in Tamil Nadu. Administrative and cultural center."
+  },
+  {
+    "id": "thirukattupalli_tamilnadu",
+    "name": "Thirukattupalli",
+    "state": "Tamil Nadu",
+    "rating": 4.5,
+    "crowd": 0.66,
+    "x": 78.95647,
+    "y": 10.84431,
+    "desc": "Major district in Tamil Nadu. Administrative and cultural center."
+  },
+  {
+    "id": "vettavalam_tamilnadu",
+    "name": "Vettavalam",
+    "state": "Tamil Nadu",
+    "rating": 4.6,
+    "crowd": 0.76,
+    "x": 79.24516,
+    "y": 12.10769,
+    "desc": "Major district in Tamil Nadu. Administrative and cultural center."
+  },
+  {
+    "id": "pallappatti_tamilnadu",
+    "name": "Pallappatti",
+    "state": "Tamil Nadu",
+    "rating": 4.3,
+    "crowd": 0.59,
+    "x": 77.87951,
+    "y": 10.72057,
+    "desc": "Major district in Tamil Nadu. Administrative and cultural center."
+  },
+  {
+    "id": "pennāthur_tamilnadu",
+    "name": "Pennāthur",
+    "state": "Tamil Nadu",
+    "rating": 4.1,
+    "crowd": 0.87,
+    "x": 79.22592,
+    "y": 12.24681,
+    "desc": "Major district in Tamil Nadu. Administrative and cultural center."
+  },
+  {
+    "id": "perūr_tamilnadu",
+    "name": "Perūr",
+    "state": "Tamil Nadu",
+    "rating": 4.6,
+    "crowd": 0.4,
+    "x": 76.91292,
+    "y": 10.97519,
+    "desc": "Major district in Tamil Nadu. Administrative and cultural center."
+  },
+  {
+    "id": "tambaram_tamilnadu",
+    "name": "Tambaram",
+    "state": "Tamil Nadu",
+    "rating": 4.3,
+    "crowd": 0.48,
+    "x": 80.12707,
+    "y": 12.9246,
+    "desc": "Major district in Tamil Nadu. Administrative and cultural center."
+  },
+  {
+    "id": "tirupparangunram_tamilnadu",
+    "name": "Tirupparangunram",
+    "state": "Tamil Nadu",
+    "rating": 4.0,
+    "crowd": 0.8,
+    "x": 78.07306,
+    "y": 9.88151,
+    "desc": "Major district in Tamil Nadu. Administrative and cultural center."
+  },
+  {
+    "id": "periyapattinam_tamilnadu",
+    "name": "Periyapattinam",
+    "state": "Tamil Nadu",
+    "rating": 3.9,
+    "crowd": 0.55,
+    "x": 78.90232,
+    "y": 9.27263,
+    "desc": "Major district in Tamil Nadu. Administrative and cultural center."
+  },
+  {
+    "id": "devadānappatti_tamilnadu",
+    "name": "Devadānappatti",
+    "state": "Tamil Nadu",
+    "rating": 4.2,
+    "crowd": 0.52,
+    "x": 77.6439,
+    "y": 10.14673,
+    "desc": "Major district in Tamil Nadu. Administrative and cultural center."
+  },
+  {
+    "id": "cheyyar_tamilnadu",
+    "name": "Cheyyar",
+    "state": "Tamil Nadu",
+    "rating": 4.1,
+    "crowd": 0.33,
+    "x": 79.54308,
+    "y": 12.66052,
+    "desc": "Major district in Tamil Nadu. Administrative and cultural center."
+  },
+  {
+    "id": "attur_tamilnadu",
+    "name": "Attur",
+    "state": "Tamil Nadu",
+    "rating": 4.3,
+    "crowd": 0.38,
+    "x": 78.60143,
+    "y": 11.59414,
+    "desc": "Major district in Tamil Nadu. Administrative and cultural center."
+  },
+  {
+    "id": "kodaikānāl_tamilnadu",
+    "name": "Kodaikānāl",
+    "state": "Tamil Nadu",
+    "rating": 4.8,
+    "crowd": 0.35,
+    "x": 77.48932,
+    "y": 10.23925,
+    "desc": "Major district in Tamil Nadu. Administrative and cultural center."
+  },
+  {
+    "id": "velankanni_tamilnadu",
+    "name": "Velankanni",
+    "state": "Tamil Nadu",
+    "rating": 4.1,
+    "crowd": 0.71,
+    "x": 79.83333,
+    "y": 10.68333,
+    "desc": "Major district in Tamil Nadu. Administrative and cultural center."
+  },
+  {
+    "id": "vellore_tamilnadu",
+    "name": "Vellore",
+    "state": "Tamil Nadu",
+    "rating": 4.8,
+    "crowd": 0.54,
+    "x": 79.13255,
+    "y": 12.9184,
+    "desc": "Major district in Tamil Nadu. Administrative and cultural center."
+  },
+  {
+    "id": "wokha_nagaland",
+    "name": "Wokha",
+    "state": "Nagaland",
+    "rating": 4.5,
+    "crowd": 0.88,
+    "x": 94.25817,
+    "y": 26.09717,
+    "desc": "Major district in Nagaland. Administrative and cultural center."
+  },
+  {
+    "id": "zunheboto_nagaland",
+    "name": "Zunheboto",
+    "state": "Nagaland",
+    "rating": 3.9,
+    "crowd": 0.57,
+    "x": 94.51667,
+    "y": 25.96667,
+    "desc": "Major district in Nagaland. Administrative and cultural center."
+  },
+  {
+    "id": "kohīma_nagaland",
+    "name": "Kohīma",
+    "state": "Nagaland",
+    "rating": 3.8,
+    "crowd": 0.44,
+    "x": 94.11099,
+    "y": 25.67467,
+    "desc": "Major district in Nagaland. Administrative and cultural center."
+  },
+  {
+    "id": "tuensang_nagaland",
+    "name": "Tuensang",
+    "state": "Nagaland",
+    "rating": 4.4,
+    "crowd": 0.32,
+    "x": 94.82415,
+    "y": 26.26704,
+    "desc": "Major district in Nagaland. Administrative and cultural center."
+  },
+  {
+    "id": "longleng_nagaland",
+    "name": "Longleng",
+    "state": "Nagaland",
+    "rating": 4.0,
+    "crowd": 0.72,
+    "x": 94.81772,
+    "y": 26.48989,
+    "desc": "Major district in Nagaland. Administrative and cultural center."
+  },
+  {
+    "id": "dimāpur_nagaland",
+    "name": "Dimāpur",
+    "state": "Nagaland",
+    "rating": 4.4,
+    "crowd": 0.44,
+    "x": 93.7217,
+    "y": 25.91174,
+    "desc": "Major district in Nagaland. Administrative and cultural center."
+  },
+  {
+    "id": "mokokchūng_nagaland",
+    "name": "Mokokchūng",
+    "state": "Nagaland",
+    "rating": 4.4,
+    "crowd": 0.83,
+    "x": 94.51834,
+    "y": 26.3248,
+    "desc": "Major district in Nagaland. Administrative and cultural center."
+  },
+  {
+    "id": "mon_nagaland",
+    "name": "Mon",
+    "state": "Nagaland",
+    "rating": 3.8,
+    "crowd": 0.82,
+    "x": 95.05841,
+    "y": 26.73583,
+    "desc": "Major district in Nagaland. Administrative and cultural center."
+  },
+  {
+    "id": "khonsa_arunachalpradesh",
+    "name": "Khonsa",
+    "state": "Arunachal Pradesh",
+    "rating": 3.8,
+    "crowd": 0.44,
+    "x": 95.56667,
+    "y": 27.01667,
+    "desc": "Major district in Arunachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "tezu_arunachalpradesh",
+    "name": "Tezu",
+    "state": "Arunachal Pradesh",
+    "rating": 4.4,
+    "crowd": 0.32,
+    "x": 96.12882,
+    "y": 27.91256,
+    "desc": "Major district in Arunachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "daporijo_arunachalpradesh",
+    "name": "Daporijo",
+    "state": "Arunachal Pradesh",
+    "rating": 4.0,
+    "crowd": 0.72,
+    "x": 94.22955,
+    "y": 27.99114,
+    "desc": "Major district in Arunachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "seppa_arunachalpradesh",
+    "name": "Seppa",
+    "state": "Arunachal Pradesh",
+    "rating": 4.4,
+    "crowd": 0.44,
+    "x": 93.03991,
+    "y": 27.36173,
+    "desc": "Major district in Arunachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "deomali_arunachalpradesh",
+    "name": "Deomali",
+    "state": "Arunachal Pradesh",
+    "rating": 4.4,
+    "crowd": 0.83,
+    "x": 95.46719,
+    "y": 27.1931,
+    "desc": "Major district in Arunachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "rupa_arunachalpradesh",
+    "name": "Rupa",
+    "state": "Arunachal Pradesh",
+    "rating": 3.8,
+    "crowd": 0.82,
+    "x": 92.4008,
+    "y": 27.20484,
+    "desc": "Major district in Arunachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "pangin_arunachalpradesh",
+    "name": "Pangin",
+    "state": "Arunachal Pradesh",
+    "rating": 4.6,
+    "crowd": 0.52,
+    "x": 94.98873,
+    "y": 28.21022,
+    "desc": "Major district in Arunachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "taipiduidam_arunachalpradesh",
+    "name": "Taipi Duidam",
+    "state": "Arunachal Pradesh",
+    "rating": 4.0,
+    "crowd": 0.92,
+    "x": 96.04367,
+    "y": 27.29117,
+    "desc": "Major district in Arunachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "namsai_arunachalpradesh",
+    "name": "Namsai",
+    "state": "Arunachal Pradesh",
+    "rating": 4.2,
+    "crowd": 0.36,
+    "x": 95.86395,
+    "y": 27.66904,
+    "desc": "Major district in Arunachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "boleng_arunachalpradesh",
+    "name": "Boleng",
+    "state": "Arunachal Pradesh",
+    "rating": 3.9,
+    "crowd": 0.85,
+    "x": 94.96232,
+    "y": 28.33412,
+    "desc": "Major district in Arunachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "raga_arunachalpradesh",
+    "name": "Raga",
+    "state": "Arunachal Pradesh",
+    "rating": 4.5,
+    "crowd": 0.82,
+    "x": 94.07426,
+    "y": 27.79931,
+    "desc": "Major district in Arunachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "tawangtown_arunachalpradesh",
+    "name": "Tawang Town",
+    "state": "Arunachal Pradesh",
+    "rating": 4.6,
+    "crowd": 0.65,
+    "x": 91.795,
+    "y": 27.57417,
+    "desc": "Major district in Arunachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "yingkiong_arunachalpradesh",
+    "name": "Yingkiong",
+    "state": "Arunachal Pradesh",
+    "rating": 4.9,
+    "crowd": 0.55,
+    "x": 95.04753,
+    "y": 28.61037,
+    "desc": "Major district in Arunachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "bāsār_arunachalpradesh",
+    "name": "Bāsār",
+    "state": "Arunachal Pradesh",
+    "rating": 4.4,
+    "crowd": 0.84,
+    "x": 94.69451,
+    "y": 27.99008,
+    "desc": "Major district in Arunachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "sagalee_arunachalpradesh",
+    "name": "Sagalee",
+    "state": "Arunachal Pradesh",
+    "rating": 4.5,
+    "crowd": 0.86,
+    "x": 93.49654,
+    "y": 27.2338,
+    "desc": "Major district in Arunachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "ghazīpur_uttarpradesh",
+    "name": "Ghazīpur",
+    "state": "Uttar Pradesh",
+    "rating": 4.3,
+    "crowd": 0.32,
+    "x": 83.58526,
+    "y": 25.58333,
+    "desc": "Major district in Uttar Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "shāhābād_uttarpradesh",
+    "name": "Shāhābād",
+    "state": "Uttar Pradesh",
+    "rating": 4.0,
+    "crowd": 0.63,
+    "x": 79.00956,
+    "y": 28.56681,
+    "desc": "Major district in Uttar Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "tūndla_uttarpradesh",
+    "name": "Tūndla",
+    "state": "Uttar Pradesh",
+    "rating": 3.8,
+    "crowd": 0.43,
+    "x": 78.23683,
+    "y": 27.2146,
+    "desc": "Major district in Uttar Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "charthāwal_uttarpradesh",
+    "name": "Charthāwal",
+    "state": "Uttar Pradesh",
+    "rating": 4.5,
+    "crowd": 0.65,
+    "x": 77.59438,
+    "y": 29.54687,
+    "desc": "Major district in Uttar Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "nawābganj_uttarpradesh",
+    "name": "Nawābganj",
+    "state": "Uttar Pradesh",
+    "rating": 4.0,
+    "crowd": 0.68,
+    "x": 81.19841,
+    "y": 26.93129,
+    "desc": "Major district in Uttar Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "paliākalān_uttarpradesh",
+    "name": "Paliā Kalān",
+    "state": "Uttar Pradesh",
+    "rating": 4.7,
+    "crowd": 0.3,
+    "x": 80.58137,
+    "y": 28.43205,
+    "desc": "Major district in Uttar Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "phūlpur_uttarpradesh",
+    "name": "Phūlpur",
+    "state": "Uttar Pradesh",
+    "rating": 4.7,
+    "crowd": 0.75,
+    "x": 82.87608,
+    "y": 26.07779,
+    "desc": "Major district in Uttar Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "samthar_uttarpradesh",
+    "name": "Samthar",
+    "state": "Uttar Pradesh",
+    "rating": 4.2,
+    "crowd": 0.4,
+    "x": 78.90683,
+    "y": 25.84348,
+    "desc": "Major district in Uttar Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "chharra_uttarpradesh",
+    "name": "Chharra",
+    "state": "Uttar Pradesh",
+    "rating": 4.9,
+    "crowd": 0.52,
+    "x": 78.40102,
+    "y": 27.9247,
+    "desc": "Major district in Uttar Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "shāmli_uttarpradesh",
+    "name": "Shāmli",
+    "state": "Uttar Pradesh",
+    "rating": 3.9,
+    "crowd": 0.36,
+    "x": 77.30959,
+    "y": 29.4497,
+    "desc": "Major district in Uttar Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "farīdpur_uttarpradesh",
+    "name": "Farīdpur",
+    "state": "Uttar Pradesh",
+    "rating": 4.7,
+    "crowd": 0.69,
+    "x": 79.54149,
+    "y": 28.20997,
+    "desc": "Major district in Uttar Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "aonla_uttarpradesh",
+    "name": "Aonla",
+    "state": "Uttar Pradesh",
+    "rating": 4.7,
+    "crowd": 0.77,
+    "x": 79.16521,
+    "y": 28.27402,
+    "desc": "Major district in Uttar Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "jalesar_uttarpradesh",
+    "name": "Jalesar",
+    "state": "Uttar Pradesh",
+    "rating": 4.4,
+    "crowd": 0.93,
+    "x": 78.3031,
+    "y": 27.47315,
+    "desc": "Major district in Uttar Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "shīshgarh_uttarpradesh",
+    "name": "Shīshgarh",
+    "state": "Uttar Pradesh",
+    "rating": 4.2,
+    "crowd": 0.66,
+    "x": 79.31469,
+    "y": 28.72928,
+    "desc": "Major district in Uttar Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "harduāganj_uttarpradesh",
+    "name": "Harduāganj",
+    "state": "Uttar Pradesh",
+    "rating": 4.7,
+    "crowd": 0.7,
+    "x": 78.15789,
+    "y": 27.94361,
+    "desc": "Major district in Uttar Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "kagaznāgār_telangana",
+    "name": "Kagaznāgār",
+    "state": "Telangana",
+    "rating": 4.1,
+    "crowd": 0.69,
+    "x": 79.46605,
+    "y": 19.33159,
+    "desc": "Major district in Telangana. Administrative and cultural center."
+  },
+  {
+    "id": "sangāreddi_telangana",
+    "name": "Sangāreddi",
+    "state": "Telangana",
+    "rating": 4.4,
+    "crowd": 0.77,
+    "x": 78.08669,
+    "y": 17.62477,
+    "desc": "Major district in Telangana. Administrative and cultural center."
+  },
+  {
+    "id": "wanparti_telangana",
+    "name": "Wanparti",
+    "state": "Telangana",
+    "rating": 4.6,
+    "crowd": 0.57,
+    "x": 78.06889,
+    "y": 16.36738,
+    "desc": "Major district in Telangana. Administrative and cultural center."
+  },
+  {
+    "id": "kottapalli_telangana",
+    "name": "Kottapalli",
+    "state": "Telangana",
+    "rating": 4.3,
+    "crowd": 0.48,
+    "x": 79.0943,
+    "y": 18.49543,
+    "desc": "Major district in Telangana. Administrative and cultural center."
+  },
+  {
+    "id": "mahbūbnagar_telangana",
+    "name": "Mahbūbnagar",
+    "state": "Telangana",
+    "rating": 4.8,
+    "crowd": 0.79,
+    "x": 77.98597,
+    "y": 16.74385,
+    "desc": "Major district in Telangana. Administrative and cultural center."
+  },
+  {
+    "id": "medak_telangana",
+    "name": "Medak",
+    "state": "Telangana",
+    "rating": 4.0,
+    "crowd": 0.57,
+    "x": 78.26078,
+    "y": 18.04531,
+    "desc": "Major district in Telangana. Administrative and cultural center."
+  },
+  {
+    "id": "peddapalli_telangana",
+    "name": "Peddapalli",
+    "state": "Telangana",
+    "rating": 4.1,
+    "crowd": 0.44,
+    "x": 79.37442,
+    "y": 18.61357,
+    "desc": "Major district in Telangana. Administrative and cultural center."
+  },
+  {
+    "id": "secunderabad_telangana",
+    "name": "Secunderabad",
+    "state": "Telangana",
+    "rating": 4.6,
+    "crowd": 0.37,
+    "x": 78.54263,
+    "y": 17.50427,
+    "desc": "Major district in Telangana. Administrative and cultural center."
+  },
+  {
+    "id": "gaddiannaram_telangana",
+    "name": "Gaddi Annaram",
+    "state": "Telangana",
+    "rating": 4.2,
+    "crowd": 0.53,
+    "x": 78.5242,
+    "y": 17.36687,
+    "desc": "Major district in Telangana. Administrative and cultural center."
+  },
+  {
+    "id": "sirpur_telangana",
+    "name": "Sirpur",
+    "state": "Telangana",
+    "rating": 4.2,
+    "crowd": 0.47,
+    "x": 79.57558,
+    "y": 19.47953,
+    "desc": "Major district in Telangana. Administrative and cultural center."
+  },
+  {
+    "id": "bodhan_telangana",
+    "name": "Bodhan",
+    "state": "Telangana",
+    "rating": 3.8,
+    "crowd": 0.6,
+    "x": 77.88581,
+    "y": 18.66208,
+    "desc": "Major district in Telangana. Administrative and cultural center."
+  },
+  {
+    "id": "vikārābād_telangana",
+    "name": "Vikārābād",
+    "state": "Telangana",
+    "rating": 3.9,
+    "crowd": 0.9,
+    "x": 77.90441,
+    "y": 17.3381,
+    "desc": "Major district in Telangana. Administrative and cultural center."
+  },
+  {
+    "id": "ramagundam_telangana",
+    "name": "Ramagundam",
+    "state": "Telangana",
+    "rating": 3.9,
+    "crowd": 0.49,
+    "x": 79.474,
+    "y": 18.755,
+    "desc": "Major district in Telangana. Administrative and cultural center."
+  },
+  {
+    "id": "mandamarri_telangana",
+    "name": "Mandamarri",
+    "state": "Telangana",
+    "rating": 4.5,
+    "crowd": 0.88,
+    "x": 79.47475,
+    "y": 18.96506,
+    "desc": "Major district in Telangana. Administrative and cultural center."
+  },
+  {
+    "id": "miriālgūda_telangana",
+    "name": "Miriālgūda",
+    "state": "Telangana",
+    "rating": 4.2,
+    "crowd": 0.42,
+    "x": 79.56247,
+    "y": 16.8722,
+    "desc": "Major district in Telangana. Administrative and cultural center."
+  },
+  {
+    "id": "deragopipur_himachalpradesh",
+    "name": "Dera Gopipur",
+    "state": "Himachal Pradesh",
+    "rating": 3.8,
+    "crowd": 0.44,
+    "x": 76.21871,
+    "y": 31.87919,
+    "desc": "Major district in Himachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "seoni_himachalpradesh",
+    "name": "Seoni",
+    "state": "Himachal Pradesh",
+    "rating": 4.4,
+    "crowd": 0.32,
+    "x": 77.119,
+    "y": 31.237,
+    "desc": "Major district in Himachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "una_himachalpradesh",
+    "name": "Una",
+    "state": "Himachal Pradesh",
+    "rating": 4.0,
+    "crowd": 0.72,
+    "x": 76.26914,
+    "y": 31.46493,
+    "desc": "Major district in Himachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "chamba_himachalpradesh",
+    "name": "Chamba",
+    "state": "Himachal Pradesh",
+    "rating": 4.4,
+    "crowd": 0.44,
+    "x": 76.12647,
+    "y": 32.55531,
+    "desc": "Major district in Himachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "pālampur_himachalpradesh",
+    "name": "Pālampur",
+    "state": "Himachal Pradesh",
+    "rating": 4.4,
+    "crowd": 0.83,
+    "x": 76.55681,
+    "y": 32.11453,
+    "desc": "Major district in Himachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "pāontasāhib_himachalpradesh",
+    "name": "Pāonta Sāhib",
+    "state": "Himachal Pradesh",
+    "rating": 3.8,
+    "crowd": 0.82,
+    "x": 77.62462,
+    "y": 30.43666,
+    "desc": "Major district in Himachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "rājgarh_himachalpradesh",
+    "name": "Rājgarh",
+    "state": "Himachal Pradesh",
+    "rating": 4.6,
+    "crowd": 0.52,
+    "x": 77.30066,
+    "y": 30.85142,
+    "desc": "Major district in Himachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "sarkaghāt_himachalpradesh",
+    "name": "Sarka Ghāt",
+    "state": "Himachal Pradesh",
+    "rating": 4.0,
+    "crowd": 0.92,
+    "x": 76.73529,
+    "y": 31.69887,
+    "desc": "Major district in Himachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "shimla_himachalpradesh",
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "rating": 4.2,
+    "crowd": 0.36,
+    "x": 77.16662,
+    "y": 31.10442,
+    "desc": "Major district in Himachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "dalhousie_himachalpradesh",
+    "name": "Dalhousie",
+    "state": "Himachal Pradesh",
+    "rating": 3.9,
+    "crowd": 0.85,
+    "x": 75.94663,
+    "y": 32.55219,
+    "desc": "Major district in Himachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "jogindarnagar_himachalpradesh",
+    "name": "Jogindarnagar",
+    "state": "Himachal Pradesh",
+    "rating": 4.5,
+    "crowd": 0.82,
+    "x": 76.78906,
+    "y": 31.98727,
+    "desc": "Major district in Himachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "solan_himachalpradesh",
+    "name": "Solan",
+    "state": "Himachal Pradesh",
+    "rating": 4.6,
+    "crowd": 0.65,
+    "x": 77.10869,
+    "y": 30.90908,
+    "desc": "Major district in Himachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "ghumārwīn_himachalpradesh",
+    "name": "Ghumārwīn",
+    "state": "Himachal Pradesh",
+    "rating": 4.9,
+    "crowd": 0.55,
+    "x": 76.71509,
+    "y": 31.44166,
+    "desc": "Major district in Himachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "kotla_himachalpradesh",
+    "name": "Kotla",
+    "state": "Himachal Pradesh",
+    "rating": 4.4,
+    "crowd": 0.84,
+    "x": 76.03333,
+    "y": 32.25,
+    "desc": "Major district in Himachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "tīrasujānpur_himachalpradesh",
+    "name": "Tīra Sujānpur",
+    "state": "Himachal Pradesh",
+    "rating": 4.5,
+    "crowd": 0.86,
+    "x": 76.50539,
+    "y": 31.83364,
+    "desc": "Major district in Himachal Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "sāngola_maharashtra",
+    "name": "Sāngola",
+    "state": "Maharashtra",
+    "rating": 4.1,
+    "crowd": 0.69,
+    "x": 75.19379,
+    "y": 17.43948,
+    "desc": "Major district in Maharashtra. Administrative and cultural center."
+  },
+  {
+    "id": "vengurla_maharashtra",
+    "name": "Vengurla",
+    "state": "Maharashtra",
+    "rating": 4.4,
+    "crowd": 0.77,
+    "x": 73.63182,
+    "y": 15.86125,
+    "desc": "Major district in Maharashtra. Administrative and cultural center."
+  },
+  {
+    "id": "lonavla_maharashtra",
+    "name": "Lonavla",
+    "state": "Maharashtra",
+    "rating": 4.6,
+    "crowd": 0.57,
+    "x": 73.40575,
+    "y": 18.75275,
+    "desc": "Major district in Maharashtra. Administrative and cultural center."
+  },
+  {
+    "id": "mānwat_maharashtra",
+    "name": "Mānwat",
+    "state": "Maharashtra",
+    "rating": 4.3,
+    "crowd": 0.48,
+    "x": 76.49735,
+    "y": 19.30133,
+    "desc": "Major district in Maharashtra. Administrative and cultural center."
+  },
+  {
+    "id": "mūl_maharashtra",
+    "name": "Mūl",
+    "state": "Maharashtra",
+    "rating": 4.8,
+    "crowd": 0.79,
+    "x": 79.67826,
+    "y": 20.06987,
+    "desc": "Major district in Maharashtra. Administrative and cultural center."
+  },
+  {
+    "id": "rāhuri_maharashtra",
+    "name": "Rāhuri",
+    "state": "Maharashtra",
+    "rating": 4.0,
+    "crowd": 0.57,
+    "x": 74.64979,
+    "y": 19.39069,
+    "desc": "Major district in Maharashtra. Administrative and cultural center."
+  },
+  {
+    "id": "sāvantvādi_maharashtra",
+    "name": "Sāvantvādi",
+    "state": "Maharashtra",
+    "rating": 4.1,
+    "crowd": 0.44,
+    "x": 73.82191,
+    "y": 15.90413,
+    "desc": "Major district in Maharashtra. Administrative and cultural center."
+  },
+  {
+    "id": "amalner_maharashtra",
+    "name": "Amalner",
+    "state": "Maharashtra",
+    "rating": 4.6,
+    "crowd": 0.37,
+    "x": 75.05887,
+    "y": 21.03983,
+    "desc": "Major district in Maharashtra. Administrative and cultural center."
+  },
+  {
+    "id": "shirwal_maharashtra",
+    "name": "Shirwal",
+    "state": "Maharashtra",
+    "rating": 4.2,
+    "crowd": 0.53,
+    "x": 73.97788,
+    "y": 18.15059,
+    "desc": "Major district in Maharashtra. Administrative and cultural center."
+  },
+  {
+    "id": "walhur_maharashtra",
+    "name": "Walhur",
+    "state": "Maharashtra",
+    "rating": 4.2,
+    "crowd": 0.47,
+    "x": 76.48317,
+    "y": 20.05593,
+    "desc": "Major district in Maharashtra. Administrative and cultural center."
+  },
+  {
+    "id": "dondaicha_maharashtra",
+    "name": "Dondaicha",
+    "state": "Maharashtra",
+    "rating": 3.8,
+    "crowd": 0.6,
+    "x": 74.56804,
+    "y": 21.3236,
+    "desc": "Major district in Maharashtra. Administrative and cultural center."
+  },
+  {
+    "id": "vāda_maharashtra",
+    "name": "Vāda",
+    "state": "Maharashtra",
+    "rating": 3.9,
+    "crowd": 0.9,
+    "x": 73.14811,
+    "y": 19.65347,
+    "desc": "Major district in Maharashtra. Administrative and cultural center."
+  },
+  {
+    "id": "vaijāpur_maharashtra",
+    "name": "Vaijāpur",
+    "state": "Maharashtra",
+    "rating": 3.9,
+    "crowd": 0.49,
+    "x": 74.7275,
+    "y": 19.92672,
+    "desc": "Major district in Maharashtra. Administrative and cultural center."
+  },
+  {
+    "id": "shirdi_maharashtra",
+    "name": "Shirdi",
+    "state": "Maharashtra",
+    "rating": 4.5,
+    "crowd": 0.88,
+    "x": 74.47738,
+    "y": 19.76616,
+    "desc": "Major district in Maharashtra. Administrative and cultural center."
+  },
+  {
+    "id": "murtajāpur_maharashtra",
+    "name": "Murtajāpur",
+    "state": "Maharashtra",
+    "rating": 4.2,
+    "crowd": 0.42,
+    "x": 77.36694,
+    "y": 20.73299,
+    "desc": "Major district in Maharashtra. Administrative and cultural center."
+  },
+  {
+    "id": "guledagudda_karnataka",
+    "name": "Guledagudda",
+    "state": "Karnataka",
+    "rating": 4.3,
+    "crowd": 0.32,
+    "x": 75.78997,
+    "y": 16.05025,
+    "desc": "Major district in Karnataka. Administrative and cultural center."
+  },
+  {
+    "id": "sindhnūr_karnataka",
+    "name": "Sindhnūr",
+    "state": "Karnataka",
+    "rating": 4.0,
+    "crowd": 0.63,
+    "x": 76.75581,
+    "y": 15.76983,
+    "desc": "Major district in Karnataka. Administrative and cultural center."
+  },
+  {
+    "id": "virajpet_karnataka",
+    "name": "Virajpet",
+    "state": "Karnataka",
+    "rating": 3.8,
+    "crowd": 0.43,
+    "x": 75.80512,
+    "y": 12.19644,
+    "desc": "Major district in Karnataka. Administrative and cultural center."
+  },
+  {
+    "id": "channapatna_karnataka",
+    "name": "Channapatna",
+    "state": "Karnataka",
+    "rating": 4.5,
+    "crowd": 0.65,
+    "x": 77.20672,
+    "y": 12.65143,
+    "desc": "Major district in Karnataka. Administrative and cultural center."
+  },
+  {
+    "id": "nanjangūd_karnataka",
+    "name": "Nanjangūd",
+    "state": "Karnataka",
+    "rating": 4.0,
+    "crowd": 0.68,
+    "x": 76.68397,
+    "y": 12.11764,
+    "desc": "Major district in Karnataka. Administrative and cultural center."
+  },
+  {
+    "id": "pāngāla_karnataka",
+    "name": "Pāngāla",
+    "state": "Karnataka",
+    "rating": 4.7,
+    "crowd": 0.3,
+    "x": 74.75,
+    "y": 13.25,
+    "desc": "Major district in Karnataka. Administrative and cultural center."
+  },
+  {
+    "id": "rabkavi_karnataka",
+    "name": "Rabkavi",
+    "state": "Karnataka",
+    "rating": 4.7,
+    "crowd": 0.75,
+    "x": 75.1106,
+    "y": 16.47567,
+    "desc": "Major district in Karnataka. Administrative and cultural center."
+  },
+  {
+    "id": "shirhatti_karnataka",
+    "name": "Shirhatti",
+    "state": "Karnataka",
+    "rating": 4.2,
+    "crowd": 0.4,
+    "x": 75.57996,
+    "y": 15.23352,
+    "desc": "Major district in Karnataka. Administrative and cultural center."
+  },
+  {
+    "id": "channarāyapatna_karnataka",
+    "name": "Channarāyapatna",
+    "state": "Karnataka",
+    "rating": 4.9,
+    "crowd": 0.52,
+    "x": 76.38775,
+    "y": 12.90642,
+    "desc": "Major district in Karnataka. Administrative and cultural center."
+  },
+  {
+    "id": "sirsi_karnataka",
+    "name": "Sirsi",
+    "state": "Karnataka",
+    "rating": 3.9,
+    "crowd": 0.36,
+    "x": 74.83554,
+    "y": 14.62072,
+    "desc": "Major district in Karnataka. Administrative and cultural center."
+  },
+  {
+    "id": "gajendragarh_karnataka",
+    "name": "Gajendragarh",
+    "state": "Karnataka",
+    "rating": 4.7,
+    "crowd": 0.69,
+    "x": 75.96976,
+    "y": 15.73628,
+    "desc": "Major district in Karnataka. Administrative and cultural center."
+  },
+  {
+    "id": "ajjampur_karnataka",
+    "name": "Ajjampur",
+    "state": "Karnataka",
+    "rating": 4.7,
+    "crowd": 0.77,
+    "x": 76.0068,
+    "y": 13.72794,
+    "desc": "Major district in Karnataka. Administrative and cultural center."
+  },
+  {
+    "id": "hubli_karnataka",
+    "name": "Hubli",
+    "state": "Karnataka",
+    "rating": 4.4,
+    "crowd": 0.93,
+    "x": 75.13378,
+    "y": 15.34776,
+    "desc": "Major district in Karnataka. Administrative and cultural center."
+  },
+  {
+    "id": "sorab_karnataka",
+    "name": "Sorab",
+    "state": "Karnataka",
+    "rating": 4.2,
+    "crowd": 0.66,
+    "x": 75.09183,
+    "y": 14.38144,
+    "desc": "Major district in Karnataka. Administrative and cultural center."
+  },
+  {
+    "id": "hiriyūr_karnataka",
+    "name": "Hiriyūr",
+    "state": "Karnataka",
+    "rating": 4.7,
+    "crowd": 0.7,
+    "x": 76.61723,
+    "y": 13.94455,
+    "desc": "Major district in Karnataka. Administrative and cultural center."
+  },
+  {
+    "id": "pārvatipuram_andhrapradesh",
+    "name": "Pārvatipuram",
+    "state": "Andhra Pradesh",
+    "rating": 4.4,
+    "crowd": 0.77,
+    "x": 83.42569,
+    "y": 18.78392,
+    "desc": "Major district in Andhra Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "tuni_andhrapradesh",
+    "name": "Tuni",
+    "state": "Andhra Pradesh",
+    "rating": 4.6,
+    "crowd": 0.57,
+    "x": 82.54607,
+    "y": 17.35905,
+    "desc": "Major district in Andhra Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "chīrāla_andhrapradesh",
+    "name": "Chīrāla",
+    "state": "Andhra Pradesh",
+    "rating": 4.3,
+    "crowd": 0.48,
+    "x": 80.35219,
+    "y": 15.82385,
+    "desc": "Major district in Andhra Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "gajapatinagaram_andhrapradesh",
+    "name": "Gajapatinagaram",
+    "state": "Andhra Pradesh",
+    "rating": 4.8,
+    "crowd": 0.79,
+    "x": 83.33647,
+    "y": 18.27936,
+    "desc": "Major district in Andhra Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "guntur_andhrapradesh",
+    "name": "Guntur",
+    "state": "Andhra Pradesh",
+    "rating": 4.0,
+    "crowd": 0.57,
+    "x": 80.45729,
+    "y": 16.29974,
+    "desc": "Major district in Andhra Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "narsīpatnam_andhrapradesh",
+    "name": "Narsīpatnam",
+    "state": "Andhra Pradesh",
+    "rating": 4.1,
+    "crowd": 0.44,
+    "x": 82.61245,
+    "y": 17.66709,
+    "desc": "Major district in Andhra Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "phirangipuram_andhrapradesh",
+    "name": "Phirangipuram",
+    "state": "Andhra Pradesh",
+    "rating": 4.6,
+    "crowd": 0.37,
+    "x": 80.26233,
+    "y": 16.29078,
+    "desc": "Major district in Andhra Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "proddatūr_andhrapradesh",
+    "name": "Proddatūr",
+    "state": "Andhra Pradesh",
+    "rating": 4.2,
+    "crowd": 0.53,
+    "x": 78.54813,
+    "y": 14.7502,
+    "desc": "Major district in Andhra Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "reddivaripalle_andhrapradesh",
+    "name": "Reddivaripalle",
+    "state": "Andhra Pradesh",
+    "rating": 4.2,
+    "crowd": 0.47,
+    "x": 79.0466,
+    "y": 13.6031,
+    "desc": "Major district in Andhra Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "tekkali_andhrapradesh",
+    "name": "Tekkali",
+    "state": "Andhra Pradesh",
+    "rating": 3.8,
+    "crowd": 0.6,
+    "x": 84.23546,
+    "y": 18.6057,
+    "desc": "Major district in Andhra Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "thenali_andhrapradesh",
+    "name": "Thenali",
+    "state": "Andhra Pradesh",
+    "rating": 3.9,
+    "crowd": 0.9,
+    "x": 80.63982,
+    "y": 16.24253,
+    "desc": "Major district in Andhra Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "podili_andhrapradesh",
+    "name": "Podili",
+    "state": "Andhra Pradesh",
+    "rating": 3.9,
+    "crowd": 0.49,
+    "x": 79.61489,
+    "y": 15.60639,
+    "desc": "Major district in Andhra Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "ichchāpuram_andhrapradesh",
+    "name": "Ichchāpuram",
+    "state": "Andhra Pradesh",
+    "rating": 4.5,
+    "crowd": 0.88,
+    "x": 84.68721,
+    "y": 19.11393,
+    "desc": "Major district in Andhra Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "gorantla_andhrapradesh",
+    "name": "Gorantla",
+    "state": "Andhra Pradesh",
+    "rating": 4.2,
+    "crowd": 0.42,
+    "x": 77.77224,
+    "y": 13.98411,
+    "desc": "Major district in Andhra Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "tirupati_andhrapradesh",
+    "name": "Tirupati",
+    "state": "Andhra Pradesh",
+    "rating": 3.9,
+    "crowd": 0.73,
+    "x": 79.41989,
+    "y": 13.63551,
+    "desc": "Major district in Andhra Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "pingawān_haryana",
+    "name": "Pingawān",
+    "state": "Haryana",
+    "rating": 4.1,
+    "crowd": 0.69,
+    "x": 77.1022,
+    "y": 27.8959,
+    "desc": "Major district in Haryana. Administrative and cultural center."
+  },
+  {
+    "id": "thānesar_haryana",
+    "name": "Thānesar",
+    "state": "Haryana",
+    "rating": 4.4,
+    "crowd": 0.77,
+    "x": 76.83214,
+    "y": 29.97323,
+    "desc": "Major district in Haryana. Administrative and cultural center."
+  },
+  {
+    "id": "gorakhpur_haryana",
+    "name": "Gorakhpur",
+    "state": "Haryana",
+    "rating": 4.6,
+    "crowd": 0.57,
+    "x": 75.67206,
+    "y": 29.44768,
+    "desc": "Major district in Haryana. Administrative and cultural center."
+  },
+  {
+    "id": "ismāilābād_haryana",
+    "name": "Ismāilābād",
+    "state": "Haryana",
+    "rating": 4.3,
+    "crowd": 0.48,
+    "x": 76.66903,
+    "y": 30.11721,
+    "desc": "Major district in Haryana. Administrative and cultural center."
+  },
+  {
+    "id": "shādīpurjulāna_haryana",
+    "name": "Shādīpur Julāna",
+    "state": "Haryana",
+    "rating": 4.8,
+    "crowd": 0.79,
+    "x": 76.40516,
+    "y": 29.12368,
+    "desc": "Major district in Haryana. Administrative and cultural center."
+  },
+  {
+    "id": "nīlokheri_haryana",
+    "name": "Nīlokheri",
+    "state": "Haryana",
+    "rating": 4.0,
+    "crowd": 0.57,
+    "x": 76.93191,
+    "y": 29.83671,
+    "desc": "Major district in Haryana. Administrative and cultural center."
+  },
+  {
+    "id": "pūnāhāna_haryana",
+    "name": "Pūnāhāna",
+    "state": "Haryana",
+    "rating": 4.1,
+    "crowd": 0.44,
+    "x": 77.20432,
+    "y": 27.86371,
+    "desc": "Major district in Haryana. Administrative and cultural center."
+  },
+  {
+    "id": "jāndli_haryana",
+    "name": "Jāndli",
+    "state": "Haryana",
+    "rating": 4.6,
+    "crowd": 0.37,
+    "x": 76.79639,
+    "y": 30.3571,
+    "desc": "Major district in Haryana. Administrative and cultural center."
+  },
+  {
+    "id": "rāmgarh_haryana",
+    "name": "Rāmgarh",
+    "state": "Haryana",
+    "rating": 4.2,
+    "crowd": 0.53,
+    "x": 76.88901,
+    "y": 30.64866,
+    "desc": "Major district in Haryana. Administrative and cultural center."
+  },
+  {
+    "id": "farakhpur_haryana",
+    "name": "Farakhpur",
+    "state": "Haryana",
+    "rating": 4.2,
+    "crowd": 0.47,
+    "x": 77.24297,
+    "y": 30.13307,
+    "desc": "Major district in Haryana. Administrative and cultural center."
+  },
+  {
+    "id": "sunārikalān_haryana",
+    "name": "Sunāri Kalān",
+    "state": "Haryana",
+    "rating": 3.8,
+    "crowd": 0.6,
+    "x": 76.56898,
+    "y": 28.86103,
+    "desc": "Major district in Haryana. Administrative and cultural center."
+  },
+  {
+    "id": "sonīpat_haryana",
+    "name": "Sonīpat",
+    "state": "Haryana",
+    "rating": 3.9,
+    "crowd": 0.9,
+    "x": 77.01937,
+    "y": 28.99478,
+    "desc": "Major district in Haryana. Administrative and cultural center."
+  },
+  {
+    "id": "tāoru_haryana",
+    "name": "Tāoru",
+    "state": "Haryana",
+    "rating": 3.9,
+    "crowd": 0.49,
+    "x": 76.94984,
+    "y": 28.21173,
+    "desc": "Major district in Haryana. Administrative and cultural center."
+  },
+  {
+    "id": "rāipurrāni_haryana",
+    "name": "Rāipur Rāni",
+    "state": "Haryana",
+    "rating": 4.5,
+    "crowd": 0.88,
+    "x": 77.02177,
+    "y": 30.5856,
+    "desc": "Major district in Haryana. Administrative and cultural center."
+  },
+  {
+    "id": "kalāyat_haryana",
+    "name": "Kalāyat",
+    "state": "Haryana",
+    "rating": 4.2,
+    "crowd": 0.42,
+    "x": 76.25561,
+    "y": 29.67665,
+    "desc": "Major district in Haryana. Administrative and cultural center."
+  },
+  {
+    "id": "phek_manipur",
+    "name": "Phek",
+    "state": "Manipur",
+    "rating": 4.1,
+    "crowd": 0.69,
+    "x": 94.5,
+    "y": 25.66667,
+    "desc": "Major district in Manipur. Administrative and cultural center."
+  },
+  {
+    "id": "yairipok_manipur",
+    "name": "Yairipok",
+    "state": "Manipur",
+    "rating": 4.4,
+    "crowd": 0.77,
+    "x": 94.04767,
+    "y": 24.67792,
+    "desc": "Major district in Manipur. Administrative and cultural center."
+  },
+  {
+    "id": "jiribam_manipur",
+    "name": "Jiribam",
+    "state": "Manipur",
+    "rating": 4.6,
+    "crowd": 0.57,
+    "x": 93.12148,
+    "y": 24.80427,
+    "desc": "Major district in Manipur. Administrative and cultural center."
+  },
+  {
+    "id": "moirāng_manipur",
+    "name": "Moirāng",
+    "state": "Manipur",
+    "rating": 4.3,
+    "crowd": 0.48,
+    "x": 93.77791,
+    "y": 24.4975,
+    "desc": "Major district in Manipur. Administrative and cultural center."
+  },
+  {
+    "id": "tengnoupal_manipur",
+    "name": "Tengnoupal",
+    "state": "Manipur",
+    "rating": 4.8,
+    "crowd": 0.79,
+    "x": 94.1472,
+    "y": 24.3855,
+    "desc": "Major district in Manipur. Administrative and cultural center."
+  },
+  {
+    "id": "pherzawl_manipur",
+    "name": "Pherzawl",
+    "state": "Manipur",
+    "rating": 4.0,
+    "crowd": 0.57,
+    "x": 93.18873,
+    "y": 24.26227,
+    "desc": "Major district in Manipur. Administrative and cultural center."
+  },
+  {
+    "id": "thoubāl_manipur",
+    "name": "Thoubāl",
+    "state": "Manipur",
+    "rating": 4.1,
+    "crowd": 0.44,
+    "x": 93.99639,
+    "y": 24.63881,
+    "desc": "Major district in Manipur. Administrative and cultural center."
+  },
+  {
+    "id": "wāngjing_manipur",
+    "name": "Wāngjing",
+    "state": "Manipur",
+    "rating": 4.6,
+    "crowd": 0.37,
+    "x": 94.06386,
+    "y": 24.58921,
+    "desc": "Major district in Manipur. Administrative and cultural center."
+  },
+  {
+    "id": "imphāl_manipur",
+    "name": "Imphāl",
+    "state": "Manipur",
+    "rating": 4.2,
+    "crowd": 0.53,
+    "x": 93.9442,
+    "y": 24.80805,
+    "desc": "Major district in Manipur. Administrative and cultural center."
+  },
+  {
+    "id": "kamjong_manipur",
+    "name": "Kamjong",
+    "state": "Manipur",
+    "rating": 4.2,
+    "crowd": 0.47,
+    "x": 94.51549,
+    "y": 24.85846,
+    "desc": "Major district in Manipur. Administrative and cultural center."
+  },
+  {
+    "id": "bishnupur_manipur",
+    "name": "Bishnupur",
+    "state": "Manipur",
+    "rating": 3.8,
+    "crowd": 0.6,
+    "x": 93.76179,
+    "y": 24.62845,
+    "desc": "Major district in Manipur. Administrative and cultural center."
+  },
+  {
+    "id": "chandel_manipur",
+    "name": "Chandel",
+    "state": "Manipur",
+    "rating": 3.9,
+    "crowd": 0.9,
+    "x": 94.00379,
+    "y": 24.32987,
+    "desc": "Major district in Manipur. Administrative and cultural center."
+  },
+  {
+    "id": "kāngpokpi_manipur",
+    "name": "Kāngpokpi",
+    "state": "Manipur",
+    "rating": 3.9,
+    "crowd": 0.49,
+    "x": 93.97167,
+    "y": 25.15273,
+    "desc": "Major district in Manipur. Administrative and cultural center."
+  },
+  {
+    "id": "mayāngimphāl_manipur",
+    "name": "Mayāng Imphāl",
+    "state": "Manipur",
+    "rating": 4.5,
+    "crowd": 0.88,
+    "x": 93.88873,
+    "y": 24.60998,
+    "desc": "Major district in Manipur. Administrative and cultural center."
+  },
+  {
+    "id": "churāchāndpur_manipur",
+    "name": "Churāchāndpur",
+    "state": "Manipur",
+    "rating": 4.2,
+    "crowd": 0.42,
+    "x": 93.66999,
+    "y": 24.33353,
+    "desc": "Major district in Manipur. Administrative and cultural center."
+  },
+  {
+    "id": "raia_goa",
+    "name": "Raia",
+    "state": "Goa",
+    "rating": 4.4,
+    "crowd": 0.32,
+    "x": 73.97096,
+    "y": 15.30499,
+    "desc": "Major district in Goa. Administrative and cultural center."
+  },
+  {
+    "id": "varca_goa",
+    "name": "Varca",
+    "state": "Goa",
+    "rating": 4.0,
+    "crowd": 0.72,
+    "x": 73.94311,
+    "y": 15.23237,
+    "desc": "Major district in Goa. Administrative and cultural center."
+  },
+  {
+    "id": "kānkon_goa",
+    "name": "Kānkon",
+    "state": "Goa",
+    "rating": 4.4,
+    "crowd": 0.44,
+    "x": 74.04617,
+    "y": 15.02698,
+    "desc": "Major district in Goa. Administrative and cultural center."
+  },
+  {
+    "id": "mapusa_goa",
+    "name": "Mapusa",
+    "state": "Goa",
+    "rating": 4.4,
+    "crowd": 0.83,
+    "x": 73.80898,
+    "y": 15.59154,
+    "desc": "Major district in Goa. Administrative and cultural center."
+  },
+  {
+    "id": "morjim_goa",
+    "name": "Morjim",
+    "state": "Goa",
+    "rating": 3.8,
+    "crowd": 0.82,
+    "x": 73.73903,
+    "y": 15.63097,
+    "desc": "Major district in Goa. Administrative and cultural center."
+  },
+  {
+    "id": "priol_goa",
+    "name": "Priol",
+    "state": "Goa",
+    "rating": 4.6,
+    "crowd": 0.52,
+    "x": 73.98333,
+    "y": 15.41667,
+    "desc": "Major district in Goa. Administrative and cultural center."
+  },
+  {
+    "id": "saligao_goa",
+    "name": "Saligao",
+    "state": "Goa",
+    "rating": 4.0,
+    "crowd": 0.92,
+    "x": 73.79036,
+    "y": 15.55359,
+    "desc": "Major district in Goa. Administrative and cultural center."
+  },
+  {
+    "id": "aquem_goa",
+    "name": "Aquem",
+    "state": "Goa",
+    "rating": 4.2,
+    "crowd": 0.36,
+    "x": 73.98567,
+    "y": 15.25836,
+    "desc": "Major district in Goa. Administrative and cultural center."
+  },
+  {
+    "id": "sanguem_goa",
+    "name": "Sanguem",
+    "state": "Goa",
+    "rating": 3.9,
+    "crowd": 0.85,
+    "x": 74.15149,
+    "y": 15.22901,
+    "desc": "Major district in Goa. Administrative and cultural center."
+  },
+  {
+    "id": "borim_goa",
+    "name": "Borim",
+    "state": "Goa",
+    "rating": 4.5,
+    "crowd": 0.82,
+    "x": 74.0,
+    "y": 15.36667,
+    "desc": "Major district in Goa. Administrative and cultural center."
+  },
+  {
+    "id": "valpoi_goa",
+    "name": "Valpoi",
+    "state": "Goa",
+    "rating": 4.6,
+    "crowd": 0.65,
+    "x": 74.13671,
+    "y": 15.53239,
+    "desc": "Major district in Goa. Administrative and cultural center."
+  },
+  {
+    "id": "chimbel_goa",
+    "name": "Chimbel",
+    "state": "Goa",
+    "rating": 4.9,
+    "crowd": 0.55,
+    "x": 73.87474,
+    "y": 15.49261,
+    "desc": "Major district in Goa. Administrative and cultural center."
+  },
+  {
+    "id": "salvadordomundo_goa",
+    "name": "Salvador do Mundo",
+    "state": "Goa",
+    "rating": 4.4,
+    "crowd": 0.84,
+    "x": 73.83629,
+    "y": 15.53036,
+    "desc": "Major district in Goa. Administrative and cultural center."
+  },
+  {
+    "id": "navelim_goa",
+    "name": "Navelim",
+    "state": "Goa",
+    "rating": 4.5,
+    "crowd": 0.86,
+    "x": 73.96637,
+    "y": 15.25885,
+    "desc": "Major district in Goa. Administrative and cultural center."
+  },
+  {
+    "id": "penhadefrança_goa",
+    "name": "Penha de França",
+    "state": "Goa",
+    "rating": 4.4,
+    "crowd": 0.76,
+    "x": 73.83537,
+    "y": 15.51705,
+    "desc": "Major district in Goa. Administrative and cultural center."
+  },
+  {
+    "id": "behror_rajasthan",
+    "name": "Behror",
+    "state": "Rajasthan",
+    "rating": 3.8,
+    "crowd": 0.36,
+    "x": 76.28108,
+    "y": 27.88832,
+    "desc": "Major district in Rajasthan. Administrative and cultural center."
+  },
+  {
+    "id": "sardārshahr_rajasthan",
+    "name": "Sardārshahr",
+    "state": "Rajasthan",
+    "rating": 4.1,
+    "crowd": 0.69,
+    "x": 74.491,
+    "y": 28.44062,
+    "desc": "Major district in Rajasthan. Administrative and cultural center."
+  },
+  {
+    "id": "todaraisingh_rajasthan",
+    "name": "Todaraisingh",
+    "state": "Rajasthan",
+    "rating": 4.4,
+    "crowd": 0.77,
+    "x": 75.48182,
+    "y": 26.02401,
+    "desc": "Major district in Rajasthan. Administrative and cultural center."
+  },
+  {
+    "id": "borkhera_rajasthan",
+    "name": "Borkhera",
+    "state": "Rajasthan",
+    "rating": 4.6,
+    "crowd": 0.57,
+    "x": 75.64028,
+    "y": 25.52115,
+    "desc": "Major district in Rajasthan. Administrative and cultural center."
+  },
+  {
+    "id": "niwai_rajasthan",
+    "name": "Niwai",
+    "state": "Rajasthan",
+    "rating": 4.3,
+    "crowd": 0.48,
+    "x": 75.91836,
+    "y": 26.36073,
+    "desc": "Major district in Rajasthan. Administrative and cultural center."
+  },
+  {
+    "id": "pāli_rajasthan",
+    "name": "Pāli",
+    "state": "Rajasthan",
+    "rating": 4.8,
+    "crowd": 0.79,
+    "x": 73.32335,
+    "y": 25.77276,
+    "desc": "Major district in Rajasthan. Administrative and cultural center."
+  },
+  {
+    "id": "pilāni_rajasthan",
+    "name": "Pilāni",
+    "state": "Rajasthan",
+    "rating": 4.0,
+    "crowd": 0.57,
+    "x": 75.60352,
+    "y": 28.36725,
+    "desc": "Major district in Rajasthan. Administrative and cultural center."
+  },
+  {
+    "id": "sādri_rajasthan",
+    "name": "Sādri",
+    "state": "Rajasthan",
+    "rating": 4.1,
+    "crowd": 0.44,
+    "x": 73.45288,
+    "y": 25.18555,
+    "desc": "Major district in Rajasthan. Administrative and cultural center."
+  },
+  {
+    "id": "ābu_rajasthan",
+    "name": "Ābu",
+    "state": "Rajasthan",
+    "rating": 4.6,
+    "crowd": 0.37,
+    "x": 72.71756,
+    "y": 24.59365,
+    "desc": "Major district in Rajasthan. Administrative and cultural center."
+  },
+  {
+    "id": "sawāimādhopur_rajasthan",
+    "name": "Sawāi Mādhopur",
+    "state": "Rajasthan",
+    "rating": 4.2,
+    "crowd": 0.53,
+    "x": 76.34408,
+    "y": 26.02301,
+    "desc": "Major district in Rajasthan. Administrative and cultural center."
+  },
+  {
+    "id": "bārān_rajasthan",
+    "name": "Bārān",
+    "state": "Rajasthan",
+    "rating": 4.2,
+    "crowd": 0.47,
+    "x": 76.51667,
+    "y": 25.1,
+    "desc": "Major district in Rajasthan. Administrative and cultural center."
+  },
+  {
+    "id": "devgarh_rajasthan",
+    "name": "Devgarh",
+    "state": "Rajasthan",
+    "rating": 3.8,
+    "crowd": 0.6,
+    "x": 73.90812,
+    "y": 25.52533,
+    "desc": "Major district in Rajasthan. Administrative and cultural center."
+  },
+  {
+    "id": "sīkar_rajasthan",
+    "name": "Sīkar",
+    "state": "Rajasthan",
+    "rating": 3.9,
+    "crowd": 0.9,
+    "x": 75.13996,
+    "y": 27.61206,
+    "desc": "Major district in Rajasthan. Administrative and cultural center."
+  },
+  {
+    "id": "būndi_rajasthan",
+    "name": "Būndi",
+    "state": "Rajasthan",
+    "rating": 3.9,
+    "crowd": 0.49,
+    "x": 75.63735,
+    "y": 25.43855,
+    "desc": "Major district in Rajasthan. Administrative and cultural center."
+  },
+  {
+    "id": "keshoraipātan_rajasthan",
+    "name": "Keshorai Pātan",
+    "state": "Rajasthan",
+    "rating": 4.5,
+    "crowd": 0.88,
+    "x": 75.93948,
+    "y": 25.29275,
+    "desc": "Major district in Rajasthan. Administrative and cultural center."
+  },
+  {
+    "id": "saraiya_bihar",
+    "name": "Saraiya",
+    "state": "Bihar",
+    "rating": 3.8,
+    "crowd": 0.36,
+    "x": 84.0816,
+    "y": 24.80118,
+    "desc": "Major district in Bihar. Administrative and cultural center."
+  },
+  {
+    "id": "kasba_bihar",
+    "name": "Kasba",
+    "state": "Bihar",
+    "rating": 4.1,
+    "crowd": 0.69,
+    "x": 87.53836,
+    "y": 25.85643,
+    "desc": "Major district in Bihar. Administrative and cultural center."
+  },
+  {
+    "id": "siwān_bihar",
+    "name": "Siwān",
+    "state": "Bihar",
+    "rating": 4.4,
+    "crowd": 0.77,
+    "x": 84.35609,
+    "y": 26.22096,
+    "desc": "Major district in Bihar. Administrative and cultural center."
+  },
+  {
+    "id": "bahadurpur_bihar",
+    "name": "Bahadurpur",
+    "state": "Bihar",
+    "rating": 4.6,
+    "crowd": 0.57,
+    "x": 85.90236,
+    "y": 26.11519,
+    "desc": "Major district in Bihar. Administrative and cultural center."
+  },
+  {
+    "id": "jogbani_bihar",
+    "name": "Jogbani",
+    "state": "Bihar",
+    "rating": 4.3,
+    "crowd": 0.48,
+    "x": 87.26525,
+    "y": 26.39905,
+    "desc": "Major district in Bihar. Administrative and cultural center."
+  },
+  {
+    "id": "kishanganj_bihar",
+    "name": "Kishanganj",
+    "state": "Bihar",
+    "rating": 4.8,
+    "crowd": 0.79,
+    "x": 87.95534,
+    "y": 26.10224,
+    "desc": "Major district in Bihar. Administrative and cultural center."
+  },
+  {
+    "id": "madhepura_bihar",
+    "name": "Madhepura",
+    "state": "Bihar",
+    "rating": 4.0,
+    "crowd": 0.57,
+    "x": 86.79271,
+    "y": 25.92127,
+    "desc": "Major district in Bihar. Administrative and cultural center."
+  },
+  {
+    "id": "nirmāli_bihar",
+    "name": "Nirmāli",
+    "state": "Bihar",
+    "rating": 4.1,
+    "crowd": 0.44,
+    "x": 86.58537,
+    "y": 26.31397,
+    "desc": "Major district in Bihar. Administrative and cultural center."
+  },
+  {
+    "id": "motipur_bihar",
+    "name": "Motipur",
+    "state": "Bihar",
+    "rating": 4.6,
+    "crowd": 0.37,
+    "x": 85.16076,
+    "y": 26.25267,
+    "desc": "Major district in Bihar. Administrative and cultural center."
+  },
+  {
+    "id": "raghunāthpur_bihar",
+    "name": "Raghunāthpur",
+    "state": "Bihar",
+    "rating": 4.2,
+    "crowd": 0.53,
+    "x": 87.91762,
+    "y": 25.64492,
+    "desc": "Major district in Bihar. Administrative and cultural center."
+  },
+  {
+    "id": "mansurchak_bihar",
+    "name": "Mansur Chak",
+    "state": "Bihar",
+    "rating": 4.2,
+    "crowd": 0.47,
+    "x": 85.92076,
+    "y": 25.62314,
+    "desc": "Major district in Bihar. Administrative and cultural center."
+  },
+  {
+    "id": "arrah_bihar",
+    "name": "Arrah",
+    "state": "Bihar",
+    "rating": 3.8,
+    "crowd": 0.6,
+    "x": 84.66335,
+    "y": 25.55629,
+    "desc": "Major district in Bihar. Administrative and cultural center."
+  },
+  {
+    "id": "rāmnagar_bihar",
+    "name": "Rāmnagar",
+    "state": "Bihar",
+    "rating": 3.9,
+    "crowd": 0.9,
+    "x": 84.32342,
+    "y": 27.16371,
+    "desc": "Major district in Bihar. Administrative and cultural center."
+  },
+  {
+    "id": "rosera_bihar",
+    "name": "Rosera",
+    "state": "Bihar",
+    "rating": 3.9,
+    "crowd": 0.49,
+    "x": 86.03155,
+    "y": 25.75494,
+    "desc": "Major district in Bihar. Administrative and cultural center."
+  },
+  {
+    "id": "bikramganj_bihar",
+    "name": "Bikramganj",
+    "state": "Bihar",
+    "rating": 4.5,
+    "crowd": 0.88,
+    "x": 84.25508,
+    "y": 25.21073,
+    "desc": "Major district in Bihar. Administrative and cultural center."
+  },
+  {
+    "id": "rehli_madhyapradesh",
+    "name": "Rehli",
+    "state": "Madhya Pradesh",
+    "rating": 4.5,
+    "crowd": 0.66,
+    "x": 79.06275,
+    "y": 23.63722,
+    "desc": "Major district in Madhya Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "tendūkheda_madhyapradesh",
+    "name": "Tendūkheda",
+    "state": "Madhya Pradesh",
+    "rating": 4.6,
+    "crowd": 0.76,
+    "x": 79.53947,
+    "y": 23.3962,
+    "desc": "Major district in Madhya Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "khilchipur_madhyapradesh",
+    "name": "Khilchipur",
+    "state": "Madhya Pradesh",
+    "rating": 4.3,
+    "crowd": 0.59,
+    "x": 76.578,
+    "y": 24.03943,
+    "desc": "Major district in Madhya Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "lodhīkheda_madhyapradesh",
+    "name": "Lodhīkheda",
+    "state": "Madhya Pradesh",
+    "rating": 4.1,
+    "crowd": 0.87,
+    "x": 78.85911,
+    "y": 21.58235,
+    "desc": "Major district in Madhya Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "mandlā_madhyapradesh",
+    "name": "Mandlā",
+    "state": "Madhya Pradesh",
+    "rating": 4.6,
+    "crowd": 0.4,
+    "x": 80.37115,
+    "y": 22.59879,
+    "desc": "Major district in Madhya Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "porsa_madhyapradesh",
+    "name": "Porsa",
+    "state": "Madhya Pradesh",
+    "rating": 4.3,
+    "crowd": 0.48,
+    "x": 78.37081,
+    "y": 26.67444,
+    "desc": "Major district in Madhya Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "sailāna_madhyapradesh",
+    "name": "Sailāna",
+    "state": "Madhya Pradesh",
+    "rating": 4.0,
+    "crowd": 0.8,
+    "x": 74.92318,
+    "y": 23.46219,
+    "desc": "Major district in Madhya Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "sehore_madhyapradesh",
+    "name": "Sehore",
+    "state": "Madhya Pradesh",
+    "rating": 3.9,
+    "crowd": 0.55,
+    "x": 77.08333,
+    "y": 23.2,
+    "desc": "Major district in Madhya Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "bijāwar_madhyapradesh",
+    "name": "Bijāwar",
+    "state": "Madhya Pradesh",
+    "rating": 4.2,
+    "crowd": 0.52,
+    "x": 79.48994,
+    "y": 24.62351,
+    "desc": "Major district in Madhya Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "tāl_madhyapradesh",
+    "name": "Tāl",
+    "state": "Madhya Pradesh",
+    "rating": 4.1,
+    "crowd": 0.33,
+    "x": 75.38514,
+    "y": 23.71979,
+    "desc": "Major district in Madhya Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "talen_madhyapradesh",
+    "name": "Talen",
+    "state": "Madhya Pradesh",
+    "rating": 4.3,
+    "crowd": 0.38,
+    "x": 76.72821,
+    "y": 23.56949,
+    "desc": "Major district in Madhya Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "satna_madhyapradesh",
+    "name": "Satna",
+    "state": "Madhya Pradesh",
+    "rating": 4.8,
+    "crowd": 0.35,
+    "x": 80.82719,
+    "y": 24.57726,
+    "desc": "Major district in Madhya Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "mangawān_madhyapradesh",
+    "name": "Mangawān",
+    "state": "Madhya Pradesh",
+    "rating": 4.1,
+    "crowd": 0.71,
+    "x": 81.54644,
+    "y": 24.66754,
+    "desc": "Major district in Madhya Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "majholi_madhyapradesh",
+    "name": "Majholi",
+    "state": "Madhya Pradesh",
+    "rating": 4.8,
+    "crowd": 0.54,
+    "x": 79.92396,
+    "y": 23.50114,
+    "desc": "Major district in Madhya Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "anjad_madhyapradesh",
+    "name": "Anjad",
+    "state": "Madhya Pradesh",
+    "rating": 4.0,
+    "crowd": 0.35,
+    "x": 75.05519,
+    "y": 22.04171,
+    "desc": "Major district in Madhya Pradesh. Administrative and cultural center."
+  },
+  {
+    "id": "kharaghoda_gujarat",
+    "name": "Kharaghoda",
+    "state": "Gujarat",
+    "rating": 3.9,
+    "crowd": 0.45,
+    "x": 71.72664,
+    "y": 23.18713,
+    "desc": "Major district in Gujarat. Administrative and cultural center."
+  },
+  {
+    "id": "sānand_gujarat",
+    "name": "Sānand",
+    "state": "Gujarat",
+    "rating": 4.5,
+    "crowd": 0.66,
+    "x": 72.38177,
+    "y": 22.99227,
+    "desc": "Major district in Gujarat. Administrative and cultural center."
+  },
+  {
+    "id": "vaso_gujarat",
+    "name": "Vaso",
+    "state": "Gujarat",
+    "rating": 4.6,
+    "crowd": 0.76,
+    "x": 72.75519,
+    "y": 22.66079,
+    "desc": "Major district in Gujarat. Administrative and cultural center."
+  },
+  {
+    "id": "jūnāgadh_gujarat",
+    "name": "Jūnāgadh",
+    "state": "Gujarat",
+    "rating": 4.3,
+    "crowd": 0.59,
+    "x": 70.45981,
+    "y": 21.51966,
+    "desc": "Major district in Gujarat. Administrative and cultural center."
+  },
+  {
+    "id": "keshod_gujarat",
+    "name": "Keshod",
+    "state": "Gujarat",
+    "rating": 4.1,
+    "crowd": 0.87,
+    "x": 70.24861,
+    "y": 21.30328,
+    "desc": "Major district in Gujarat. Administrative and cultural center."
+  },
+  {
+    "id": "lakhtar_gujarat",
+    "name": "Lakhtar",
+    "state": "Gujarat",
+    "rating": 4.6,
+    "crowd": 0.4,
+    "x": 71.78844,
+    "y": 22.85683,
+    "desc": "Major district in Gujarat. Administrative and cultural center."
+  },
+  {
+    "id": "pethāpur_gujarat",
+    "name": "Pethāpur",
+    "state": "Gujarat",
+    "rating": 4.3,
+    "crowd": 0.48,
+    "x": 72.67386,
+    "y": 23.26307,
+    "desc": "Major district in Gujarat. Administrative and cultural center."
+  },
+  {
+    "id": "sāvli_gujarat",
+    "name": "Sāvli",
+    "state": "Gujarat",
+    "rating": 4.0,
+    "crowd": 0.8,
+    "x": 73.22317,
+    "y": 22.56188,
+    "desc": "Major district in Gujarat. Administrative and cultural center."
+  },
+  {
+    "id": "hadgood_gujarat",
+    "name": "Hadgood",
+    "state": "Gujarat",
+    "rating": 3.9,
+    "crowd": 0.55,
+    "x": 72.97853,
+    "y": 22.52818,
+    "desc": "Major district in Gujarat. Administrative and cultural center."
+  },
+  {
+    "id": "vithaludyognagarina_gujarat",
+    "name": "Vithal Udyognagar INA",
+    "state": "Gujarat",
+    "rating": 4.2,
+    "crowd": 0.52,
+    "x": 72.92538,
+    "y": 22.53396,
+    "desc": "Major district in Gujarat. Administrative and cultural center."
+  },
+  {
+    "id": "sinor_gujarat",
+    "name": "Sinor",
+    "state": "Gujarat",
+    "rating": 4.1,
+    "crowd": 0.33,
+    "x": 73.33974,
+    "y": 21.91117,
+    "desc": "Major district in Gujarat. Administrative and cultural center."
+  },
+  {
+    "id": "umbergaonina_gujarat",
+    "name": "Umbergaon INA",
+    "state": "Gujarat",
+    "rating": 4.3,
+    "crowd": 0.38,
+    "x": 72.77502,
+    "y": 20.16915,
+    "desc": "Major district in Gujarat. Administrative and cultural center."
+  },
+  {
+    "id": "bagasra_gujarat",
+    "name": "Bagasra",
+    "state": "Gujarat",
+    "rating": 4.8,
+    "crowd": 0.35,
+    "x": 70.95516,
+    "y": 21.48719,
+    "desc": "Major district in Gujarat. Administrative and cultural center."
+  },
+  {
+    "id": "valsād_gujarat",
+    "name": "Valsād",
+    "state": "Gujarat",
+    "rating": 4.1,
+    "crowd": 0.71,
+    "x": 72.93428,
+    "y": 20.61013,
+    "desc": "Major district in Gujarat. Administrative and cultural center."
+  },
+  {
+    "id": "vānsada_gujarat",
+    "name": "Vānsada",
+    "state": "Gujarat",
+    "rating": 4.8,
+    "crowd": 0.54,
+    "x": 73.36389,
+    "y": 20.75817,
+    "desc": "Major district in Gujarat. Administrative and cultural center."
+  },
+  {
+    "id": "attingal_kerala",
+    "name": "Attingal",
+    "state": "Kerala",
+    "rating": 3.8,
+    "crowd": 0.44,
+    "x": 76.81507,
+    "y": 8.69609,
+    "desc": "Major district in Kerala. Administrative and cultural center."
+  },
+  {
+    "id": "rāmamangalam_kerala",
+    "name": "Rāmamangalam",
+    "state": "Kerala",
+    "rating": 4.4,
+    "crowd": 0.32,
+    "x": 76.5,
+    "y": 9.93333,
+    "desc": "Major district in Kerala. Administrative and cultural center."
+  },
+  {
+    "id": "azhikkal_kerala",
+    "name": "Azhikkal",
+    "state": "Kerala",
+    "rating": 4.0,
+    "crowd": 0.72,
+    "x": 75.30512,
+    "y": 11.94043,
+    "desc": "Major district in Kerala. Administrative and cultural center."
+  },
+  {
+    "id": "kumbalam_kerala",
+    "name": "Kumbalam",
+    "state": "Kerala",
+    "rating": 4.4,
+    "crowd": 0.44,
+    "x": 76.31127,
+    "y": 9.9063,
+    "desc": "Major district in Kerala. Administrative and cultural center."
+  },
+  {
+    "id": "mūvattupula_kerala",
+    "name": "Mūvattupula",
+    "state": "Kerala",
+    "rating": 4.4,
+    "crowd": 0.83,
+    "x": 76.57728,
+    "y": 9.98493,
+    "desc": "Major district in Kerala. Administrative and cultural center."
+  },
+  {
+    "id": "neyyāttinkara_kerala",
+    "name": "Neyyāttinkara",
+    "state": "Kerala",
+    "rating": 3.8,
+    "crowd": 0.82,
+    "x": 77.08586,
+    "y": 8.39854,
+    "desc": "Major district in Kerala. Administrative and cultural center."
+  },
+  {
+    "id": "palakkad_kerala",
+    "name": "Palakkad",
+    "state": "Kerala",
+    "rating": 4.6,
+    "crowd": 0.52,
+    "x": 76.65366,
+    "y": 10.77319,
+    "desc": "Major district in Kerala. Administrative and cultural center."
+  },
+  {
+    "id": "ponnāni_kerala",
+    "name": "Ponnāni",
+    "state": "Kerala",
+    "rating": 4.0,
+    "crowd": 0.92,
+    "x": 75.92523,
+    "y": 10.76695,
+    "desc": "Major district in Kerala. Administrative and cultural center."
+  },
+  {
+    "id": "shertallai_kerala",
+    "name": "Shertallai",
+    "state": "Kerala",
+    "rating": 4.2,
+    "crowd": 0.36,
+    "x": 76.33996,
+    "y": 9.68581,
+    "desc": "Major district in Kerala. Administrative and cultural center."
+  },
+  {
+    "id": "adūr_kerala",
+    "name": "Adūr",
+    "state": "Kerala",
+    "rating": 3.9,
+    "crowd": 0.85,
+    "x": 76.73192,
+    "y": 9.15595,
+    "desc": "Major district in Kerala. Administrative and cultural center."
+  },
+  {
+    "id": "erāttupetta_kerala",
+    "name": "Erāttupetta",
+    "state": "Kerala",
+    "rating": 4.5,
+    "crowd": 0.82,
+    "x": 76.77891,
+    "y": 9.68747,
+    "desc": "Major district in Kerala. Administrative and cultural center."
+  },
+  {
+    "id": "talipparamba_kerala",
+    "name": "Talipparamba",
+    "state": "Kerala",
+    "rating": 4.6,
+    "crowd": 0.65,
+    "x": 75.35927,
+    "y": 12.04161,
+    "desc": "Major district in Kerala. Administrative and cultural center."
+  },
+  {
+    "id": "chēlakara_kerala",
+    "name": "Chēlakara",
+    "state": "Kerala",
+    "rating": 4.9,
+    "crowd": 0.55,
+    "x": 76.34387,
+    "y": 10.69289,
+    "desc": "Major district in Kerala. Administrative and cultural center."
+  },
+  {
+    "id": "kottayam_kerala",
+    "name": "Kottayam",
+    "state": "Kerala",
+    "rating": 4.4,
+    "crowd": 0.84,
+    "x": 76.52132,
+    "y": 9.58692,
+    "desc": "Major district in Kerala. Administrative and cultural center."
+  },
+  {
+    "id": "vaikam_kerala",
+    "name": "Vaikam",
+    "state": "Kerala",
+    "rating": 4.5,
+    "crowd": 0.86,
+    "x": 76.39637,
+    "y": 9.74858,
+    "desc": "Major district in Kerala. Administrative and cultural center."
+  },
+  {
+    "id": "clementtown_uttarakhand",
+    "name": "Clement Town",
+    "state": "Uttarakhand",
+    "rating": 3.9,
+    "crowd": 0.45,
+    "x": 78.00862,
+    "y": 30.26361,
+    "desc": "Major district in Uttarakhand. Administrative and cultural center."
+  },
+  {
+    "id": "roorkee_uttarakhand",
+    "name": "Roorkee",
+    "state": "Uttarakhand",
+    "rating": 4.5,
+    "crowd": 0.66,
+    "x": 77.89118,
+    "y": 29.86632,
+    "desc": "Major district in Uttarakhand. Administrative and cultural center."
+  },
+  {
+    "id": "tehri_uttarakhand",
+    "name": "Tehri",
+    "state": "Uttarakhand",
+    "rating": 4.6,
+    "crowd": 0.76,
+    "x": 78.4803,
+    "y": 30.39086,
+    "desc": "Major district in Uttarakhand. Administrative and cultural center."
+  },
+  {
+    "id": "bāzpur_uttarakhand",
+    "name": "Bāzpur",
+    "state": "Uttarakhand",
+    "rating": 4.3,
+    "crowd": 0.59,
+    "x": 79.10814,
+    "y": 29.15299,
+    "desc": "Major district in Uttarakhand. Administrative and cultural center."
+  },
+  {
+    "id": "nainitāl_uttarakhand",
+    "name": "Naini Tāl",
+    "state": "Uttarakhand",
+    "rating": 4.1,
+    "crowd": 0.87,
+    "x": 79.44686,
+    "y": 29.39743,
+    "desc": "Major district in Uttarakhand. Administrative and cultural center."
+  },
+  {
+    "id": "pauri_uttarakhand",
+    "name": "Pauri",
+    "state": "Uttarakhand",
+    "rating": 4.6,
+    "crowd": 0.4,
+    "x": 78.7771,
+    "y": 30.15286,
+    "desc": "Major district in Uttarakhand. Administrative and cultural center."
+  },
+  {
+    "id": "pīpalkoti_uttarakhand",
+    "name": "Pīpalkoti",
+    "state": "Uttarakhand",
+    "rating": 4.3,
+    "crowd": 0.48,
+    "x": 79.43066,
+    "y": 30.42553,
+    "desc": "Major district in Uttarakhand. Administrative and cultural center."
+  },
+  {
+    "id": "rishīkesh_uttarakhand",
+    "name": "Rishīkesh",
+    "state": "Uttarakhand",
+    "rating": 4.0,
+    "crowd": 0.8,
+    "x": 78.29255,
+    "y": 30.10778,
+    "desc": "Major district in Uttarakhand. Administrative and cultural center."
+  },
+  {
+    "id": "rudraprayāg_uttarakhand",
+    "name": "Rudraprayāg",
+    "state": "Uttarakhand",
+    "rating": 3.9,
+    "crowd": 0.55,
+    "x": 78.98354,
+    "y": 30.28467,
+    "desc": "Major district in Uttarakhand. Administrative and cultural center."
+  },
+  {
+    "id": "dwārāhāt_uttarakhand",
+    "name": "Dwārāhāt",
+    "state": "Uttarakhand",
+    "rating": 4.2,
+    "crowd": 0.52,
+    "x": 79.42731,
+    "y": 29.77785,
+    "desc": "Major district in Uttarakhand. Administrative and cultural center."
+  },
+  {
+    "id": "sitārganj_uttarakhand",
+    "name": "Sitārganj",
+    "state": "Uttarakhand",
+    "rating": 4.1,
+    "crowd": 0.33,
+    "x": 79.70436,
+    "y": 28.9293,
+    "desc": "Major district in Uttarakhand. Administrative and cultural center."
+  },
+  {
+    "id": "dhārchula_uttarakhand",
+    "name": "Dhārchula",
+    "state": "Uttarakhand",
+    "rating": 4.3,
+    "crowd": 0.38,
+    "x": 80.51951,
+    "y": 29.84707,
+    "desc": "Major district in Uttarakhand. Administrative and cultural center."
+  },
+  {
+    "id": "kālāgarhprojectcolony_uttarakhand",
+    "name": "Kālāgarh Project Colony",
+    "state": "Uttarakhand",
+    "rating": 4.8,
+    "crowd": 0.35,
+    "x": 78.78449,
+    "y": 29.4778,
+    "desc": "Major district in Uttarakhand. Administrative and cultural center."
+  },
+  {
+    "id": "tanakpur_uttarakhand",
+    "name": "Tanakpur",
+    "state": "Uttarakhand",
+    "rating": 4.1,
+    "crowd": 0.71,
+    "x": 80.11139,
+    "y": 29.074,
+    "desc": "Major district in Uttarakhand. Administrative and cultural center."
+  },
+  {
+    "id": "bāgeshwar_uttarakhand",
+    "name": "Bāgeshwar",
+    "state": "Uttarakhand",
+    "rating": 4.8,
+    "crowd": 0.54,
+    "x": 79.77161,
+    "y": 29.83738,
+    "desc": "Major district in Uttarakhand. Administrative and cultural center."
+  },
+  {
+    "id": "sitapur_chhattisgarh",
+    "name": "Sitapur",
+    "state": "Chhattisgarh",
+    "rating": 3.8,
+    "crowd": 0.44,
+    "x": 83.49545,
+    "y": 22.78072,
+    "desc": "Major district in Chhattisgarh. Administrative and cultural center."
+  },
+  {
+    "id": "partābpur_chhattisgarh",
+    "name": "Partābpur",
+    "state": "Chhattisgarh",
+    "rating": 4.4,
+    "crowd": 0.32,
+    "x": 83.21006,
+    "y": 23.48514,
+    "desc": "Major district in Chhattisgarh. Administrative and cultural center."
+  },
+  {
+    "id": "simga_chhattisgarh",
+    "name": "Simga",
+    "state": "Chhattisgarh",
+    "rating": 4.0,
+    "crowd": 0.72,
+    "x": 81.70376,
+    "y": 21.6281,
+    "desc": "Major district in Chhattisgarh. Administrative and cultural center."
+  },
+  {
+    "id": "jānjgīr_chhattisgarh",
+    "name": "Jānjgīr",
+    "state": "Chhattisgarh",
+    "rating": 4.4,
+    "crowd": 0.44,
+    "x": 82.5778,
+    "y": 22.00922,
+    "desc": "Major district in Chhattisgarh. Administrative and cultural center."
+  },
+  {
+    "id": "khairāgarh_chhattisgarh",
+    "name": "Khairāgarh",
+    "state": "Chhattisgarh",
+    "rating": 4.4,
+    "crowd": 0.83,
+    "x": 80.97942,
+    "y": 21.41859,
+    "desc": "Major district in Chhattisgarh. Administrative and cultural center."
+  },
+  {
+    "id": "kondagaon_chhattisgarh",
+    "name": "Kondagaon",
+    "state": "Chhattisgarh",
+    "rating": 3.8,
+    "crowd": 0.82,
+    "x": 81.664,
+    "y": 19.59083,
+    "desc": "Major district in Chhattisgarh. Administrative and cultural center."
+  },
+  {
+    "id": "nawāpāra_chhattisgarh",
+    "name": "Nawāpāra",
+    "state": "Chhattisgarh",
+    "rating": 4.6,
+    "crowd": 0.52,
+    "x": 81.85884,
+    "y": 20.97173,
+    "desc": "Major district in Chhattisgarh. Administrative and cultural center."
+  },
+  {
+    "id": "bhilaicharoda_chhattisgarh",
+    "name": "Bhilai Charoda",
+    "state": "Chhattisgarh",
+    "rating": 4.0,
+    "crowd": 0.92,
+    "x": 81.45609,
+    "y": 21.22305,
+    "desc": "Major district in Chhattisgarh. Administrative and cultural center."
+  },
+  {
+    "id": "pātan_chhattisgarh",
+    "name": "Pātan",
+    "state": "Chhattisgarh",
+    "rating": 4.2,
+    "crowd": 0.36,
+    "x": 81.53333,
+    "y": 21.03333,
+    "desc": "Major district in Chhattisgarh. Administrative and cultural center."
+  },
+  {
+    "id": "chandrapur_chhattisgarh",
+    "name": "Chandrapur",
+    "state": "Chhattisgarh",
+    "rating": 3.9,
+    "crowd": 0.85,
+    "x": 83.23487,
+    "y": 21.70756,
+    "desc": "Major district in Chhattisgarh. Administrative and cultural center."
+  },
+  {
+    "id": "bishrampur_chhattisgarh",
+    "name": "Bishrampur",
+    "state": "Chhattisgarh",
+    "rating": 4.5,
+    "crowd": 0.82,
+    "x": 83.0047,
+    "y": 23.18967,
+    "desc": "Major district in Chhattisgarh. Administrative and cultural center."
+  },
+  {
+    "id": "pithora_chhattisgarh",
+    "name": "Pithora",
+    "state": "Chhattisgarh",
+    "rating": 4.6,
+    "crowd": 0.65,
+    "x": 82.51707,
+    "y": 21.25021,
+    "desc": "Major district in Chhattisgarh. Administrative and cultural center."
+  },
+  {
+    "id": "piriāpāra_chhattisgarh",
+    "name": "Piriāpāra",
+    "state": "Chhattisgarh",
+    "rating": 4.9,
+    "crowd": 0.55,
+    "x": 82.70039,
+    "y": 22.97059,
+    "desc": "Major district in Chhattisgarh. Administrative and cultural center."
+  },
+  {
+    "id": "bhairamgarh_chhattisgarh",
+    "name": "Bhairamgarh",
+    "state": "Chhattisgarh",
+    "rating": 4.4,
+    "crowd": 0.84,
+    "x": 81.05917,
+    "y": 19.00641,
+    "desc": "Major district in Chhattisgarh. Administrative and cultural center."
+  },
+  {
+    "id": "saria_chhattisgarh",
+    "name": "Saria",
+    "state": "Chhattisgarh",
+    "rating": 4.5,
+    "crowd": 0.86,
+    "x": 83.36311,
+    "y": 21.64009,
+    "desc": "Major district in Chhattisgarh. Administrative and cultural center."
+  },
+  {
+    "id": "masila_westbengal",
+    "name": "Masila",
+    "state": "West Bengal",
+    "rating": 3.9,
+    "crowd": 0.45,
+    "x": 88.23278,
+    "y": 22.58083,
+    "desc": "Major district in West Bengal. Administrative and cultural center."
+  },
+  {
+    "id": "pandua_westbengal",
+    "name": "Pandua",
+    "state": "West Bengal",
+    "rating": 4.5,
+    "crowd": 0.66,
+    "x": 88.28637,
+    "y": 23.07492,
+    "desc": "Major district in West Bengal. Administrative and cultural center."
+  },
+  {
+    "id": "rajpursonarpur_westbengal",
+    "name": "Rajpur Sonarpur",
+    "state": "West Bengal",
+    "rating": 4.6,
+    "crowd": 0.76,
+    "x": 88.43205,
+    "y": 22.4382,
+    "desc": "Major district in West Bengal. Administrative and cultural center."
+  },
+  {
+    "id": "jhalidā_westbengal",
+    "name": "Jhalidā",
+    "state": "West Bengal",
+    "rating": 4.3,
+    "crowd": 0.59,
+    "x": 85.97643,
+    "y": 23.36545,
+    "desc": "Major district in West Bengal. Administrative and cultural center."
+  },
+  {
+    "id": "kalyani_westbengal",
+    "name": "Kalyani",
+    "state": "West Bengal",
+    "rating": 4.1,
+    "crowd": 0.87,
+    "x": 88.4337,
+    "y": 22.9757,
+    "desc": "Major district in West Bengal. Administrative and cultural center."
+  },
+  {
+    "id": "kātoya_westbengal",
+    "name": "Kātoya",
+    "state": "West Bengal",
+    "rating": 4.6,
+    "crowd": 0.4,
+    "x": 88.13258,
+    "y": 23.64558,
+    "desc": "Major district in West Bengal. Administrative and cultural center."
+  },
+  {
+    "id": "muri_westbengal",
+    "name": "Muri",
+    "state": "West Bengal",
+    "rating": 4.3,
+    "crowd": 0.48,
+    "x": 85.86236,
+    "y": 23.37074,
+    "desc": "Major district in West Bengal. Administrative and cultural center."
+  },
+  {
+    "id": "pātrasāer_westbengal",
+    "name": "Pātrasāer",
+    "state": "West Bengal",
+    "rating": 4.0,
+    "crowd": 0.8,
+    "x": 87.53319,
+    "y": 23.19697,
+    "desc": "Major district in West Bengal. Administrative and cultural center."
+  },
+  {
+    "id": "gurdaha_westbengal",
+    "name": "Gurdaha",
+    "state": "West Bengal",
+    "rating": 3.9,
+    "crowd": 0.55,
+    "x": 88.75944,
+    "y": 22.73472,
+    "desc": "Major district in West Bengal. Administrative and cultural center."
+  },
+  {
+    "id": "āsansol_westbengal",
+    "name": "Āsansol",
+    "state": "West Bengal",
+    "rating": 4.2,
+    "crowd": 0.52,
+    "x": 86.98333,
+    "y": 23.68333,
+    "desc": "Major district in West Bengal. Administrative and cultural center."
+  },
+  {
+    "id": "rāiganj_westbengal",
+    "name": "Rāiganj",
+    "state": "West Bengal",
+    "rating": 4.1,
+    "crowd": 0.33,
+    "x": 88.12449,
+    "y": 25.61281,
+    "desc": "Major district in West Bengal. Administrative and cultural center."
+  },
+  {
+    "id": "rāmchandrapur_westbengal",
+    "name": "Rāmchandrapur",
+    "state": "West Bengal",
+    "rating": 4.3,
+    "crowd": 0.38,
+    "x": 88.47528,
+    "y": 22.89639,
+    "desc": "Major district in West Bengal. Administrative and cultural center."
+  },
+  {
+    "id": "chandrakona_westbengal",
+    "name": "Chandrakona",
+    "state": "West Bengal",
+    "rating": 4.8,
+    "crowd": 0.35,
+    "x": 87.51667,
+    "y": 22.73333,
+    "desc": "Major district in West Bengal. Administrative and cultural center."
+  },
+  {
+    "id": "sodpur_westbengal",
+    "name": "Sodpur",
+    "state": "West Bengal",
+    "rating": 4.1,
+    "crowd": 0.71,
+    "x": 88.39166,
+    "y": 22.70428,
+    "desc": "Major district in West Bengal. Administrative and cultural center."
+  },
+  {
+    "id": "sonāmukhi_westbengal",
+    "name": "Sonāmukhi",
+    "state": "West Bengal",
+    "rating": 4.8,
+    "crowd": 0.54,
+    "x": 87.41336,
+    "y": 23.30521,
+    "desc": "Major district in West Bengal. Administrative and cultural center."
+  },
+  {
+    "id": "chotahaibor_assam",
+    "name": "Chota Haibor",
+    "state": "Assam",
+    "rating": 3.8,
+    "crowd": 0.36,
+    "x": 92.69432,
+    "y": 26.33136,
+    "desc": "Major district in Assam. Administrative and cultural center."
+  },
+  {
+    "id": "mangaldai_assam",
+    "name": "Mangaldai",
+    "state": "Assam",
+    "rating": 4.1,
+    "crowd": 0.69,
+    "x": 92.03047,
+    "y": 26.44212,
+    "desc": "Major district in Assam. Administrative and cultural center."
+  },
+  {
+    "id": "sonāri_assam",
+    "name": "Sonāri",
+    "state": "Assam",
+    "rating": 4.4,
+    "crowd": 0.77,
+    "x": 95.01629,
+    "y": 27.02462,
+    "desc": "Major district in Assam. Administrative and cultural center."
+  },
+  {
+    "id": "dahali_assam",
+    "name": "Dahali",
+    "state": "Assam",
+    "rating": 4.6,
+    "crowd": 0.57,
+    "x": 91.49835,
+    "y": 26.09694,
+    "desc": "Major district in Assam. Administrative and cultural center."
+  },
+  {
+    "id": "bokākhāt_assam",
+    "name": "Bokākhāt",
+    "state": "Assam",
+    "rating": 4.3,
+    "crowd": 0.48,
+    "x": 93.60052,
+    "y": 26.64018,
+    "desc": "Major district in Assam. Administrative and cultural center."
+  },
+  {
+    "id": "dhemāji_assam",
+    "name": "Dhemāji",
+    "state": "Assam",
+    "rating": 4.8,
+    "crowd": 0.79,
+    "x": 94.58333,
+    "y": 27.48333,
+    "desc": "Major district in Assam. Administrative and cultural center."
+  },
+  {
+    "id": "diphu_assam",
+    "name": "Diphu",
+    "state": "Assam",
+    "rating": 4.0,
+    "crowd": 0.57,
+    "x": 93.43116,
+    "y": 25.84341,
+    "desc": "Major district in Assam. Administrative and cultural center."
+  },
+  {
+    "id": "kokrajhar_assam",
+    "name": "Kokrajhar",
+    "state": "Assam",
+    "rating": 4.1,
+    "crowd": 0.44,
+    "x": 90.27286,
+    "y": 26.40107,
+    "desc": "Major district in Assam. Administrative and cultural center."
+  },
+  {
+    "id": "borpukhuri_assam",
+    "name": "Borpukhuri",
+    "state": "Assam",
+    "rating": 4.6,
+    "crowd": 0.37,
+    "x": 92.84525,
+    "y": 26.01553,
+    "desc": "Major district in Assam. Administrative and cultural center."
+  },
+  {
+    "id": "mariāni_assam",
+    "name": "Mariāni",
+    "state": "Assam",
+    "rating": 4.2,
+    "crowd": 0.53,
+    "x": 94.31529,
+    "y": 26.65725,
+    "desc": "Major district in Assam. Administrative and cultural center."
+  },
+  {
+    "id": "mairabaritown_assam",
+    "name": "Mairabari Town",
+    "state": "Assam",
+    "rating": 4.2,
+    "crowd": 0.47,
+    "x": 92.42272,
+    "y": 26.45357,
+    "desc": "Major district in Assam. Administrative and cultural center."
+  },
+  {
+    "id": "nizbahjani_assam",
+    "name": "Niz-Bahjani",
+    "state": "Assam",
+    "rating": 3.8,
+    "crowd": 0.6,
+    "x": 91.41588,
+    "y": 26.38059,
+    "desc": "Major district in Assam. Administrative and cultural center."
+  },
+  {
+    "id": "nalbāri_assam",
+    "name": "Nalbāri",
+    "state": "Assam",
+    "rating": 3.9,
+    "crowd": 0.9,
+    "x": 91.44041,
+    "y": 26.43937,
+    "desc": "Major district in Assam. Administrative and cultural center."
+  },
+  {
+    "id": "no2goreswar_assam",
+    "name": "No.2 Goreswar",
+    "state": "Assam",
+    "rating": 3.9,
+    "crowd": 0.49,
+    "x": 91.7251,
+    "y": 26.53062,
+    "desc": "Major district in Assam. Administrative and cultural center."
+  },
+  {
+    "id": "sonari_assam",
+    "name": "Sonari",
+    "state": "Assam",
+    "rating": 4.5,
+    "crowd": 0.88,
+    "x": 95.02753,
+    "y": 27.07344,
+    "desc": "Major district in Assam. Administrative and cultural center."
+  },
+  {
+    "id": "āmbāsa_tripura",
+    "name": "Āmbāsa",
+    "state": "Tripura",
+    "rating": 3.8,
+    "crowd": 0.44,
+    "x": 91.85436,
+    "y": 23.936,
+    "desc": "Major district in Tripura. Administrative and cultural center."
+  },
+  {
+    "id": "sonāmura_tripura",
+    "name": "Sonāmura",
+    "state": "Tripura",
+    "rating": 4.4,
+    "crowd": 0.32,
+    "x": 91.2659,
+    "y": 23.47547,
+    "desc": "Major district in Tripura. Administrative and cultural center."
+  },
+  {
+    "id": "udaipur_tripura",
+    "name": "Udaipur",
+    "state": "Tripura",
+    "rating": 4.0,
+    "crowd": 0.72,
+    "x": 91.48333,
+    "y": 23.53333,
+    "desc": "Major district in Tripura. Administrative and cultural center."
+  },
+  {
+    "id": "khowai_tripura",
+    "name": "Khowai",
+    "state": "Tripura",
+    "rating": 4.4,
+    "crowd": 0.44,
+    "x": 91.59972,
+    "y": 24.07964,
+    "desc": "Major district in Tripura. Administrative and cultural center."
+  },
+  {
+    "id": "rānīrbāzār_tripura",
+    "name": "Rānīr Bāzār",
+    "state": "Tripura",
+    "rating": 4.4,
+    "crowd": 0.83,
+    "x": 91.36614,
+    "y": 23.83463,
+    "desc": "Major district in Tripura. Administrative and cultural center."
+  },
+  {
+    "id": "barjala_tripura",
+    "name": "Barjala",
+    "state": "Tripura",
+    "rating": 3.8,
+    "crowd": 0.82,
+    "x": 91.35596,
+    "y": 23.6182,
+    "desc": "Major district in Tripura. Administrative and cultural center."
+  },
+  {
+    "id": "sabrūm_tripura",
+    "name": "Sabrūm",
+    "state": "Tripura",
+    "rating": 4.6,
+    "crowd": 0.52,
+    "x": 91.72427,
+    "y": 23.00153,
+    "desc": "Major district in Tripura. Administrative and cultural center."
+  },
+  {
+    "id": "kamalpur_tripura",
+    "name": "Kamalpur",
+    "state": "Tripura",
+    "rating": 4.0,
+    "crowd": 0.92,
+    "x": 91.83438,
+    "y": 24.19593,
+    "desc": "Major district in Tripura. Administrative and cultural center."
+  },
+  {
+    "id": "amarpur_tripura",
+    "name": "Amarpur",
+    "state": "Tripura",
+    "rating": 4.2,
+    "crowd": 0.36,
+    "x": 91.65879,
+    "y": 23.5257,
+    "desc": "Major district in Tripura. Administrative and cultural center."
+  },
+  {
+    "id": "bishramganj_tripura",
+    "name": "Bishramganj",
+    "state": "Tripura",
+    "rating": 3.9,
+    "crowd": 0.85,
+    "x": 91.34355,
+    "y": 23.60582,
+    "desc": "Major district in Tripura. Administrative and cultural center."
+  },
+  {
+    "id": "kailāshahar_tripura",
+    "name": "Kailāshahar",
+    "state": "Tripura",
+    "rating": 4.5,
+    "crowd": 0.82,
+    "x": 92.00391,
+    "y": 24.33199,
+    "desc": "Major district in Tripura. Administrative and cultural center."
+  },
+  {
+    "id": "dharmanagar_tripura",
+    "name": "Dharmanagar",
+    "state": "Tripura",
+    "rating": 4.6,
+    "crowd": 0.65,
+    "x": 92.16667,
+    "y": 24.36667,
+    "desc": "Major district in Tripura. Administrative and cultural center."
+  },
+  {
+    "id": "agartala_tripura",
+    "name": "Agartala",
+    "state": "Tripura",
+    "rating": 4.9,
+    "crowd": 0.55,
+    "x": 91.27939,
+    "y": 23.83605,
+    "desc": "Major district in Tripura. Administrative and cultural center."
+  },
+  {
+    "id": "belonia_tripura",
+    "name": "Belonia",
+    "state": "Tripura",
+    "rating": 4.4,
+    "crowd": 0.84,
+    "x": 91.45407,
+    "y": 23.25178,
+    "desc": "Major district in Tripura. Administrative and cultural center."
+  },
+  {
+    "id": "bargarh_odisha",
+    "name": "Bargarh",
+    "state": "Odisha",
+    "rating": 3.8,
+    "crowd": 0.44,
+    "x": 83.61905,
+    "y": 21.33348,
+    "desc": "Major district in Odisha. Administrative and cultural center."
+  },
+  {
+    "id": "puri_odisha",
+    "name": "Puri",
+    "state": "Odisha",
+    "rating": 4.4,
+    "crowd": 0.32,
+    "x": 85.82494,
+    "y": 19.79825,
+    "desc": "Major district in Odisha. Administrative and cultural center."
+  },
+  {
+    "id": "tālcher_odisha",
+    "name": "Tālcher",
+    "state": "Odisha",
+    "rating": 4.0,
+    "crowd": 0.72,
+    "x": 85.23354,
+    "y": 20.94927,
+    "desc": "Major district in Odisha. Administrative and cultural center."
+  },
+  {
+    "id": "raurkelaindustrialtownship_odisha",
+    "name": "Raurkela Industrial Township",
+    "state": "Odisha",
+    "rating": 4.4,
+    "crowd": 0.44,
+    "x": 84.86176,
+    "y": 22.19994,
+    "desc": "Major district in Odisha. Administrative and cultural center."
+  },
+  {
+    "id": "kharhiāl_odisha",
+    "name": "Kharhiāl",
+    "state": "Odisha",
+    "rating": 4.4,
+    "crowd": 0.83,
+    "x": 82.7606,
+    "y": 20.28845,
+    "desc": "Major district in Odisha. Administrative and cultural center."
+  },
+  {
+    "id": "kodala_odisha",
+    "name": "Kodala",
+    "state": "Odisha",
+    "rating": 3.8,
+    "crowd": 0.82,
+    "x": 84.94075,
+    "y": 19.62425,
+    "desc": "Major district in Odisha. Administrative and cultural center."
+  },
+  {
+    "id": "kuchaiburi_odisha",
+    "name": "Kuchaiburi",
+    "state": "Odisha",
+    "rating": 4.6,
+    "crowd": 0.52,
+    "x": 86.17385,
+    "y": 22.26675,
+    "desc": "Major district in Odisha. Administrative and cultural center."
+  },
+  {
+    "id": "phulbāni_odisha",
+    "name": "Phulbāni",
+    "state": "Odisha",
+    "rating": 4.0,
+    "crowd": 0.92,
+    "x": 84.23063,
+    "y": 20.48101,
+    "desc": "Major district in Odisha. Administrative and cultural center."
+  },
+  {
+    "id": "purushottampur_odisha",
+    "name": "Purushottampur",
+    "state": "Odisha",
+    "rating": 4.2,
+    "crowd": 0.36,
+    "x": 84.88514,
+    "y": 19.52024,
+    "desc": "Major district in Odisha. Administrative and cultural center."
+  },
+  {
+    "id": "balimila_odisha",
+    "name": "Balimila",
+    "state": "Odisha",
+    "rating": 3.9,
+    "crowd": 0.85,
+    "x": 82.10659,
+    "y": 18.25167,
+    "desc": "Major district in Odisha. Administrative and cultural center."
+  },
+  {
+    "id": "bolānīkhodān_odisha",
+    "name": "Bolānīkhodān",
+    "state": "Odisha",
+    "rating": 4.5,
+    "crowd": 0.82,
+    "x": 85.33645,
+    "y": 22.11312,
+    "desc": "Major district in Odisha. Administrative and cultural center."
+  },
+  {
+    "id": "rourkela_odisha",
+    "name": "Rourkela",
+    "state": "Odisha",
+    "rating": 4.6,
+    "crowd": 0.65,
+    "x": 84.86414,
+    "y": 22.22496,
+    "desc": "Major district in Odisha. Administrative and cultural center."
+  },
+  {
+    "id": "bhanjanagar_odisha",
+    "name": "Bhanjanagar",
+    "state": "Odisha",
+    "rating": 4.9,
+    "crowd": 0.55,
+    "x": 84.58201,
+    "y": 19.92719,
+    "desc": "Major district in Odisha. Administrative and cultural center."
+  },
+  {
+    "id": "ganjām_odisha",
+    "name": "Ganjām",
+    "state": "Odisha",
+    "rating": 4.4,
+    "crowd": 0.84,
+    "x": 85.05079,
+    "y": 19.38705,
+    "desc": "Major district in Odisha. Administrative and cultural center."
+  },
+  {
+    "id": "sundargarh_odisha",
+    "name": "Sundargarh",
+    "state": "Odisha",
+    "rating": 4.5,
+    "crowd": 0.86,
+    "x": 84.03333,
+    "y": 22.11667,
+    "desc": "Major district in Odisha. Administrative and cultural center."
+  },
+  {
+    "id": "khliehriat_meghalaya",
+    "name": "Khliehriat",
+    "state": "Meghalaya",
+    "rating": 3.8,
+    "crowd": 0.36,
+    "x": 92.36643,
+    "y": 25.35776,
+    "desc": "Major district in Meghalaya. Administrative and cultural center."
+  },
+  {
+    "id": "shillong_meghalaya",
+    "name": "Shillong",
+    "state": "Meghalaya",
+    "rating": 4.1,
+    "crowd": 0.69,
+    "x": 91.88313,
+    "y": 25.56892,
+    "desc": "Major district in Meghalaya. Administrative and cultural center."
+  },
+  {
+    "id": "tura_meghalaya",
+    "name": "Tura",
+    "state": "Meghalaya",
+    "rating": 4.4,
+    "crowd": 0.77,
+    "x": 90.20239,
+    "y": 25.51421,
+    "desc": "Major district in Meghalaya. Administrative and cultural center."
+  },
+  {
+    "id": "mankāchar_meghalaya",
+    "name": "Mankāchar",
+    "state": "Meghalaya",
+    "rating": 4.6,
+    "crowd": 0.57,
+    "x": 89.86373,
+    "y": 25.53347,
+    "desc": "Major district in Meghalaya. Administrative and cultural center."
+  },
+  {
+    "id": "ampati_meghalaya",
+    "name": "Ampati",
+    "state": "Meghalaya",
+    "rating": 4.3,
+    "crowd": 0.48,
+    "x": 89.93325,
+    "y": 25.4623,
+    "desc": "Major district in Meghalaya. Administrative and cultural center."
+  },
+  {
+    "id": "cherrapunji_meghalaya",
+    "name": "Cherrapunji",
+    "state": "Meghalaya",
+    "rating": 4.8,
+    "crowd": 0.79,
+    "x": 91.69619,
+    "y": 25.30089,
+    "desc": "Major district in Meghalaya. Administrative and cultural center."
+  },
+  {
+    "id": "mairang_meghalaya",
+    "name": "Mairang",
+    "state": "Meghalaya",
+    "rating": 4.0,
+    "crowd": 0.57,
+    "x": 91.63602,
+    "y": 25.56165,
+    "desc": "Major district in Meghalaya. Administrative and cultural center."
+  },
+  {
+    "id": "resubelpara_meghalaya",
+    "name": "Resubelpara",
+    "state": "Meghalaya",
+    "rating": 4.1,
+    "crowd": 0.44,
+    "x": 90.60747,
+    "y": 25.90404,
+    "desc": "Major district in Meghalaya. Administrative and cultural center."
+  },
+  {
+    "id": "nongstoin_meghalaya",
+    "name": "Nongstoin",
+    "state": "Meghalaya",
+    "rating": 4.6,
+    "crowd": 0.37,
+    "x": 91.26484,
+    "y": 25.51704,
+    "desc": "Major district in Meghalaya. Administrative and cultural center."
+  },
+  {
+    "id": "nongpoh_meghalaya",
+    "name": "Nongpoh",
+    "state": "Meghalaya",
+    "rating": 4.2,
+    "crowd": 0.53,
+    "x": 91.87694,
+    "y": 25.9023,
+    "desc": "Major district in Meghalaya. Administrative and cultural center."
+  },
+  {
+    "id": "williamnagar_meghalaya",
+    "name": "Williamnagar",
+    "state": "Meghalaya",
+    "rating": 4.2,
+    "crowd": 0.47,
+    "x": 90.6168,
+    "y": 25.4955,
+    "desc": "Major district in Meghalaya. Administrative and cultural center."
+  },
+  {
+    "id": "nirsā_jharkhand",
+    "name": "Nirsā",
+    "state": "Jharkhand",
+    "rating": 4.4,
+    "crowd": 0.32,
+    "x": 86.70692,
+    "y": 23.78438,
+    "desc": "Major district in Jharkhand. Administrative and cultural center."
+  },
+  {
+    "id": "sijua_jharkhand",
+    "name": "Sijua",
+    "state": "Jharkhand",
+    "rating": 4.0,
+    "crowd": 0.72,
+    "x": 86.33028,
+    "y": 23.77617,
+    "desc": "Major district in Jharkhand. Administrative and cultural center."
+  },
+  {
+    "id": "jasidih_jharkhand",
+    "name": "Jasidih",
+    "state": "Jharkhand",
+    "rating": 4.4,
+    "crowd": 0.44,
+    "x": 86.64576,
+    "y": 24.51379,
+    "desc": "Major district in Jharkhand. Administrative and cultural center."
+  },
+  {
+    "id": "kālikāpur_jharkhand",
+    "name": "Kālikāpur",
+    "state": "Jharkhand",
+    "rating": 4.4,
+    "crowd": 0.83,
+    "x": 86.2881,
+    "y": 22.61662,
+    "desc": "Major district in Jharkhand. Administrative and cultural center."
+  },
+  {
+    "id": "kātrās_jharkhand",
+    "name": "Kātrās",
+    "state": "Jharkhand",
+    "rating": 3.8,
+    "crowd": 0.82,
+    "x": 86.29834,
+    "y": 23.79752,
+    "desc": "Major district in Jharkhand. Administrative and cultural center."
+  },
+  {
+    "id": "mugma_jharkhand",
+    "name": "Mugma",
+    "state": "Jharkhand",
+    "rating": 4.6,
+    "crowd": 0.52,
+    "x": 86.72746,
+    "y": 23.77015,
+    "desc": "Major district in Jharkhand. Administrative and cultural center."
+  },
+  {
+    "id": "noāmundi_jharkhand",
+    "name": "Noāmundi",
+    "state": "Jharkhand",
+    "rating": 4.0,
+    "crowd": 0.92,
+    "x": 85.50416,
+    "y": 22.16094,
+    "desc": "Major district in Jharkhand. Administrative and cultural center."
+  },
+  {
+    "id": "bhojudih_jharkhand",
+    "name": "Bhojudih",
+    "state": "Jharkhand",
+    "rating": 4.2,
+    "crowd": 0.36,
+    "x": 86.44105,
+    "y": 23.63962,
+    "desc": "Major district in Jharkhand. Administrative and cultural center."
+  },
+  {
+    "id": "pāthardih_jharkhand",
+    "name": "Pāthardih",
+    "state": "Jharkhand",
+    "rating": 3.9,
+    "crowd": 0.85,
+    "x": 86.43166,
+    "y": 23.6658,
+    "desc": "Major district in Jharkhand. Administrative and cultural center."
+  },
+  {
+    "id": "dumka_jharkhand",
+    "name": "Dumka",
+    "state": "Jharkhand",
+    "rating": 4.5,
+    "crowd": 0.82,
+    "x": 87.24855,
+    "y": 24.26778,
+    "desc": "Major district in Jharkhand. Administrative and cultural center."
+  },
+  {
+    "id": "sāruberā_jharkhand",
+    "name": "Sāruberā",
+    "state": "Jharkhand",
+    "rating": 4.6,
+    "crowd": 0.65,
+    "x": 85.99628,
+    "y": 23.81813,
+    "desc": "Major district in Jharkhand. Administrative and cultural center."
+  },
+  {
+    "id": "phusro_jharkhand",
+    "name": "Phusro",
+    "state": "Jharkhand",
+    "rating": 4.9,
+    "crowd": 0.55,
+    "x": 86.0051,
+    "y": 23.75644,
+    "desc": "Major district in Jharkhand. Administrative and cultural center."
+  },
+  {
+    "id": "bokāro_jharkhand",
+    "name": "Bokāro",
+    "state": "Jharkhand",
+    "rating": 4.4,
+    "crowd": 0.84,
+    "x": 86.15161,
+    "y": 23.66934,
+    "desc": "Major district in Jharkhand. Administrative and cultural center."
+  },
+  {
+    "id": "kenduadīh_jharkhand",
+    "name": "Kenduadīh",
+    "state": "Jharkhand",
+    "rating": 4.5,
+    "crowd": 0.86,
+    "x": 86.37403,
+    "y": 23.73602,
+    "desc": "Major district in Jharkhand. Administrative and cultural center."
+  },
+  {
+    "id": "tetra_jharkhand",
+    "name": "Tetra",
+    "state": "Jharkhand",
+    "rating": 4.4,
+    "crowd": 0.76,
+    "x": 84.75888,
+    "y": 22.87145,
+    "desc": "Major district in Jharkhand. Administrative and cultural center."
+  },
+  {
+    "id": "sairang_mizoram",
+    "name": "Sairang",
+    "state": "Mizoram",
+    "rating": 4.1,
+    "crowd": 0.69,
+    "x": 92.65226,
+    "y": 23.81034,
+    "desc": "Major district in Mizoram. Administrative and cultural center."
+  },
+  {
+    "id": "thenzawl_mizoram",
+    "name": "Thenzawl",
+    "state": "Mizoram",
+    "rating": 4.4,
+    "crowd": 0.77,
+    "x": 92.75,
+    "y": 23.31667,
+    "desc": "Major district in Mizoram. Administrative and cultural center."
+  },
+  {
+    "id": "aizawl_mizoram",
+    "name": "Aizawl",
+    "state": "Mizoram",
+    "rating": 4.6,
+    "crowd": 0.57,
+    "x": 92.71791,
+    "y": 23.72894,
+    "desc": "Major district in Mizoram. Administrative and cultural center."
+  },
+  {
+    "id": "saiha_mizoram",
+    "name": "Saiha",
+    "state": "Mizoram",
+    "rating": 4.3,
+    "crowd": 0.48,
+    "x": 92.98143,
+    "y": 22.49183,
+    "desc": "Major district in Mizoram. Administrative and cultural center."
+  },
+  {
+    "id": "saitual_mizoram",
+    "name": "Saitual",
+    "state": "Mizoram",
+    "rating": 4.8,
+    "crowd": 0.79,
+    "x": 92.96712,
+    "y": 23.68307,
+    "desc": "Major district in Mizoram. Administrative and cultural center."
+  },
+  {
+    "id": "hnahthial_mizoram",
+    "name": "Hnahthial",
+    "state": "Mizoram",
+    "rating": 4.0,
+    "crowd": 0.57,
+    "x": 92.76,
+    "y": 22.91,
+    "desc": "Major district in Mizoram. Administrative and cultural center."
+  },
+  {
+    "id": "sāitlaw_mizoram",
+    "name": "Sāitlaw",
+    "state": "Mizoram",
+    "rating": 4.1,
+    "crowd": 0.44,
+    "x": 92.57454,
+    "y": 23.97187,
+    "desc": "Major district in Mizoram. Administrative and cultural center."
+  },
+  {
+    "id": "serchhīp_mizoram",
+    "name": "Serchhīp",
+    "state": "Mizoram",
+    "rating": 4.6,
+    "crowd": 0.37,
+    "x": 92.84679,
+    "y": 23.29312,
+    "desc": "Major district in Mizoram. Administrative and cultural center."
+  },
+  {
+    "id": "kolasib_mizoram",
+    "name": "Kolasib",
+    "state": "Mizoram",
+    "rating": 4.2,
+    "crowd": 0.53,
+    "x": 92.67869,
+    "y": 24.22388,
+    "desc": "Major district in Mizoram. Administrative and cultural center."
+  },
+  {
+    "id": "khawzawl_mizoram",
+    "name": "Khawzawl",
+    "state": "Mizoram",
+    "rating": 4.2,
+    "crowd": 0.47,
+    "x": 93.18886,
+    "y": 23.51771,
+    "desc": "Major district in Mizoram. Administrative and cultural center."
+  },
+  {
+    "id": "darlawn_mizoram",
+    "name": "Darlawn",
+    "state": "Mizoram",
+    "rating": 3.8,
+    "crowd": 0.6,
+    "x": 92.92439,
+    "y": 24.01336,
+    "desc": "Major district in Mizoram. Administrative and cultural center."
+  },
+  {
+    "id": "hnahthial_mizoram",
+    "name": "Hnahthial",
+    "state": "Mizoram",
+    "rating": 3.9,
+    "crowd": 0.9,
+    "x": 92.92966,
+    "y": 22.96611,
+    "desc": "Major district in Mizoram. Administrative and cultural center."
+  },
+  {
+    "id": "mamit_mizoram",
+    "name": "Mamit",
+    "state": "Mizoram",
+    "rating": 3.9,
+    "crowd": 0.49,
+    "x": 92.48968,
+    "y": 23.92703,
+    "desc": "Major district in Mizoram. Administrative and cultural center."
+  },
+  {
+    "id": "northvanlaiphai_mizoram",
+    "name": "North Vanlaiphai",
+    "state": "Mizoram",
+    "rating": 4.5,
+    "crowd": 0.88,
+    "x": 93.06532,
+    "y": 23.13227,
+    "desc": "Major district in Mizoram. Administrative and cultural center."
+  },
+  {
+    "id": "khawhai_mizoram",
+    "name": "Khawhai",
+    "state": "Mizoram",
+    "rating": 4.2,
+    "crowd": 0.42,
+    "x": 93.12797,
+    "y": 23.37807,
+    "desc": "Major district in Mizoram. Administrative and cultural center."
+  },
+  {
+    "id": "bhogpur_punjab",
+    "name": "Bhogpur",
+    "state": "Punjab",
+    "rating": 3.8,
+    "crowd": 0.44,
+    "x": 75.64271,
+    "y": 31.55442,
+    "desc": "Major district in Punjab. Administrative and cultural center."
+  },
+  {
+    "id": "rāmdās_punjab",
+    "name": "Rām Dās",
+    "state": "Punjab",
+    "rating": 4.4,
+    "crowd": 0.32,
+    "x": 74.9087,
+    "y": 31.96739,
+    "desc": "Major district in Punjab. Administrative and cultural center."
+  },
+  {
+    "id": "sunām_punjab",
+    "name": "Sunām",
+    "state": "Punjab",
+    "rating": 4.0,
+    "crowd": 0.72,
+    "x": 75.79943,
+    "y": 30.12883,
+    "desc": "Major district in Punjab. Administrative and cultural center."
+  },
+  {
+    "id": "bakloh_punjab",
+    "name": "Bakloh",
+    "state": "Punjab",
+    "rating": 4.4,
+    "crowd": 0.44,
+    "x": 75.91874,
+    "y": 32.47939,
+    "desc": "Major district in Punjab. Administrative and cultural center."
+  },
+  {
+    "id": "maur_punjab",
+    "name": "Maur",
+    "state": "Punjab",
+    "rating": 4.4,
+    "crowd": 0.83,
+    "x": 75.25,
+    "y": 30.08333,
+    "desc": "Major district in Punjab. Administrative and cultural center."
+  },
+  {
+    "id": "morinda_punjab",
+    "name": "Morinda",
+    "state": "Punjab",
+    "rating": 3.8,
+    "crowd": 0.82,
+    "x": 76.49883,
+    "y": 30.79014,
+    "desc": "Major district in Punjab. Administrative and cultural center."
+  },
+  {
+    "id": "nangal_punjab",
+    "name": "Nangal",
+    "state": "Punjab",
+    "rating": 4.6,
+    "crowd": 0.52,
+    "x": 76.37574,
+    "y": 31.38966,
+    "desc": "Major district in Punjab. Administrative and cultural center."
+  },
+  {
+    "id": "rāikot_punjab",
+    "name": "Rāikot",
+    "state": "Punjab",
+    "rating": 4.0,
+    "crowd": 0.92,
+    "x": 75.6,
+    "y": 30.65,
+    "desc": "Major district in Punjab. Administrative and cultural center."
+  },
+  {
+    "id": "rāmpura_punjab",
+    "name": "Rāmpura",
+    "state": "Punjab",
+    "rating": 4.2,
+    "crowd": 0.36,
+    "x": 75.24116,
+    "y": 30.256,
+    "desc": "Major district in Punjab. Administrative and cultural center."
+  },
+  {
+    "id": "begowāl_punjab",
+    "name": "Begowāl",
+    "state": "Punjab",
+    "rating": 3.9,
+    "crowd": 0.85,
+    "x": 75.52135,
+    "y": 31.61152,
+    "desc": "Major district in Punjab. Administrative and cultural center."
+  },
+  {
+    "id": "farīdkot_punjab",
+    "name": "Farīdkot",
+    "state": "Punjab",
+    "rating": 4.5,
+    "crowd": 0.82,
+    "x": 74.75579,
+    "y": 30.67399,
+    "desc": "Major district in Punjab. Administrative and cultural center."
+  },
+  {
+    "id": "samrāla_punjab",
+    "name": "Samrāla",
+    "state": "Punjab",
+    "rating": 4.6,
+    "crowd": 0.65,
+    "x": 76.19324,
+    "y": 30.83601,
+    "desc": "Major district in Punjab. Administrative and cultural center."
+  },
+  {
+    "id": "dhāriwāl_punjab",
+    "name": "Dhāriwāl",
+    "state": "Punjab",
+    "rating": 4.9,
+    "crowd": 0.55,
+    "x": 75.32386,
+    "y": 31.95616,
+    "desc": "Major district in Punjab. Administrative and cultural center."
+  },
+  {
+    "id": "jandiāla_punjab",
+    "name": "Jandiāla",
+    "state": "Punjab",
+    "rating": 4.4,
+    "crowd": 0.84,
+    "x": 75.61755,
+    "y": 31.1593,
+    "desc": "Major district in Punjab. Administrative and cultural center."
+  },
+  {
+    "id": "sultanpur_punjab",
+    "name": "Sultanpur",
+    "state": "Punjab",
+    "rating": 4.5,
+    "crowd": 0.86,
+    "x": 75.19602,
+    "y": 31.21468,
+    "desc": "Major district in Punjab. Administrative and cultural center."
+  },
+  {
+    "id": "rangpo_sikkim",
+    "name": "Rangpo",
+    "state": "Sikkim",
+    "rating": 4.5,
+    "crowd": 0.88,
+    "x": 88.53358,
+    "y": 27.17733,
+    "desc": "Major district in Sikkim. Administrative and cultural center."
+  },
+  {
+    "id": "singtam_sikkim",
+    "name": "Singtam",
+    "state": "Sikkim",
+    "rating": 3.9,
+    "crowd": 0.57,
+    "x": 88.50168,
+    "y": 27.23467,
+    "desc": "Major district in Sikkim. Administrative and cultural center."
+  },
+  {
+    "id": "gyalshing_sikkim",
+    "name": "Gyalshing",
+    "state": "Sikkim",
+    "rating": 3.8,
+    "crowd": 0.44,
+    "x": 88.25764,
+    "y": 27.28952,
+    "desc": "Major district in Sikkim. Administrative and cultural center."
+  },
+  {
+    "id": "nayabāzār_sikkim",
+    "name": "Naya Bāzār",
+    "state": "Sikkim",
+    "rating": 4.4,
+    "crowd": 0.32,
+    "x": 88.23972,
+    "y": 27.13082,
+    "desc": "Major district in Sikkim. Administrative and cultural center."
+  },
+  {
+    "id": "jorethang_sikkim",
+    "name": "Jorethang",
+    "state": "Sikkim",
+    "rating": 4.0,
+    "crowd": 0.72,
+    "x": 88.32332,
+    "y": 27.10696,
+    "desc": "Major district in Sikkim. Administrative and cultural center."
+  },
+  {
+    "id": "gangtok_sikkim",
+    "name": "Gangtok",
+    "state": "Sikkim",
+    "rating": 4.4,
+    "crowd": 0.44,
+    "x": 88.61216,
+    "y": 27.32574,
+    "desc": "Major district in Sikkim. Administrative and cultural center."
+  },
+  {
+    "id": "mangan_sikkim",
+    "name": "Mangan",
+    "state": "Sikkim",
+    "rating": 4.4,
+    "crowd": 0.83,
+    "x": 88.52206,
+    "y": 27.50965,
+    "desc": "Major district in Sikkim. Administrative and cultural center."
+  },
+  {
+    "id": "namchi_sikkim",
+    "name": "Namchi",
+    "state": "Sikkim",
+    "rating": 3.8,
+    "crowd": 0.82,
+    "x": 88.3638,
+    "y": 27.16494,
+    "desc": "Major district in Sikkim. Administrative and cultural center."
+  },
+  {
+    "id": "bhimpur_dadraandnagarhavelianddamananddiu",
+    "name": "Bhimpur",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "rating": 3.8,
+    "crowd": 0.44,
+    "x": 72.88333,
+    "y": 20.45,
+    "desc": "Major district in Dadra and Nagar Haveli and Daman and Diu. Administrative and cultural center."
+  },
+  {
+    "id": "rakholi_dadraandnagarhavelianddamananddiu",
+    "name": "Rakholi",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "rating": 4.4,
+    "crowd": 0.32,
+    "x": 73.03333,
+    "y": 20.21667,
+    "desc": "Major district in Dadra and Nagar Haveli and Daman and Diu. Administrative and cultural center."
+  },
+  {
+    "id": "silvassa_dadraandnagarhavelianddamananddiu",
+    "name": "Silvassa",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "rating": 4.0,
+    "crowd": 0.72,
+    "x": 72.99673,
+    "y": 20.27386,
+    "desc": "Major district in Dadra and Nagar Haveli and Daman and Diu. Administrative and cultural center."
+  },
+  {
+    "id": "āmli_dadraandnagarhavelianddamananddiu",
+    "name": "Āmli",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "rating": 4.4,
+    "crowd": 0.44,
+    "x": 73.01667,
+    "y": 20.28333,
+    "desc": "Major district in Dadra and Nagar Haveli and Daman and Diu. Administrative and cultural center."
+  },
+  {
+    "id": "marwad_dadraandnagarhavelianddamananddiu",
+    "name": "Marwad",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "rating": 4.4,
+    "crowd": 0.83,
+    "x": 72.83224,
+    "y": 20.43764,
+    "desc": "Major district in Dadra and Nagar Haveli and Daman and Diu. Administrative and cultural center."
+  },
+  {
+    "id": "mashāt_dadraandnagarhavelianddamananddiu",
+    "name": "Mashāt",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "rating": 3.8,
+    "crowd": 0.82,
+    "x": 73.00841,
+    "y": 20.24514,
+    "desc": "Major district in Dadra and Nagar Haveli and Daman and Diu. Administrative and cultural center."
+  },
+  {
+    "id": "dabhel_dadraandnagarhavelianddamananddiu",
+    "name": "Dabhel",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "rating": 4.6,
+    "crowd": 0.52,
+    "x": 72.88339,
+    "y": 20.40953,
+    "desc": "Major district in Dadra and Nagar Haveli and Daman and Diu. Administrative and cultural center."
+  },
+  {
+    "id": "naroli_dadraandnagarhavelianddamananddiu",
+    "name": "Naroli",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "rating": 4.0,
+    "crowd": 0.92,
+    "x": 72.94167,
+    "y": 20.27354,
+    "desc": "Major district in Dadra and Nagar Haveli and Daman and Diu. Administrative and cultural center."
+  },
+  {
+    "id": "khalikachigam_dadraandnagarhavelianddamananddiu",
+    "name": "Khali Kachigam",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "rating": 4.2,
+    "crowd": 0.36,
+    "x": 72.86667,
+    "y": 20.38333,
+    "desc": "Major district in Dadra and Nagar Haveli and Daman and Diu. Administrative and cultural center."
+  },
+  {
+    "id": "dunetha_dadraandnagarhavelianddamananddiu",
+    "name": "Dunetha",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "rating": 3.9,
+    "crowd": 0.85,
+    "x": 72.85095,
+    "y": 20.42942,
+    "desc": "Major district in Dadra and Nagar Haveli and Daman and Diu. Administrative and cultural center."
+  },
+  {
+    "id": "kadaiya_dadraandnagarhavelianddamananddiu",
+    "name": "Kadaiya",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "rating": 4.5,
+    "crowd": 0.82,
+    "x": 72.85431,
+    "y": 20.4645,
+    "desc": "Major district in Dadra and Nagar Haveli and Daman and Diu. Administrative and cultural center."
+  },
+  {
+    "id": "diu_dadraandnagarhavelianddamananddiu",
+    "name": "Diu",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "rating": 4.6,
+    "crowd": 0.65,
+    "x": 70.98224,
+    "y": 20.71405,
+    "desc": "Major district in Dadra and Nagar Haveli and Daman and Diu. Administrative and cultural center."
+  },
+  {
+    "id": "daman_dadraandnagarhavelianddamananddiu",
+    "name": "Daman",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "rating": 4.9,
+    "crowd": 0.55,
+    "x": 72.83236,
+    "y": 20.41431,
+    "desc": "Major district in Dadra and Nagar Haveli and Daman and Diu. Administrative and cultural center."
+  },
+  {
+    "id": "samarvarni_dadraandnagarhavelianddamananddiu",
+    "name": "Samarvarni",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "rating": 4.4,
+    "crowd": 0.84,
+    "x": 73.00802,
+    "y": 20.25634,
+    "desc": "Major district in Dadra and Nagar Haveli and Daman and Diu. Administrative and cultural center."
+  },
+  {
+    "id": "dadra_dadraandnagarhavelianddamananddiu",
+    "name": "Dadra",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "rating": 4.5,
+    "crowd": 0.86,
+    "x": 72.96618,
+    "y": 20.32504,
+    "desc": "Major district in Dadra and Nagar Haveli and Daman and Diu. Administrative and cultural center."
+  },
+  {
+    "id": "tikrikalān_delhi",
+    "name": "Tikri Kalān",
+    "state": "Delhi",
+    "rating": 3.8,
+    "crowd": 0.36,
+    "x": 76.97007,
+    "y": 28.68355,
+    "desc": "Major district in Delhi. Administrative and cultural center."
+  },
+  {
+    "id": "kair_delhi",
+    "name": "Kair",
+    "state": "Delhi",
+    "rating": 4.1,
+    "crowd": 0.69,
+    "x": 76.91764,
+    "y": 28.62438,
+    "desc": "Major district in Delhi. Administrative and cultural center."
+  },
+  {
+    "id": "nāngloijāt_delhi",
+    "name": "Nāngloi Jāt",
+    "state": "Delhi",
+    "rating": 4.4,
+    "crowd": 0.77,
+    "x": 77.06799,
+    "y": 28.67957,
+    "desc": "Major district in Delhi. Administrative and cultural center."
+  },
+  {
+    "id": "jonapur_delhi",
+    "name": "Jona Pur",
+    "state": "Delhi",
+    "rating": 4.6,
+    "crowd": 0.57,
+    "x": 77.15377,
+    "y": 28.46615,
+    "desc": "Major district in Delhi. Administrative and cultural center."
+  },
+  {
+    "id": "kādīpur_delhi",
+    "name": "Kādīpur",
+    "state": "Delhi",
+    "rating": 4.3,
+    "crowd": 0.48,
+    "x": 77.16308,
+    "y": 28.77404,
+    "desc": "Major district in Delhi. Administrative and cultural center."
+  },
+  {
+    "id": "tīkrikhurd_delhi",
+    "name": "Tīkri Khurd",
+    "state": "Delhi",
+    "rating": 4.8,
+    "crowd": 0.79,
+    "x": 77.1195,
+    "y": 28.83539,
+    "desc": "Major district in Delhi. Administrative and cultural center."
+  },
+  {
+    "id": "kherakhurd_delhi",
+    "name": "Khera Khurd",
+    "state": "Delhi",
+    "rating": 4.0,
+    "crowd": 0.57,
+    "x": 77.09967,
+    "y": 28.77555,
+    "desc": "Major district in Delhi. Administrative and cultural center."
+  },
+  {
+    "id": "roshanpura_delhi",
+    "name": "Roshanpura",
+    "state": "Delhi",
+    "rating": 4.1,
+    "crowd": 0.44,
+    "x": 76.98918,
+    "y": 28.60057,
+    "desc": "Major district in Delhi. Administrative and cultural center."
+  },
+  {
+    "id": "jharodakalān_delhi",
+    "name": "Jharoda Kalān",
+    "state": "Delhi",
+    "rating": 4.6,
+    "crowd": 0.37,
+    "x": 76.95208,
+    "y": 28.65264,
+    "desc": "Major district in Delhi. Administrative and cultural center."
+  },
+  {
+    "id": "rohini_delhi",
+    "name": "Rohini",
+    "state": "Delhi",
+    "rating": 4.2,
+    "crowd": 0.53,
+    "x": 77.06778,
+    "y": 28.74322,
+    "desc": "Major district in Delhi. Administrative and cultural center."
+  },
+  {
+    "id": "ziauddinpur_delhi",
+    "name": "Ziauddin Pur",
+    "state": "Delhi",
+    "rating": 4.2,
+    "crowd": 0.47,
+    "x": 77.27654,
+    "y": 28.70873,
+    "desc": "Major district in Delhi. Administrative and cultural center."
+  },
+  {
+    "id": "gokalpur_delhi",
+    "name": "Gokalpur",
+    "state": "Delhi",
+    "rating": 3.8,
+    "crowd": 0.6,
+    "x": 77.28961,
+    "y": 28.7029,
+    "desc": "Major district in Delhi. Administrative and cultural center."
+  },
+  {
+    "id": "bawāna_delhi",
+    "name": "Bawāna",
+    "state": "Delhi",
+    "rating": 3.9,
+    "crowd": 0.9,
+    "x": 77.03431,
+    "y": 28.7982,
+    "desc": "Major district in Delhi. Administrative and cultural center."
+  },
+  {
+    "id": "ali_delhi",
+    "name": "Ali",
+    "state": "Delhi",
+    "rating": 3.9,
+    "crowd": 0.49,
+    "x": 77.30993,
+    "y": 28.5161,
+    "desc": "Major district in Delhi. Administrative and cultural center."
+  },
+  {
+    "id": "kāpasherd_delhi",
+    "name": "Kāpas Herd",
+    "state": "Delhi",
+    "rating": 4.5,
+    "crowd": 0.88,
+    "x": 77.08396,
+    "y": 28.52614,
+    "desc": "Major district in Delhi. Administrative and cultural center."
+  },
+  {
+    "id": "portblair_andamanandnicobar",
+    "name": "Port Blair",
+    "state": "Andaman and Nicobar",
+    "rating": 4.0,
+    "crowd": 0.78,
+    "x": 92.74635,
+    "y": 11.66613,
+    "desc": "Major district in Andaman and Nicobar. Administrative and cultural center."
+  },
+  {
+    "id": "garacharma_andamanandnicobar",
+    "name": "Garacharma",
+    "state": "Andaman and Nicobar",
+    "rating": 4.5,
+    "crowd": 0.88,
+    "x": 92.70358,
+    "y": 11.61374,
+    "desc": "Major district in Andaman and Nicobar. Administrative and cultural center."
+  },
+  {
+    "id": "bakultala_andamanandnicobar",
+    "name": "Bakultala",
+    "state": "Andaman and Nicobar",
+    "rating": 3.9,
+    "crowd": 0.57,
+    "x": 92.8617,
+    "y": 12.50399,
+    "desc": "Major district in Andaman and Nicobar. Administrative and cultural center."
+  },
+  {
+    "id": "bambooflat_andamanandnicobar",
+    "name": "Bamboo Flat",
+    "state": "Andaman and Nicobar",
+    "rating": 3.8,
+    "crowd": 0.44,
+    "x": 92.71667,
+    "y": 11.7,
+    "desc": "Major district in Andaman and Nicobar. Administrative and cultural center."
+  },
+  {
+    "id": "prothrapur_andamanandnicobar",
+    "name": "Prothrapur",
+    "state": "Andaman and Nicobar",
+    "rating": 4.4,
+    "crowd": 0.32,
+    "x": 92.72442,
+    "y": 11.61797,
+    "desc": "Major district in Andaman and Nicobar. Administrative and cultural center."
+  },
+  {
+    "id": "puducherry_puducherry",
+    "name": "Puducherry",
+    "state": "Puducherry",
+    "rating": 4.6,
+    "crowd": 0.46,
+    "x": 79.82979,
+    "y": 11.93381,
+    "desc": "Major district in Puducherry. Administrative and cultural center."
+  },
+  {
+    "id": "kāraikāl_puducherry",
+    "name": "Kāraikāl",
+    "state": "Puducherry",
+    "rating": 4.0,
+    "crowd": 0.37,
+    "x": 79.83333,
+    "y": 10.91667,
+    "desc": "Major district in Puducherry. Administrative and cultural center."
+  },
+  {
+    "id": "kalpeni_laccadives",
+    "name": "Kalpeni",
+    "state": "Laccadives",
+    "rating": 4.4,
+    "crowd": 0.32,
+    "x": 73.64316,
+    "y": 10.0826,
+    "desc": "Major district in Laccadives. Administrative and cultural center."
+  },
+  {
+    "id": "kavaratti_laccadives",
+    "name": "Kavaratti",
+    "state": "Laccadives",
+    "rating": 3.9,
+    "crowd": 0.45,
+    "x": 72.64203,
+    "y": 10.56688,
+    "desc": "Major district in Laccadives. Administrative and cultural center."
+  },
+  {
+    "id": "agatti_laccadives",
+    "name": "Agatti",
+    "state": "Laccadives",
+    "rating": 4.5,
+    "crowd": 0.66,
+    "x": 72.18217,
+    "y": 10.83522,
+    "desc": "Major district in Laccadives. Administrative and cultural center."
+  },
+  {
+    "id": "minicoy_laccadives",
+    "name": "Minicoy",
+    "state": "Laccadives",
+    "rating": 4.6,
+    "crowd": 0.76,
+    "x": 73.0617,
+    "y": 8.28899,
+    "desc": "Major district in Laccadives. Administrative and cultural center."
+  },
+  {
+    "id": "chetlat_laccadives",
+    "name": "Chetlat",
+    "state": "Laccadives",
+    "rating": 4.3,
+    "crowd": 0.59,
+    "x": 72.70957,
+    "y": 11.68828,
+    "desc": "Major district in Laccadives. Administrative and cultural center."
+  },
+  {
+    "id": "amini_laccadives",
+    "name": "Amini",
+    "state": "Laccadives",
+    "rating": 4.1,
+    "crowd": 0.87,
+    "x": 72.71907,
+    "y": 11.11408,
+    "desc": "Major district in Laccadives. Administrative and cultural center."
+  },
+  {
+    "id": "kiltan_laccadives",
+    "name": "Kiltan",
+    "state": "Laccadives",
+    "rating": 4.6,
+    "crowd": 0.4,
+    "x": 73.00384,
+    "y": 11.48577,
+    "desc": "Major district in Laccadives. Administrative and cultural center."
+  },
+  {
+    "id": "kadmat_laccadives",
+    "name": "Kadmat",
+    "state": "Laccadives",
+    "rating": 4.3,
+    "crowd": 0.48,
+    "x": 72.77482,
+    "y": 11.22467,
+    "desc": "Major district in Laccadives. Administrative and cultural center."
+  },
+  {
+    "id": "andrott_laccadives",
+    "name": "Andrott",
+    "state": "Laccadives",
+    "rating": 4.0,
+    "crowd": 0.8,
+    "x": 73.67408,
+    "y": 10.81186,
+    "desc": "Major district in Laccadives. Administrative and cultural center."
+  },
+  {
+    "id": "chandigarh_chandigarh",
+    "name": "Chandigarh",
+    "state": "Chandigarh",
+    "rating": 4.0,
+    "crowd": 0.78,
+    "x": 76.7884,
+    "y": 30.73629,
+    "desc": "Major district in Chandigarh. Administrative and cultural center."
+  },
+  {
+    "id": "maulijagran_chandigarh",
+    "name": "Mauli Jagran",
+    "state": "Chandigarh",
+    "rating": 4.5,
+    "crowd": 0.88,
+    "x": 76.82592,
+    "y": 30.69195,
+    "desc": "Major district in Chandigarh. Administrative and cultural center."
+  },
+  {
+    "id": "khudaalisher_chandigarh",
+    "name": "Khuda Alisher",
+    "state": "Chandigarh",
+    "rating": 3.9,
+    "crowd": 0.57,
+    "x": 76.81176,
+    "y": 30.77474,
+    "desc": "Major district in Chandigarh. Administrative and cultural center."
+  },
+  {
+    "id": "dariya_chandigarh",
+    "name": "Dariya",
+    "state": "Chandigarh",
+    "rating": 3.8,
+    "crowd": 0.44,
+    "x": 76.81759,
+    "y": 30.69864,
+    "desc": "Major district in Chandigarh. Administrative and cultural center."
+  },
+  {
+    "id": "behlana_chandigarh",
+    "name": "Behlana",
+    "state": "Chandigarh",
+    "rating": 4.4,
+    "crowd": 0.32,
+    "x": 76.8006,
+    "y": 30.67813,
+    "desc": "Major district in Chandigarh. Administrative and cultural center."
+  }
+]
