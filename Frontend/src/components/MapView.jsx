@@ -74,45 +74,87 @@ const getCustomMarkerIcon = (type, color = "#22d3ee", pulse = false) => {
   });
 };
 
-// 2. Perpendicular Bezier curved coordinates generator for parallel spacing
-const getBezierCurvePoints = (p1, p2, offsetIdx = 0, routeCount = 1) => {
-  const [lat1, lon1] = p1;
-  const [lat2, lon2] = p2;
+// 2. Real road geometry fetcher from OSRM
+const routeCache = {};
+const pendingRequests = {};
+
+const fetchOSRMRoute = async (p1, p2) => {
+  const key = `${p1[0].toFixed(4)},${p1[1].toFixed(4)};${p2[0].toFixed(4)},${p2[1].toFixed(4)}`;
+  const reverseKey = `${p2[0].toFixed(4)},${p2[1].toFixed(4)};${p1[0].toFixed(4)},${p1[1].toFixed(4)}`;
   
-  // Calculate perpendicular unit vector for parallel offsets
-  const dLat = lat2 - lat1;
-  const dLon = lon2 - lon1;
-  const len = Math.sqrt(dLat * dLat + dLon * dLon) || 1;
-  const pLat = -dLon / len;
-  const pLon = dLat / len;
-  
-  // Horizontal spacing offset (around 2km to avoid overlapping roads)
-  let shift = 0;
-  if (routeCount > 1) {
-    shift = (offsetIdx - (routeCount - 1) / 2) * 0.018; 
-  }
-  
-  const lat1_shifted = lat1 + pLat * shift;
-  const lon1_shifted = lon1 + pLon * shift;
-  const lat2_shifted = lat2 + pLat * shift;
-  const lon2_shifted = lon2 + pLon * shift;
-  
-  // Curvature height (bends based on Euclidean distance)
-  const midLat = (lat1_shifted + lat2_shifted) / 2;
-  const midLon = (lon1_shifted + lon2_shifted) / 2;
-  const curvature = 0.08 * len; 
-  
-  const controlLat = midLat + pLat * curvature;
-  const controlLon = midLon + pLon * curvature;
-  
-  // Interpolate quadratic bezier points (16 coordinates)
-  const points = [];
-  for (let t = 0; t <= 1; t += 0.0625) {
-    const lat = (1 - t) * (1 - t) * lat1_shifted + 2 * (1 - t) * t * controlLat + t * t * lat2_shifted;
-    const lon = (1 - t) * (1 - t) * lon1_shifted + 2 * (1 - t) * t * controlLon + t * t * lon2_shifted;
-    points.push([lat, lon]);
-  }
-  return points;
+  if (routeCache[key]) return routeCache[key];
+  if (routeCache[reverseKey]) return [...routeCache[reverseKey]].reverse();
+
+  if (pendingRequests[key]) return pendingRequests[key];
+
+  const promise = new Promise(async (resolve) => {
+    try {
+      // Small artificial delay to respect OSRM public API rate limits when rendering many routes
+      await new Promise(r => setTimeout(r, Math.random() * 200));
+      const res = await fetch(`https://router.project-osrm.org/route/v1/driving/${p1[1]},${p1[0]};${p2[1]},${p2[0]}?overview=full&geometries=geojson`);
+      const data = await res.json();
+      if (data.routes && data.routes.length > 0) {
+        const coords = data.routes[0].geometry.coordinates.map(c => [c[1], c[0]]);
+        routeCache[key] = coords;
+        resolve(coords);
+        return;
+      }
+    } catch (err) {
+      console.error("OSRM fetch error", err);
+    }
+    const fallback = [p1, p2];
+    routeCache[key] = fallback;
+    resolve(fallback);
+  });
+
+  pendingRequests[key] = promise;
+  return promise;
+};
+
+// Component to fetch and render a real route segment
+const RealRouteSegment = ({ p1, p2, color, weight, pathClass, opacity, offsetIdx = 0, routeCount = 1 }) => {
+  const [positions, setPositions] = useState([]);
+
+  useEffect(() => {
+    let isMounted = true;
+    fetchOSRMRoute(p1, p2).then(coords => {
+      if (isMounted) {
+        // Calculate perpendicular offset vector for comparisons
+        const dLat = p2[0] - p1[0];
+        const dLon = p2[1] - p1[1];
+        const len = Math.sqrt(dLat * dLat + dLon * dLon) || 1;
+        const pLat = -dLon / len;
+        const pLon = dLat / len;
+        
+        const shift = routeCount > 1 ? (offsetIdx - (routeCount - 1) / 2) * 0.006 : 0;
+        
+        const offsetCoords = coords.map(c => [c[0] + pLat * shift, c[1] + pLon * shift]);
+        setPositions(offsetCoords);
+      }
+    });
+    return () => { isMounted = false; };
+  }, [p1, p2, offsetIdx, routeCount]);
+
+  if (positions.length === 0) return null;
+
+  return (
+    <React.Fragment>
+      <Polyline 
+        positions={positions}
+        color={color}
+        weight={weight + 3}
+        opacity={opacity * 0.4}
+        className={pathClass}
+      />
+      <Polyline 
+        positions={positions}
+        color={color}
+        weight={weight}
+        opacity={opacity}
+        className="flow-line"
+      />
+    </React.Fragment>
+  );
 };
 
 // Component to handle dynamic map bounds auto-fitting
@@ -506,68 +548,50 @@ const MapView = ({ locations, routeResult }) => {
             Object.entries(allRoutes).map(([algName, routeData], idx) => {
               if (!routeData?.path_nodes || routeData.path_nodes.length < 2) return null;
               
-              const curveSegments = [];
+              const segments = [];
               for (let i = 0; i < routeData.path_nodes.length - 1; i++) {
                 const p1 = [routeData.path_nodes[i].y, routeData.path_nodes[i].x];
                 const p2 = [routeData.path_nodes[i+1].y, routeData.path_nodes[i+1].x];
-                const segmentPoints = getBezierCurvePoints(p1, p2, idx, 4);
-                curveSegments.push(segmentPoints);
-              }
-
-              return curveSegments.map((segment, segIdx) => (
-                <React.Fragment key={`curve-${algName}-${segIdx}`}>
-                  {/* Glowing outer shadow line */}
-                  <Polyline 
-                    positions={segment}
-                    color={ALG_METRIC_STYLES[algName].color}
-                    weight={ALG_METRIC_STYLES[algName].width + 3}
-                    opacity={opacity * 0.4}
-                    className={ALG_METRIC_STYLES[algName].pathClass}
-                  />
-                  {/* Crawling crawling dashed particle core */}
-                  <Polyline 
-                    positions={segment}
+                segments.push(
+                  <RealRouteSegment
+                    key={`real-curve-${algName}-${i}`}
+                    p1={p1}
+                    p2={p2}
                     color={ALG_METRIC_STYLES[algName].color}
                     weight={ALG_METRIC_STYLES[algName].width}
+                    pathClass={ALG_METRIC_STYLES[algName].pathClass}
                     opacity={opacity}
-                    className="flow-line"
+                    offsetIdx={idx}
+                    routeCount={4}
                   />
-                </React.Fragment>
-              ));
+                );
+              }
+              return segments;
             })
           ) : (
             // Single Focus Mode: Render only active selected path curves
             routeResult?.path_nodes && routeResult.path_nodes.length >= 2 && (() => {
               const activeAlgName = algorithmNameMapping(routeResult.algorithm);
-              const curveSegments = [];
+              const segments = [];
               for (let i = 0; i < routeResult.path_nodes.length - 1; i++) {
                 const p1 = [routeResult.path_nodes[i].y, routeResult.path_nodes[i].x];
                 const p2 = [routeResult.path_nodes[i+1].y, routeResult.path_nodes[i+1].x];
-                // Offset index 2, single route
-                const segmentPoints = getBezierCurvePoints(p1, p2, 0, 1);
-                curveSegments.push(segmentPoints);
-              }
-
-              return curveSegments.map((segment, segIdx) => (
-                <React.Fragment key={`active-curve-${segIdx}`}>
-                  {/* Glowing background halo */}
-                  <Polyline 
-                    positions={segment}
-                    color={ALG_METRIC_STYLES[activeAlgName]?.color || "#22d3ee"}
-                    weight={6}
-                    opacity={opacity * 0.4}
-                    className={ALG_METRIC_STYLES[activeAlgName]?.pathClass || "glow-path-cyan"}
-                  />
-                  {/* Glowing crawling dash core */}
-                  <Polyline 
-                    positions={segment}
+                
+                segments.push(
+                  <RealRouteSegment
+                    key={`active-real-curve-${i}`}
+                    p1={p1}
+                    p2={p2}
                     color={ALG_METRIC_STYLES[activeAlgName]?.color || "#22d3ee"}
                     weight={3.5}
+                    pathClass={ALG_METRIC_STYLES[activeAlgName]?.pathClass || "glow-path-cyan"}
                     opacity={opacity}
-                    className="flow-line"
+                    offsetIdx={0}
+                    routeCount={1}
                   />
-                </React.Fragment>
-              ));
+                );
+              }
+              return segments;
             })()
           )
         )}
