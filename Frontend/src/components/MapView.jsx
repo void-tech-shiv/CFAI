@@ -74,65 +74,45 @@ const getCustomMarkerIcon = (type, color = "#22d3ee", pulse = false) => {
   });
 };
 
-// 2. Real road geometry fetcher from OSRM
-const routeCache = {};
-const pendingRequests = {};
-
-const fetchOSRMRoute = async (p1, p2) => {
-  const key = `${p1[0].toFixed(4)},${p1[1].toFixed(4)};${p2[0].toFixed(4)},${p2[1].toFixed(4)}`;
-  const reverseKey = `${p2[0].toFixed(4)},${p2[1].toFixed(4)};${p1[0].toFixed(4)},${p1[1].toFixed(4)}`;
+// 2. Calculated geometry (replaces OSRM to prevent real-world construction detours)
+const generateCurve = (p1, p2, offsetIdx, routeCount) => {
+  const numPoints = 50;
+  const dLat = p2[0] - p1[0];
+  const dLon = p2[1] - p1[1];
+  const len = Math.sqrt(dLat * dLat + dLon * dLon) || 1;
   
-  if (routeCache[key]) return routeCache[key];
-  if (routeCache[reverseKey]) return [...routeCache[reverseKey]].reverse();
+  // Perpendicular vector for offset/curve
+  const pLat = -dLon / len;
+  const pLon = dLat / len;
+  
+  // Add a slight natural curve for single routes, spread them for multi-comparison
+  const baseCurve = routeCount === 1 ? 0.05 : 0;
+  const shift = routeCount > 1 ? (offsetIdx - (routeCount - 1) / 2) * 0.06 : baseCurve;
+  const curveMagnitude = len * shift;
 
-  if (pendingRequests[key]) return pendingRequests[key];
-
-  const promise = new Promise(async (resolve) => {
-    try {
-      // Small artificial delay to respect OSRM public API rate limits when rendering many routes
-      await new Promise(r => setTimeout(r, Math.random() * 200));
-      const res = await fetch(`https://router.project-osrm.org/route/v1/driving/${p1[1]},${p1[0]};${p2[1]},${p2[0]}?overview=full&geometries=geojson`);
-      const data = await res.json();
-      if (data.routes && data.routes.length > 0) {
-        const coords = data.routes[0].geometry.coordinates.map(c => [c[1], c[0]]);
-        routeCache[key] = coords;
-        resolve(coords);
-        return;
-      }
-    } catch (err) {
-      console.error("OSRM fetch error", err);
-    }
-    const fallback = [p1, p2];
-    routeCache[key] = fallback;
-    resolve(fallback);
-  });
-
-  pendingRequests[key] = promise;
-  return promise;
+  const coords = [];
+  for(let i=0; i<=numPoints; i++) {
+     const t = i / numPoints;
+     const lat = p1[0] + t * dLat;
+     const lon = p1[1] + t * dLon;
+     // Parabola for the bezier effect: 0 at ends, max at middle
+     const offset = curveMagnitude * (1 - 4 * (t - 0.5) * (t - 0.5));
+     coords.push([lat + pLat * offset, lon + pLon * offset]);
+  }
+  return coords;
 };
 
-// Component to fetch and render a real route segment
+// Component to render the route segment
 const RealRouteSegment = ({ p1, p2, color, weight, pathClass, opacity, offsetIdx = 0, routeCount = 1 }) => {
   const [positions, setPositions] = useState([]);
 
   useEffect(() => {
-    let isMounted = true;
-    fetchOSRMRoute(p1, p2).then(coords => {
-      if (isMounted) {
-        // Calculate perpendicular offset vector for comparisons
-        const dLat = p2[0] - p1[0];
-        const dLon = p2[1] - p1[1];
-        const len = Math.sqrt(dLat * dLat + dLon * dLon) || 1;
-        const pLat = -dLon / len;
-        const pLon = dLat / len;
-        
-        const shift = routeCount > 1 ? (offsetIdx - (routeCount - 1) / 2) * 0.006 : 0;
-        
-        const offsetCoords = coords.map(c => [c[0] + pLat * shift, c[1] + pLon * shift]);
-        setPositions(offsetCoords);
-      }
-    });
-    return () => { isMounted = false; };
+    // Immediately clear positions so previous route doesn't ghost when changing routes
+    setPositions([]);
+    
+    // Generate new curve instantly
+    const coords = generateCurve(p1, p2, offsetIdx, routeCount);
+    setPositions(coords);
   }, [p1, p2, offsetIdx, routeCount]);
 
   if (positions.length === 0) return null;
