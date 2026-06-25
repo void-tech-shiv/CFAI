@@ -114,3 +114,15 @@ class TouristGraph:
     def calculate_manhattan(loc1, loc2):
         """Calculates Manhattan distance between two locations (admissible/consistent heuristic for grid)."""
         return (abs(loc1.x - loc2.x) + abs(loc1.y - loc2.y)) * 100.0  # Scaled to approximate km
+
+    @staticmethod
+    def calculate_haversine(loc1, loc2):
+        """Calculates exact earth-surface distance using Haversine formula (admissible heuristic)."""
+        R = 6371.0  # Earth radius in kilometers
+        lat1, lon1 = math.radians(loc1.y), math.radians(loc1.x)
+        lat2, lon2 = math.radians(loc2.y), math.radians(loc2.x)
+        dlat = lat2 - lat1
+        dlon = lon2 - lon1
+        a = math.sin(dlat / 2)**2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon / 2)**2
+        c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+        return R * c

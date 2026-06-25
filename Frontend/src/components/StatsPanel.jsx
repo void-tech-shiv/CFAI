@@ -22,7 +22,7 @@ const StatsPanel = ({ routeResult }) => {
           <h3 className="font-semibold text-gray-200">Trajectory Analysis</h3>
         </div>
         
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-4">
           <div className="bg-black/40 p-3 rounded-lg border border-white/5">
             <div className="text-gray-500 text-xs mb-1 font-mono">TOTAL DISTANCE</div>
             <div className="text-xl font-bold">{metrics.distance.toFixed(1)} km</div>
@@ -38,6 +38,14 @@ const StatsPanel = ({ routeResult }) => {
           <div className="bg-black/40 p-3 rounded-lg border border-white/5">
             <div className="text-gray-500 text-xs mb-1 font-mono">UTILITY SCORE</div>
             <div className="text-xl font-bold text-blue-400">{metrics.utility_score.toFixed(3)}</div>
+          </div>
+          <div className="bg-black/40 p-3 rounded-lg border border-white/5">
+            <div className="text-gray-500 text-xs mb-1 font-mono">PREDICTION CONFIDENCE</div>
+            <div className="text-xl font-bold text-green-400">{(metrics.prediction_confidence * 100).toFixed(1)}%</div>
+          </div>
+          <div className="bg-black/40 p-3 rounded-lg border border-white/5">
+            <div className="text-gray-500 text-xs mb-1 font-mono">MEMORY USAGE</div>
+            <div className="text-xl font-bold text-purple-400">{metrics.memory_usage_kb.toFixed(2)} KB</div>
           </div>
         </div>
 

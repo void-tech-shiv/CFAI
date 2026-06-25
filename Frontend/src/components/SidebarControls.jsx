@@ -11,7 +11,10 @@ const SidebarControls = ({ locations, onPlanRoute, isLoading }) => {
     max_time: "",
     weather: "clear",
     traffic: "low",
-    compare_algorithms: true
+    compare_algorithms: true,
+    avoid_tolls: false,
+    avoid_highways: false,
+    wheelchair: false
   });
 
   const [startState, setStartState] = useState("");
@@ -147,7 +150,11 @@ const SidebarControls = ({ locations, onPlanRoute, isLoading }) => {
             <option value="astar">A* Search (Optimal & Informed)</option>
             <option value="ucs">Uniform Cost Search (Dijkstra)</option>
             <option value="bfs">Breadth-First Search (Uninformed)</option>
-            <option value="dfs">Depth-First Search (Uninformed)</option>
+            <option value="dfs">Depth-First Search (Iterative)</option>
+            <option value="dfs_recursive">Depth-First Search (Recursive)</option>
+            <option value="minimax">Minimax (Strategic vs Traffic)</option>
+            <option value="alphabeta">Alpha-Beta Pruning (Optimized Minimax)</option>
+            <option value="min_conflicts">Min-Conflicts (CSP Local Search)</option>
           </select>
         </div>
 
@@ -191,6 +198,17 @@ const SidebarControls = ({ locations, onPlanRoute, isLoading }) => {
             placeholder="Max Time (m)"
             className="w-full bg-black/40 border border-white/10 rounded-lg p-2 text-white outline-none"
           />
+        </div>
+        <div className="flex flex-col gap-2 mt-2">
+          <label className="flex items-center gap-2 text-gray-300 text-xs cursor-pointer">
+            <input type="checkbox" name="avoid_tolls" checked={params.avoid_tolls} onChange={handleChange} className="accent-blue-500 rounded bg-black/40" /> Avoid Tolls
+          </label>
+          <label className="flex items-center gap-2 text-gray-300 text-xs cursor-pointer">
+            <input type="checkbox" name="avoid_highways" checked={params.avoid_highways} onChange={handleChange} className="accent-blue-500 rounded bg-black/40" /> Avoid Highways
+          </label>
+          <label className="flex items-center gap-2 text-gray-300 text-xs cursor-pointer">
+            <input type="checkbox" name="wheelchair" checked={params.wheelchair} onChange={handleChange} className="accent-blue-500 rounded bg-black/40" /> Wheelchair Accessible
+          </label>
         </div>
       </div>
 

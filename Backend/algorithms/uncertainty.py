@@ -158,3 +158,91 @@ class UncertaintyEngine:
                     initial_traffic=traffic_state,
                     hours_elapsed=1
                 )
+
+    def bayesian_network_inference(self, conn, weather_state):
+        """
+        Full Bayesian Network Inference for route recommendation.
+        Returns a dictionary of probabilities: Traffic Congestion, Accident Risk, Road Closure, Safety.
+        """
+        # Base conditional probabilities
+        p_traffic_given_rain = 0.65
+        p_traffic_given_fog = 0.55
+        p_traffic_given_clear = conn.traffic_prob.get("high", 0.2)
+        
+        # P(Accident | Weather, Traffic) -> simplified to P(Accident | Weather) + P(Accident | Traffic)
+        p_accident_base = 0.05
+        
+        traffic_prob = p_traffic_given_clear
+        if weather_state == "rain": traffic_prob = p_traffic_given_rain
+        elif weather_state == "fog": traffic_prob = p_traffic_given_fog
+        
+        accident_prob = p_accident_base + (0.1 if weather_state != "clear" else 0) + (traffic_prob * 0.2)
+        closure_prob = 0.01 + (0.2 if weather_state == "fog" else 0) + (0.1 if weather_state == "rain" else 0)
+        
+        safety_prob = max(0.0, 1.0 - accident_prob - closure_prob)
+        
+        return {
+            "traffic": traffic_prob,
+            "accident": accident_prob,
+            "closure": closure_prob,
+            "safety": safety_prob
+        }
+
+    def hmm_viterbi_predict(self, initial_state="low", observations=["clear", "rain"]):
+        """
+        HMM Viterbi Algorithm to find the most likely sequence of traffic states given weather observations.
+        Outputs 'Prediction Confidence' based on the Viterbi path probability.
+        States: Low, Medium, High Traffic.
+        Observations: Clear, Rain, Fog.
+        """
+        states = ["low", "medium", "high"]
+        
+        # Emission Probabilities: P(Observation | State)
+        emission_prob = {
+            "low": {"clear": 0.8, "rain": 0.1, "fog": 0.1},
+            "medium": {"clear": 0.5, "rain": 0.3, "fog": 0.2},
+            "high": {"clear": 0.2, "rain": 0.5, "fog": 0.3}
+        }
+        
+        V = [{}]
+        path = {}
+        
+        # Initialize
+        for st in states:
+            initial_p = 1.0 if st == initial_state else 0.001
+            V[0][st] = initial_p * emission_prob[st].get(observations[0], 0.1)
+            path[st] = [st]
+            
+        # Run Viterbi
+        for t in range(1, len(observations)):
+            V.append({})
+            new_path = {}
+            obs = observations[t]
+            
+            for st in states:
+                max_prob = -1
+                best_prev_st = states[0]
+                
+                for prev_st in states:
+                    prob = V[t-1][prev_st] * self.traffic_transition_matrix[prev_st][st] * emission_prob[st].get(obs, 0.1)
+                    if prob > max_prob:
+                        max_prob = prob
+                        best_prev_st = prev_st
+                        
+                V[t][st] = max_prob
+                new_path[st] = path[best_prev_st] + [st]
+                
+            path = new_path
+            
+        # Terminate
+        n = len(observations) - 1
+        max_prob = -1
+        best_st = states[0]
+        for st in states:
+            if V[n][st] > max_prob:
+                max_prob = V[n][st]
+                best_st = st
+                
+        # Confidence score normalized
+        confidence = min(1.0, max_prob * (2.0 ** len(observations))) 
+        return path[best_st], confidence

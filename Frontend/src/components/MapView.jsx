@@ -10,9 +10,13 @@ import {
 // Color map for algorithms
 const ALG_METRIC_STYLES = {
   "BFS": { color: "#22d3ee", shadow: "rgba(34, 211, 238, 0.8)", label: "BFS (Min Hops)", pathClass: "glow-path-cyan", width: 3 },
-  "DFS": { color: "#f97316", shadow: "rgba(249, 115, 22, 0.8)", label: "DFS (Deep Winding)", pathClass: "glow-path-orange", width: 3 },
+  "DFS": { color: "#f97316", shadow: "rgba(249, 115, 22, 0.8)", label: "DFS (Iterative)", pathClass: "glow-path-orange", width: 3 },
+  "DFS_RECURSIVE": { color: "#fb923c", shadow: "rgba(251, 146, 60, 0.8)", label: "DFS (Recursive)", pathClass: "glow-path-orange", width: 3 },
   "UCS": { color: "#22c55e", shadow: "rgba(34, 197, 94, 0.8)", label: "UCS (Economic Cost)", pathClass: "glow-path-green", width: 3 },
-  "ASTAR": { color: "#a855f7", shadow: "rgba(168, 85, 247, 0.8)", label: "A* Search (Smart Utility)", pathClass: "glow-path-purple", width: 3 }
+  "ASTAR": { color: "#a855f7", shadow: "rgba(168, 85, 247, 0.8)", label: "A* Search (Smart Utility)", pathClass: "glow-path-purple", width: 3 },
+  "MINIMAX": { color: "#ef4444", shadow: "rgba(239, 68, 68, 0.8)", label: "Minimax (Strategic vs Traffic)", pathClass: "glow-path-red", width: 3 },
+  "ALPHABETA": { color: "#f43f5e", shadow: "rgba(244, 63, 94, 0.8)", label: "Alpha-Beta Pruning", pathClass: "glow-path-rose", width: 3 },
+  "MIN_CONFLICTS": { color: "#eab308", shadow: "rgba(234, 179, 8, 0.8)", label: "Min-Conflicts (CSP Local Search)", pathClass: "glow-path-yellow", width: 3 }
 };
 
 // 1. Custom Leaflet HTML glowing markers (divIcon)
@@ -285,7 +289,7 @@ const MapView = ({ locations, routeResult }) => {
   const goalCityId = routeResult?.path?.[routeResult.path.length - 1];
 
   // List of active algorithms for layout spacing offset
-  const activeAlgs = ["BFS", "DFS", "UCS", "ASTAR"];
+  const activeAlgs = ["BFS", "DFS", "DFS_RECURSIVE", "UCS", "ASTAR", "MINIMAX", "ALPHABETA", "MIN_CONFLICTS"];
 
   return (
     <div id="map-fullscreen-container" className={`relative w-full h-full ${isFullscreen ? 'h-screen w-screen z-[9999]' : ''}`}>
@@ -328,7 +332,7 @@ const MapView = ({ locations, routeResult }) => {
         {/* Algorithm focus switcher */}
         <div className="flex flex-col gap-1">
           <span className="text-gray-500 font-mono">SELECTED ALGORITHM</span>
-          <div className="grid grid-cols-4 bg-zinc-950/80 rounded-lg p-0.5 border border-white/5 font-mono text-center">
+          <div className="grid grid-cols-2 md:grid-cols-4 bg-zinc-950/80 rounded-lg p-0.5 border border-white/5 font-mono text-center gap-y-1">
             {activeAlgs.map(alg => (
               <button
                 key={alg}
@@ -658,9 +662,13 @@ const MapView = ({ locations, routeResult }) => {
 const algorithmNameMapping = (backendName) => {
   if (!backendName) return "ASTAR";
   const name = backendName.toUpperCase();
+  if (name.includes("DFS_RECURSIVE")) return "DFS_RECURSIVE";
   if (name.includes("BFS")) return "BFS";
   if (name.includes("DFS")) return "DFS";
   if (name.includes("UCS")) return "UCS";
+  if (name.includes("MINIMAX")) return "MINIMAX";
+  if (name.includes("ALPHABETA")) return "ALPHABETA";
+  if (name.includes("MIN_CONFLICTS")) return "MIN_CONFLICTS";
   return "ASTAR";
 };
 

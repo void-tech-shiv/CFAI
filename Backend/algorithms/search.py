@@ -263,7 +263,7 @@ class SearchManager:
             "execution_time_ns": elapsed, "memory_usage_kb": memory_kb, "nodes_explored": len(explored), "efficiency": 0.0
         }
 
-    def a_star(self, start_id, goal_id, metric_type="distance", heuristic_type="euclidean", utility_weights=None):
+    def a_star(self, start_id, goal_id, metric_type="distance", heuristic_type="haversine", utility_weights=None):
         """
         A* Search Algorithm
         Optimizes f(n) = g(n) + h(n), where h(n) is the admissible heuristic to goal_id.
@@ -287,6 +287,8 @@ class SearchManager:
             # Calculate base physical heuristic distance
             if heuristic_type == "euclidean":
                 h_val = self.graph.calculate_euclidean(loc_node, goal_loc)
+            elif heuristic_type == "haversine":
+                h_val = self.graph.calculate_haversine(loc_node, goal_loc)
             else:
                 h_val = self.graph.calculate_manhattan(loc_node, goal_loc)
 
@@ -361,3 +363,140 @@ class SearchManager:
             "path": None, "distance": 0, "cost": 0, "time": 0, "explored": explored, 
             "execution_time_ns": elapsed, "memory_usage_kb": memory_kb, "nodes_explored": len(explored), "efficiency": 0.0
         }
+
+    def dfs_recursive(self, start_id, goal_id):
+        """
+        Depth-First Search (Recursive)
+        """
+        start_time_ns = time.perf_counter_ns()
+        explored = []
+        visited = set()
+        found_path = None
+        
+        def _dfs(node_id, current_path):
+            nonlocal found_path
+            if found_path: return
+            
+            visited.add(node_id)
+            explored.append(node_id)
+            
+            if node_id == goal_id:
+                found_path = list(current_path)
+                return
+                
+            curr_loc = self.graph.get_location(node_id)
+            if not curr_loc or not curr_loc.is_open: return
+                
+            sorted_connections = sorted(curr_loc.connections, key=lambda c: c.distance, reverse=True)
+            for conn in sorted_connections:
+                neighbor = conn.to_id
+                if neighbor not in visited:
+                    neighbor_loc = self.graph.get_location(neighbor)
+                    if neighbor_loc and neighbor_loc.is_open:
+                        current_path.append(neighbor)
+                        _dfs(neighbor, current_path)
+                        current_path.pop()
+                        
+        _dfs(start_id, [start_id])
+        elapsed = time.perf_counter_ns() - start_time_ns
+        memory_kb = len(explored) * 0.18 + 1.5
+        
+        if found_path:
+            dist, cost, travel_time = self._calculate_path_metrics(found_path)
+            efficiency = (len(found_path) / len(explored)) * 100.0 if len(explored) > 0 else 0.0
+            return {
+                "path": found_path, "distance": dist, "cost": cost, "time": travel_time,
+                "explored": explored, "execution_time_ns": elapsed, "memory_usage_kb": memory_kb,
+                "nodes_explored": len(explored), "efficiency": efficiency
+            }
+        return {
+            "path": None, "distance": 0, "cost": 0, "time": 0, "explored": explored, 
+            "execution_time_ns": elapsed, "memory_usage_kb": memory_kb, "nodes_explored": len(explored), "efficiency": 0.0
+        }
+
+    def _minimax(self, start_id, goal_id, max_depth, use_alpha_beta):
+        start_time_ns = time.perf_counter_ns()
+        explored = []
+        
+        def utility_value(node_id, next_id, traffic_state):
+            curr_loc = self.graph.get_location(node_id)
+            next_loc = self.graph.get_location(next_id)
+            conn = curr_loc.get_connection(next_id)
+            if not conn: return -9999
+            
+            rating_score = next_loc.rating * 20
+            crowd_penalty = next_loc.crowd_level * 30
+            
+            delay = conn.base_time
+            if traffic_state == "high": delay *= 1.6
+            elif traffic_state == "medium": delay *= 1.2
+            
+            return rating_score - delay - crowd_penalty
+            
+        def max_val(node_id, goal_id, depth, alpha, beta, visited):
+            explored.append(node_id)
+            if node_id == goal_id:
+                return 10000, [node_id]
+            if depth == 0:
+                loc = self.graph.get_location(node_id)
+                g_loc = self.graph.get_location(goal_id)
+                h = -self.graph.calculate_haversine(loc, g_loc) * 0.1
+                return h, [node_id]
+                
+            v = -float('inf')
+            best_path = []
+            
+            curr_loc = self.graph.get_location(node_id)
+            if not curr_loc or not curr_loc.is_open:
+                return -9999, [node_id]
+                
+            for conn in curr_loc.connections:
+                neighbor = conn.to_id
+                if neighbor in visited: continue
+                
+                # MIN layer: evaluate traffic states
+                min_v = float('inf')
+                for traffic in ["low", "medium", "high"]:
+                    edge_u = utility_value(node_id, neighbor, traffic)
+                    visited.add(neighbor)
+                    next_u, n_path = max_val(neighbor, goal_id, depth - 1, alpha, beta, visited)
+                    visited.remove(neighbor)
+                    
+                    val = edge_u + next_u
+                    if val < min_v: min_v = val
+                        
+                    if use_alpha_beta:
+                        if min_v <= alpha: break
+                        beta = min(beta, min_v)
+                        
+                if min_v > v:
+                    v = min_v
+                    best_path = [node_id] + n_path
+                    
+                if use_alpha_beta:
+                    if v >= beta: break
+                    alpha = max(alpha, v)
+                    
+            return v, best_path
+
+        val, path = max_val(start_id, goal_id, max_depth, -float('inf'), float('inf'), {start_id})
+        elapsed = time.perf_counter_ns() - start_time_ns
+        memory_kb = len(explored) * 0.2 + 2.0
+        
+        if path and path[-1] == goal_id:
+            dist, cost, travel_time = self._calculate_path_metrics(path)
+            return {
+                "path": path, "distance": dist, "cost": cost, "time": travel_time,
+                "explored": explored, "execution_time_ns": elapsed, "memory_usage_kb": memory_kb,
+                "nodes_explored": len(explored), "efficiency": 100.0, "utility_score": val
+            }
+        return {
+            "path": None, "distance": 0, "cost": 0, "time": 0, "explored": explored, 
+            "execution_time_ns": elapsed, "memory_usage_kb": memory_kb, "nodes_explored": len(explored), "efficiency": 0.0
+        }
+
+    def minimax(self, start_id, goal_id):
+        return self._minimax(start_id, goal_id, max_depth=3, use_alpha_beta=False)
+
+    def alphabeta(self, start_id, goal_id):
+        return self._minimax(start_id, goal_id, max_depth=4, use_alpha_beta=True)

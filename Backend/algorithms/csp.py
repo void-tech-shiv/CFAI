@@ -173,8 +173,28 @@ class ItineraryCSP:
             
         return sorted(valid_vals, key=lcv_score)
 
+    def _forward_check(self, var, val, assignment):
+        """
+        Forward Checking
+        Prunes values from domains of unassigned variables that are inconsistent with the current assignment.
+        Returns True if no domains are emptied, False if a domain becomes empty.
+        """
+        temp_assignment = dict(assignment)
+        temp_assignment[var] = val
+        
+        pruned_domains = {}
+        for unassigned_var in self.variables:
+            if unassigned_var in temp_assignment: continue
+            
+            valid_vals = [v for v in self.domains[unassigned_var] if self._is_consistent(unassigned_var, v, temp_assignment)]
+            if not valid_vals:
+                return False, {} # Empty domain found, early failure
+            pruned_domains[unassigned_var] = valid_vals
+            
+        return True, pruned_domains
+
     def _backtrack(self, assignment):
-        """Recursive backtracking search using MRV and LCV heuristics."""
+        """Recursive backtracking search using MRV, LCV, and Forward Checking."""
         self.nodes_explored_count += 1
         
         # If all variables are assigned, we are done
@@ -187,8 +207,19 @@ class ItineraryCSP:
         # Order domain values using LCV Heuristic
         ordered_values = self._get_lcv_ordered_values(var, assignment)
         
+        # Save original domains before forward checking modifies them
+        original_domains = {v: list(self.domains[v]) for v in self.domains}
+        
         for val in ordered_values:
-            # We already know these values are consistent via LCV domain filtering
+            # Forward Checking
+            is_valid, pruned_domains = self._forward_check(var, val, assignment)
+            if not is_valid:
+                continue # Skip this value as it leads to an empty domain
+                
+            # Temporarily update domains to the pruned versions for recursion
+            for p_var, p_vals in pruned_domains.items():
+                self.domains[p_var] = p_vals
+                
             assignment[var] = val
             
             # Recurse
@@ -198,4 +229,113 @@ class ItineraryCSP:
             # Backtrack
             del assignment[var]
             
+            # Restore domains
+            for p_var in pruned_domains.keys():
+                self.domains[p_var] = original_domains[p_var]
+            
         return False
+
+class MinConflictsLocalSearch:
+    """
+    Min-Conflicts Local Search Algorithm.
+    Starts with a complete random assignment and iteratively improves it by minimizing conflicts.
+    Used for itinerary improvement (e.g., reducing travel time, hotel conflicts).
+    """
+    def __init__(self, graph, start_id, target_pool, max_stops=4):
+        self.graph = graph
+        self.start_id = start_id
+        self.target_pool = [t for t in target_pool if t != start_id]
+        self.max_stops = min(max_stops, len(self.target_pool))
+        self.searcher = SearchManager(graph)
+        import random
+        self.random = random
+
+    def _calculate_conflicts(self, path):
+        conflicts = 0
+        total_time = 0
+        
+        for i in range(len(path) - 1):
+            res = self.searcher.a_star(path[i], path[i+1], metric_type="distance")
+            if not res["path"]:
+                conflicts += 10 # Massive penalty for no path
+            else:
+                total_time += res["time"]
+                
+        # Heuristic conflict criteria: e.g., total time exceeds an optimal comfortable limit
+        if total_time > 400:
+            conflicts += (total_time - 400) // 30
+            
+        # Check for duplicates
+        if len(set(path)) < len(path):
+            conflicts += 5
+            
+        # Check for crowd levels
+        for loc_id in path:
+            loc = self.graph.get_location(loc_id)
+            if loc and loc.crowd_level > 0.8:
+                conflicts += 1
+                
+        return conflicts
+
+    def solve(self, max_iterations=1000):
+        import time
+        start_time = time.perf_counter_ns()
+        
+        # Initial random assignment
+        if not self.target_pool:
+            return None
+            
+        current_assignment = [self.start_id] + self.random.sample(self.target_pool, self.max_stops)
+        current_conflicts = self._calculate_conflicts(current_assignment)
+        
+        nodes_explored = 1
+        
+        for _ in range(max_iterations):
+            if current_conflicts == 0:
+                break
+                
+            # Randomly pick a conflicting variable (any slot except start_id)
+            var_idx = self.random.randint(1, self.max_stops)
+            
+            # Find the value that minimizes conflicts for this variable
+            best_val = current_assignment[var_idx]
+            min_c = current_conflicts
+            
+            for val in self.target_pool:
+                if val in current_assignment: continue
+                
+                temp_assignment = list(current_assignment)
+                temp_assignment[var_idx] = val
+                c = self._calculate_conflicts(temp_assignment)
+                nodes_explored += 1
+                
+                if c < min_c:
+                    min_c = c
+                    best_val = val
+                    
+            # Assign the best value
+            current_assignment[var_idx] = best_val
+            current_conflicts = min_c
+            
+        elapsed_ns = time.perf_counter_ns() - start_time
+        
+        # Calculate final metrics
+        total_dist = 0
+        total_cost = 0
+        total_time = 0
+        for i in range(len(current_assignment) - 1):
+            res = self.searcher.a_star(current_assignment[i], current_assignment[i+1], metric_type="distance")
+            if res["path"]:
+                total_dist += res["distance"]
+                total_cost += res["cost"]
+                total_time += res["time"]
+                
+        return {
+            "itinerary": current_assignment,
+            "distance": total_dist,
+            "cost": total_cost,
+            "time": total_time,
+            "explored_nodes": nodes_explored,
+            "execution_time_ns": elapsed_ns,
+            "conflicts": current_conflicts
+        }
