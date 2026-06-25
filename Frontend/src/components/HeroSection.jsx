@@ -4,14 +4,14 @@ import { Map, Zap, Compass, ChevronRight } from 'lucide-react';
 
 const HeroSection = ({ onStart }) => {
   return (
-    <motion.div 
+    <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, y: -50 }}
       transition={{ duration: 0.8 }}
       className="h-screen w-full flex flex-col items-center justify-center relative z-10 px-4"
     >
-      <motion.div 
+      <motion.div
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ delay: 0.2, type: "spring", stiffness: 100 }}
@@ -20,16 +20,16 @@ const HeroSection = ({ onStart }) => {
         <Map className="w-16 h-16 text-blue-400" />
       </motion.div>
 
-      <motion.h1 
+      <motion.h1
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.4 }}
         className="text-5xl md:text-7xl font-bold text-center tracking-tight mb-6"
       >
-        Plan Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Smart Journey</span><br/> with AI
+        Plan Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Smart Journey</span><br /> with AI
       </motion.h1>
 
-      <motion.p 
+      <motion.p
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.6 }}
@@ -44,7 +44,7 @@ const HeroSection = ({ onStart }) => {
         transition={{ delay: 0.8 }}
         className="flex gap-4 flex-wrap justify-center"
       >
-        <button 
+        <button
           onClick={onStart}
           className="group relative px-8 py-4 bg-white text-black font-semibold rounded-full overflow-hidden transition-transform hover:scale-105 active:scale-95 flex items-center gap-2 cursor-pointer"
         >
@@ -55,7 +55,7 @@ const HeroSection = ({ onStart }) => {
       </motion.div>
 
       {/* Feature Badges */}
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2, duration: 1 }}
@@ -67,23 +67,23 @@ const HeroSection = ({ onStart }) => {
         <div className="flex items-center gap-2">
           <Compass className="w-4 h-4 text-blue-500" /> Constraint Satisfaction
         </div>
-        
+
         {/* Sleek inline LinkedIn dev profile link */}
-        <a 
-          href="https://www.linkedin.com/in/shivanshu-satyajeet-a52013229/"
+        <a
+          href="https://www.linkedin.com/in/punyamanthula-sasya-syamala/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-gray-500 hover:text-blue-400 transition-colors cursor-pointer"
           title="Developer's LinkedIn Profile"
         >
-          <svg 
-            xmlns="http://www.w3.org/2000/svg" 
-            viewBox="0 0 24 24" 
-            fill="none" 
-            stroke="currentColor" 
-            strokeWidth="2.5" 
-            strokeLinecap="round" 
-            strokeLinejoin="round" 
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             className="w-4 h-4"
           >
             <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
@@ -94,21 +94,21 @@ const HeroSection = ({ onStart }) => {
         </a>
 
         {/* Sleek inline GitHub profile link */}
-        <a 
-          href="https://github.com/void-tech-shiv"
+        <a
+          href="https://github.com/syam-pixel"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-gray-500 hover:text-purple-400 transition-colors cursor-pointer"
           title="Developer's GitHub Profile"
         >
-          <svg 
-            xmlns="http://www.w3.org/2000/svg" 
-            viewBox="0 0 24 24" 
-            fill="none" 
-            stroke="currentColor" 
-            strokeWidth="2.5" 
-            strokeLinecap="round" 
-            strokeLinejoin="round" 
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             className="w-4 h-4"
           >
             <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
