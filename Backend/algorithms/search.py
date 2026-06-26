@@ -456,10 +456,11 @@ class SearchManager:
                 
                 # MIN layer: evaluate traffic states
                 min_v = float('inf')
+                min_beta = beta
                 for traffic in ["low", "medium", "high"]:
                     edge_u = utility_value(node_id, neighbor, traffic)
                     visited.add(neighbor)
-                    next_u, n_path = max_val(neighbor, goal_id, depth - 1, alpha, beta, visited)
+                    next_u, n_path = max_val(neighbor, goal_id, depth - 1, alpha, min_beta, visited)
                     visited.remove(neighbor)
                     
                     val = edge_u + next_u
@@ -467,7 +468,7 @@ class SearchManager:
                         
                     if use_alpha_beta:
                         if min_v <= alpha: break
-                        beta = min(beta, min_v)
+                        min_beta = min(min_beta, min_v)
                         
                 if min_v > v:
                     v = min_v
