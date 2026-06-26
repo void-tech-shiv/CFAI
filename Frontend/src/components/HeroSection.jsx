@@ -70,7 +70,7 @@ const HeroSection = ({ onStart }) => {
 
         {/* Sleek inline LinkedIn dev profile link */}
         <a
-          href="https://www.linkedin.com/in/punyamanthula-sasya-syamala/"
+          // href="https://www.linkedin.com/"in/punyamanthula-sasya-syamala/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-gray-500 hover:text-blue-400 transition-colors cursor-pointer"
@@ -95,7 +95,7 @@ const HeroSection = ({ onStart }) => {
 
         {/* Sleek inline GitHub profile link */}
         <a
-          href="https://github.com/syam-pixel"
+          //   href="https://github.com/syam-pixel"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-gray-500 hover:text-purple-400 transition-colors cursor-pointer"
